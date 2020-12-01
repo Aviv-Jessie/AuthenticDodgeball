@@ -172,18 +172,26 @@ Dodgeball, Dodge ball.
 מצאנו 3 משחקים דומים לרעיון המשחק שלנו בשמות:
 
 Dodgeball
+
 Super Dodgeball
+
 Super Dodgeball Advance
 
 * צילומי מסך וקישורים:
+
+Dodgeball
 
 <a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up2/zzod3dmnwtjm.jpeg" border="0" alt="WhatsApp Image 2020-12-01 at 20.21.53." /></a>
 
 https://apps.apple.com/il/app/stickman-1-on-1-dodgeball/id926245484
 
+Super Dodgeball
+
 <a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up1/y3ttfe3hgnto.jpeg" border="0" alt="WhatsApp Image 2020-12-01 at 20.30.16." /></a>
 
 https://oldgameshelf.com/super-dodge-ball-1008.html
+
+Super Dodgeball Advance
 
 <a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up2/zzdmmngm0fkw.jpeg" border="0" alt="WhatsApp Image 2020-12-01 at 20.26.38." /></a>
 
@@ -199,10 +207,5 @@ https://arcadespot.com/game/super-dodgeball-advance/
 
 במשחק שלנו יהיו Achievements
 שאין במשחקים אחרים, מה שיגרום לשחקן לרצות לשחק עוד ועוד בכדי לאסוף ולקבל את כל ההשגים.
-
-
-
-
-
 
 </div>
