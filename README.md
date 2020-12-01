@@ -120,6 +120,21 @@ https://aviv-jessie.itch.io/assignment3
 
 <a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up1/mtzmzmnyldyk.png" border="0" alt="ball" /></a>
 
+נצרף תמונות נוספות שממחישות את סוגי הכדורים המיוחדים שניתן לקבל במהלך המשחק:
+
+כדור מתפצל:
+
+<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up2/hmozizuz0hmt.png" border="0" alt="תמונה1" /></a>
+
+כדור חזק:
+
+<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up2/ygbzn2hkrdmh.png" border="0" alt="תמונה6" /></a>
+
+כדור מהיר:
+
+<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up2/zdzvmmddmknc.png" border="0" alt="תמונה4" /></a>
+
+
 ### 4. מה האפשרויות?
 
 במשחק הסינגל-פלייר, שחקן מול מחשב- ישנן 4 רמות קושי, כאשר ההבדלים בין הרמות הינם:
