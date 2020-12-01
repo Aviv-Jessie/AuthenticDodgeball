@@ -117,6 +117,7 @@ https://aviv-jessie.itch.io/assignment3
 
 סוגי השחקנים שכנראה ישחקו במשחק הינם השחקנים התחרותיים והספורטיבים מכיוון שזה משחק ספורט תחרותי שכל המטרה של השחקן בו היא לנצח את היריב, בין אם הוא אדם או מחשב.
 
+תמונה שתמחיש את בחירת האפשרויות במשחק הינה תמונת התפריט הראשי, שכבר הצגנו מלעיל: 
 
 ![alt text](https://github.com/Aviv-Jessie/AuthenticDodgeball/blob/main/doc/figure_1.png?raw=true)
 
