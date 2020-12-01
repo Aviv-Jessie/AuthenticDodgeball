@@ -4,9 +4,49 @@ Dodgeball game
 
 https://aviv-jessie.itch.io/assignment3
 
-<div dir='rtl' lang='he'>
+
 
 **tagline:Dodgeball game- try to hit me and keep moving**
+
+<div dir='rtl' lang='he'>
+  
+## שרטוטים
+![alt text](https://github.com/Aviv-Jessie/AuthenticDodgeball/blob/main/doc/figure_1.png?raw=true)
+![alt text](https://github.com/Aviv-Jessie/AuthenticDodgeball/blob/main/doc/figure_2.png?raw=true)
+![alt text](https://github.com/Aviv-Jessie/AuthenticDodgeball/blob/main/doc/figure_3.png?raw=true)
+### שלושת המסכים הראשונים
+* מסך ראשי
+* בחירת שלבים במצב משתמש יחיד.
+* סיפור קצר לפני שיתחיל המשחק.
+
+![alt text](https://github.com/Aviv-Jessie/AuthenticDodgeball/blob/main/doc/figure_4.png?raw=true)
+### מסך בחירת המשחק
+1. כמה שחקנים
+2. משחקן בן אדם או מחשב
+3. באיזה מגרש לשחק
+4. הגדרות מפתחים. מצב סטורי הוא כניס לצא'נה כל שלה עם הגדרוצ מפתחים אחרות
+* text is tutorial massage.
+* AI is character behavior.
+* character team is Which character(in tutorial have bullseye).
+* story is story see before play game.
+
+![alt text](https://github.com/Aviv-Jessie/AuthenticDodgeball/blob/main/doc/figure_5.png?raw=true)
+### מסך המשחק
+1. דמויות במשחק. יש עד חמש. לחיצה על מספר במקלדת מעבירה את השליטה של המשתמש לדמות(הסבר בהמשך).
+2. ניקוד במשחק לקבוצה שבצד שמעל. בתמונה אפס נקודות.
+3. לחצן במיקלדת אליו השחקן צריך ללחוץ כדי להעביר את השחקן למצב טפיסת כדור(הסבר בהמשך).
+4. דמויות של שבויים(הסבר בקובץ)
+5. קהל
+6. מצלמה שתי מצבים. מצב התמקדות במשחק בוא כל תשומת הלב במשחק ומצב בוא רואים את הקהל מריע.
+7. הודעת הסברים.
+#### שליטה במשחק
+בטלפונים/מחשבים עם מסך מגע הזזת הדמויות תיהיה על ידי drag and drop.
+במחשב רגיל יהיה ניתן להזיז את הדמויות על ידי חצים במיקלדת.
+צד ימין של המגרש ישתתש בחצים ובמספרים בצד.
+צד שמעל של המגרש ישתמש במספרים ובWASD.
+מצב תפיסה יהיה על ידי לחיצה על כפטור (3) במסך או במיקלדת.
+> הדמויות נוצרו רנדומלית לצרוך המחשה על ידי האתר avatarmaker.com
+
 
 ## מהות המשחק
 
