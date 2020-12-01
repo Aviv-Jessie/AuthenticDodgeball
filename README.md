@@ -82,7 +82,20 @@ https://aviv-jessie.itch.io/assignment3
 במהלך המשחק הפקדים שישתמש השחקן- מקלדת. מקשי חיצים, 2 מקשים לתפיסה ולזריקה ומקשי מספרים למעבר בין השחקנים.
 
 
-הוסיפו תרשימים הממחישים את התהליכים השונים.
+תמונות אשר ממחישות את התהליכים השונים הינן תמונות של השחקנים ב3 מצבי הפעולה: 
+
+שחקן תופס 
+
+<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up3/vcitwmznwozy.png" border="0" alt="redPlayerDefender" /></a>
+
+שחקן עם כדור
+
+<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up2/gtogvun2zcwi.png" border="0" alt="redPlayerWithBall - Copy" /></a>
+
+שחקן בורח
+
+<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up3/2m1mmvznnjyt.png" border="0" alt="redPlayer" /></a>
+
 
 
 ### 3. מה העצמים?
@@ -100,7 +113,9 @@ https://aviv-jessie.itch.io/assignment3
 המכשולים במשחק הם גבולות הגזרה והכדור
 
 
-הוסיפו תרשימים של העצמים השונים.
+העצמים במשחק הינם הדמויות והכדור. אנו מצרפים תמונה של הכדור, תמונות של הדמויות נצרף בהמשך בקטגוריה דמויות.
+
+<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up1/mtzmzmnyldyk.png" border="0" alt="ball" /></a>
 
 ### 4. מה האפשרויות?
 
@@ -133,8 +148,9 @@ https://aviv-jessie.itch.io/assignment3
 
 הגבלת פעולות השחקן תתבצע ע"י חוקי הפיסיקה כמו- לא יוכל לעבור קיר
 
-הוסיפו מפות ותרשימים של העולם.
+אנו מצרפים תמונה שהוספנו מלעיל, אשר ממחישה את העולם-
 
+![alt text](https://github.com/Aviv-Jessie/AuthenticDodgeball/blob/main/doc/figure_2.png?raw=true)
 
 ### 6.	מה הסיפור?
 * למשחק שלנו אין סיפור רקע, הרי זהו משחק ספורט תחרותי 
@@ -151,7 +167,16 @@ https://aviv-jessie.itch.io/assignment3
 * הדמויות המרכזיות במשחק הינן 2 הקבוצות, כאשר כל קבוצה מורכבת מחמישה שחקני מחניים
 * דמויות המתנגדים הינם שחקני הקבוצה היריבה ואילו ה"גיבורים" הינם שחקני קבוצת הבית 
 
-הוסיפו תרשימים של הדמויות.
+כרגע יש במשחק שלנו עד כה 2 דמויות, דמות כחולה ודמות אדומה. בהמשך נוסיף דמויות עם אנימציה שזזות. התמונות כרגע להמחשה בלבד וישתנו בהמשך. 
+
+שחקן כחול-
+
+<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up1/uvtmzhmmmmk2.png" border="0" alt="bluePlayer" /></a>
+
+שחקן אדום-
+
+<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up3/2m1mmvznnjyt.png" border="0" alt="redPlayer" /></a>
+
 
 ## שלבים במשחק
 
