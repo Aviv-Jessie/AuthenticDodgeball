@@ -177,7 +177,7 @@ Super Dodgeball Advance
 
 * צילומי מסך וקישורים:
 
-![alt text]([URL=http://www.siz.co.il/][IMG]http://up419.siz.co.il/up2/zzod3dmnwtjm.jpeg[/IMG][/URL])
+![alt text](http://www.siz.co.il/][IMG]http://up419.siz.co.il/up2/zzod3dmnwtjm.jpeg)
 
 https://apps.apple.com/il/app/stickman-1-on-1-dodgeball/id926245484
 
