@@ -177,13 +177,17 @@ Super Dodgeball Advance
 
 * צילומי מסך וקישורים:
 
-![alt text](<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up2/zzod3dmnwtjm.jpeg" border="0" alt="WhatsApp Image 2020-12-01 at 20.21.53." /></a>)
+<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up2/zzod3dmnwtjm.jpeg" border="0" alt="WhatsApp Image 2020-12-01 at 20.21.53." /></a>
 
 https://apps.apple.com/il/app/stickman-1-on-1-dodgeball/id926245484
 
+<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up1/y3ttfe3hgnto.jpeg" border="0" alt="WhatsApp Image 2020-12-01 at 20.30.16." /></a>
 
+https://oldgameshelf.com/super-dodge-ball-1008.html
 
+<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up2/zzdmmngm0fkw.jpeg" border="0" alt="WhatsApp Image 2020-12-01 at 20.26.38." /></a>
 
+https://arcadespot.com/game/super-dodgeball-advance/
 
 * בכדי שהמשחק שלנו יהיה שונה מקורי וטוב יותר ממשחקים אלו, ניצור במשחק אפשרות לכדורים מיוחדים כגון- 
 
