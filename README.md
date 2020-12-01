@@ -2,11 +2,12 @@
 Dodgeball game
 
 
+our game on itch website:
+
 https://aviv-jessie.itch.io/assignment3
 
 
-
-**tagline:Dodgeball game- try to hit me and keep moving**
+**Dodgeball game- try to hit me and keep moving**
 
 <div dir='rtl' lang='he'>
   
