@@ -1,0 +1,6980 @@
+fileFormatVersion: 2
+guid: 3a1ec2e03687b4648ac2205f1fc69c02
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8700663630434452878
+    second: groundBeige_white_0
+  - first:
+      213: 5293706989323930339
+    second: groundBeige_white_1
+  - first:
+      213: -4147109192585263745
+    second: groundBeige_white_2
+  - first:
+      213: 1573567401415800083
+    second: groundBeige_white_3
+  - first:
+      213: -6210712542268291649
+    second: groundBeige_white_4
+  - first:
+      213: -4717734119786833837
+    second: groundBeige_white_5
+  - first:
+      213: -770477285662334038
+    second: groundBeige_white_6
+  - first:
+      213: 5336515438787545327
+    second: groundBeige_white_7
+  - first:
+      213: 8831748609487376977
+    second: groundBeige_white_8
+  - first:
+      213: 1207259931205591270
+    second: groundBeige_white_9
+  - first:
+      213: -6392394945178111320
+    second: groundBeige_white_10
+  - first:
+      213: -5460478652949533578
+    second: groundBeige_white_11
+  - first:
+      213: 3535833045436570114
+    second: groundBeige_white_12
+  - first:
+      213: -408693349664865331
+    second: groundBeige_white_13
+  - first:
+      213: 1114158841136981164
+    second: groundBeige_white_14
+  - first:
+      213: -5815371237214357504
+    second: groundBeige_white_15
+  - first:
+      213: 6065902443945687614
+    second: groundBeige_white_16
+  - first:
+      213: 9031247210154890678
+    second: groundBeige_white_17
+  - first:
+      213: -2802483602560960531
+    second: groundBeige_white_18
+  - first:
+      213: -1252550137380664387
+    second: groundBeige_white_19
+  - first:
+      213: -2980569493179713534
+    second: groundBeige_white_20
+  - first:
+      213: -8029109051366936440
+    second: groundBeige_white_21
+  - first:
+      213: 2546525646498603541
+    second: groundBeige_white_22
+  - first:
+      213: -8554217169658931458
+    second: groundBeige_white_23
+  - first:
+      213: -5966140567111035237
+    second: groundBeige_white_24
+  - first:
+      213: -6975848005869710814
+    second: groundBeige_white_25
+  - first:
+      213: -241730805461772434
+    second: groundBeige_white_26
+  - first:
+      213: -781354287729437242
+    second: groundBeige_white_27
+  - first:
+      213: -1370526653817231760
+    second: groundBeige_white_28
+  - first:
+      213: 257590137174618125
+    second: groundBeige_white_29
+  - first:
+      213: 523477684759758853
+    second: groundBeige_white_30
+  - first:
+      213: 4275085571232812316
+    second: groundBeige_white_31
+  - first:
+      213: 542173079330132567
+    second: groundBeige_white_32
+  - first:
+      213: -8562261003852608190
+    second: groundBeige_white_33
+  - first:
+      213: 8984088606753118702
+    second: groundBeige_white_34
+  - first:
+      213: -1698597253440955602
+    second: groundBeige_white_35
+  - first:
+      213: -4218915511256103801
+    second: groundBeige_white_36
+  - first:
+      213: -3091219822893328042
+    second: groundBeige_white_37
+  - first:
+      213: -7100539957642423315
+    second: groundBeige_white_38
+  - first:
+      213: -2233518136266886621
+    second: groundBeige_white_39
+  - first:
+      213: -6621955431585808825
+    second: groundBeige_white_40
+  - first:
+      213: 6381968890961208028
+    second: groundBeige_white_41
+  - first:
+      213: -1798358795245519296
+    second: groundBeige_white_42
+  - first:
+      213: 4996583952751066036
+    second: groundBeige_white_43
+  - first:
+      213: -2173671780093687301
+    second: groundBeige_white_44
+  - first:
+      213: -6692499651813553237
+    second: groundBeige_white_45
+  - first:
+      213: 6582596431271602048
+    second: groundBeige_white_46
+  - first:
+      213: 1837630772303128318
+    second: groundBeige_white_47
+  - first:
+      213: 5437998254474747194
+    second: groundBeige_white_48
+  - first:
+      213: 3130605720741208957
+    second: groundBeige_white_49
+  - first:
+      213: 2015231306424788612
+    second: groundBeige_white_50
+  - first:
+      213: 7780185891477461165
+    second: groundBeige_white_51
+  - first:
+      213: 4583765344667818416
+    second: groundBeige_white_52
+  - first:
+      213: -8699262378094623929
+    second: groundBeige_white_53
+  - first:
+      213: 8328618787328063651
+    second: groundBeige_white_54
+  - first:
+      213: 6995909982214614670
+    second: groundBeige_white_55
+  - first:
+      213: 4810463189639045803
+    second: groundBeige_white_56
+  - first:
+      213: -4944032110696820923
+    second: groundBeige_white_57
+  - first:
+      213: -5361624017038114160
+    second: groundBeige_white_58
+  - first:
+      213: 9057396309654609086
+    second: groundBeige_white_59
+  - first:
+      213: 7654011162754471157
+    second: groundBeige_white_60
+  - first:
+      213: 9104072093199681758
+    second: groundBeige_white_61
+  - first:
+      213: -227657641209581212
+    second: groundBeige_white_62
+  - first:
+      213: -4086801655329858423
+    second: groundBeige_white_63
+  - first:
+      213: -4553120556583226454
+    second: groundBeige_white_64
+  - first:
+      213: -4400098280934120917
+    second: groundBeige_white_65
+  - first:
+      213: -7397401446853119219
+    second: groundBeige_white_66
+  - first:
+      213: 2217730771801903626
+    second: groundBeige_white_67
+  - first:
+      213: 511604561675421024
+    second: groundBeige_white_68
+  - first:
+      213: 3267023755340279993
+    second: groundBeige_white_69
+  - first:
+      213: -5726153930503403626
+    second: groundBeige_white_70
+  - first:
+      213: -771265800335468243
+    second: groundBeige_white_71
+  - first:
+      213: -631083194903508396
+    second: groundBeige_white_72
+  - first:
+      213: -8291820800516051181
+    second: groundBeige_white_73
+  - first:
+      213: -8257076956180132921
+    second: groundBeige_white_74
+  - first:
+      213: 6779685556984455791
+    second: groundBeige_white_75
+  - first:
+      213: -6290580216381954438
+    second: groundBeige_white_76
+  - first:
+      213: -587528380913204519
+    second: groundBeige_white_77
+  - first:
+      213: 6323476915032260599
+    second: groundBeige_white_78
+  - first:
+      213: 2811405049981755105
+    second: groundBeige_white_79
+  - first:
+      213: 8197283218950462106
+    second: groundBeige_white_80
+  - first:
+      213: 8256843092599555599
+    second: groundBeige_white_81
+  - first:
+      213: -293168944690592628
+    second: groundBeige_white_82
+  - first:
+      213: -3584950230298572651
+    second: groundBeige_white_83
+  - first:
+      213: 2005576301468314823
+    second: groundBeige_white_84
+  - first:
+      213: 7350326945607008266
+    second: groundBeige_white_85
+  - first:
+      213: 7079637410022599624
+    second: groundBeige_white_86
+  - first:
+      213: 3647248893137086738
+    second: groundBeige_white_87
+  - first:
+      213: 7075761071525904335
+    second: groundBeige_white_88
+  - first:
+      213: -3981083237351091195
+    second: groundBeige_white_89
+  - first:
+      213: -3150037518907167283
+    second: groundBeige_white_90
+  - first:
+      213: 7283655755830087445
+    second: groundBeige_white_91
+  - first:
+      213: 5897255442219060424
+    second: groundBeige_white_92
+  - first:
+      213: -8819135155119747238
+    second: groundBeige_white_93
+  - first:
+      213: -360560235107685688
+    second: groundBeige_white_94
+  - first:
+      213: 749187973668221849
+    second: groundBeige_white_95
+  - first:
+      213: -25795954798086036
+    second: groundBeige_white_96
+  - first:
+      213: 4882739827599447425
+    second: groundBeige_white_97
+  - first:
+      213: -657437299918213870
+    second: groundBeige_white_98
+  - first:
+      213: -8903792496527392558
+    second: groundBeige_white_99
+  - first:
+      213: -890372643947119589
+    second: groundBeige_white_100
+  - first:
+      213: 6089810506624456726
+    second: groundBeige_white_101
+  - first:
+      213: 8460020884878896697
+    second: groundBeige_white_102
+  - first:
+      213: 2452375805716260092
+    second: groundBeige_white_103
+  - first:
+      213: -6517390828672856086
+    second: groundBeige_white_104
+  - first:
+      213: 8395133718920839715
+    second: groundBeige_white_105
+  - first:
+      213: -4090696643251870927
+    second: groundBeige_white_106
+  - first:
+      213: -6463743425600654085
+    second: groundBeige_white_107
+  - first:
+      213: -1790547368341215875
+    second: groundBeige_white_108
+  - first:
+      213: -7281643258386056612
+    second: groundBeige_white_109
+  - first:
+      213: -7538262154833794537
+    second: groundBeige_white_110
+  - first:
+      213: 6743586020630111369
+    second: groundBeige_white_111
+  - first:
+      213: -6155156303889131195
+    second: groundBeige_white_112
+  - first:
+      213: -5644858967294240164
+    second: groundBeige_white_113
+  - first:
+      213: -1413671997349048151
+    second: groundBeige_white_114
+  - first:
+      213: -4769450727120327417
+    second: groundBeige_white_115
+  - first:
+      213: -8217265812176598552
+    second: groundBeige_white_116
+  - first:
+      213: 3808985101570995297
+    second: groundBeige_white_117
+  - first:
+      213: 945506963974555878
+    second: groundBeige_white_118
+  - first:
+      213: -4118061145204180660
+    second: groundBeige_white_119
+  - first:
+      213: -2419350761438797099
+    second: groundBeige_white_120
+  - first:
+      213: 2017349830644862181
+    second: groundBeige_white_121
+  - first:
+      213: 7157939773550561130
+    second: groundBeige_white_122
+  - first:
+      213: -7993644879930845890
+    second: groundBeige_white_123
+  - first:
+      213: 4622940550873832789
+    second: groundBeige_white_124
+  - first:
+      213: 7252565032105109201
+    second: groundBeige_white_125
+  - first:
+      213: -4330115750391838081
+    second: groundBeige_white_126
+  - first:
+      213: -5058692754316833314
+    second: groundBeige_white_127
+  - first:
+      213: -8488559003342048691
+    second: groundBeige_white_128
+  - first:
+      213: -8356867889948351386
+    second: groundBeige_white_129
+  - first:
+      213: 3947853937606505468
+    second: groundBeige_white_130
+  - first:
+      213: -4321879271464020550
+    second: groundBeige_white_131
+  - first:
+      213: -7340605796637259190
+    second: groundBeige_white_132
+  - first:
+      213: 7837266539837897427
+    second: groundBeige_white_133
+  - first:
+      213: 528596754466099179
+    second: groundBeige_white_134
+  - first:
+      213: 6885495918685523090
+    second: groundBeige_white_135
+  - first:
+      213: -3272864891833607819
+    second: groundBeige_white_136
+  - first:
+      213: -4657793022195667461
+    second: groundBeige_white_137
+  - first:
+      213: 334320035236239015
+    second: groundBeige_white_138
+  - first:
+      213: 3564863475057332713
+    second: groundBeige_white_139
+  - first:
+      213: -6605529689093436733
+    second: groundBeige_white_140
+  - first:
+      213: 5794906439508911909
+    second: groundBeige_white_141
+  - first:
+      213: -1591231171944643376
+    second: groundBeige_white_142
+  - first:
+      213: -8764541362014249537
+    second: groundBeige_white_143
+  - first:
+      213: 2013212978495734561
+    second: groundBeige_white_144
+  - first:
+      213: 6117769529150279914
+    second: groundBeige_white_145
+  - first:
+      213: 1443177817237550683
+    second: groundBeige_white_146
+  - first:
+      213: -2880545569293083342
+    second: groundBeige_white_147
+  - first:
+      213: 3713553145971972905
+    second: groundBeige_white_148
+  - first:
+      213: 8113719813271188545
+    second: groundBeige_white_149
+  - first:
+      213: -2808826260950646401
+    second: groundBeige_white_150
+  - first:
+      213: 5699664354651981991
+    second: groundBeige_white_151
+  - first:
+      213: 2612764231273733235
+    second: groundBeige_white_152
+  - first:
+      213: -5531553541633518642
+    second: groundBeige_white_153
+  - first:
+      213: 6473076261259043626
+    second: groundBeige_white_154
+  - first:
+      213: -5058756809551863541
+    second: groundBeige_white_155
+  - first:
+      213: 6594537045108264632
+    second: groundBeige_white_156
+  - first:
+      213: 7825760355830009851
+    second: groundBeige_white_157
+  - first:
+      213: 8994665778486247656
+    second: groundBeige_white_158
+  - first:
+      213: -6877469183151775441
+    second: groundBeige_white_159
+  - first:
+      213: -2585282437873612427
+    second: groundBeige_white_160
+  - first:
+      213: 6359524889114032798
+    second: groundBeige_white_161
+  - first:
+      213: -5856486412215714594
+    second: groundBeige_white_162
+  - first:
+      213: -1099024110266496764
+    second: groundBeige_white_163
+  - first:
+      213: 2352598672313279991
+    second: groundBeige_white_164
+  - first:
+      213: 3848874423027720055
+    second: groundBeige_white_165
+  - first:
+      213: 2995132165533365579
+    second: groundBeige_white_166
+  - first:
+      213: 1428243896103927762
+    second: groundBeige_white_167
+  - first:
+      213: 2844749614297732209
+    second: groundBeige_white_168
+  - first:
+      213: 2191917440077653260
+    second: groundBeige_white_169
+  - first:
+      213: -8373224391111240341
+    second: groundBeige_white_170
+  - first:
+      213: -4419342676202741517
+    second: groundBeige_white_171
+  - first:
+      213: 9146946888415964602
+    second: groundBeige_white_172
+  - first:
+      213: 7376408605597140966
+    second: groundBeige_white_173
+  - first:
+      213: 8231502944819053741
+    second: groundBeige_white_174
+  - first:
+      213: 6984233793373147799
+    second: groundBeige_white_175
+  - first:
+      213: -9021901503390812042
+    second: groundBeige_white_176
+  - first:
+      213: 4680531228562269335
+    second: groundBeige_white_177
+  - first:
+      213: 3113186502529605285
+    second: groundBeige_white_178
+  - first:
+      213: 5387265924014425782
+    second: groundBeige_white_179
+  - first:
+      213: 4281710233626612028
+    second: groundBeige_white_180
+  - first:
+      213: -3174178320184755015
+    second: groundBeige_white_181
+  - first:
+      213: -6222335577260160668
+    second: groundBeige_white_182
+  - first:
+      213: 2478547420579334768
+    second: groundBeige_white_183
+  - first:
+      213: -7393492703834244357
+    second: groundBeige_white_184
+  - first:
+      213: 6024116610223545188
+    second: groundBeige_white_185
+  - first:
+      213: -931384377467823321
+    second: groundBeige_white_186
+  - first:
+      213: -8695826387280113227
+    second: groundBeige_white_187
+  - first:
+      213: -4528063313319249566
+    second: groundBeige_white_188
+  - first:
+      213: -2246466176901836891
+    second: groundBeige_white_189
+  - first:
+      213: -6011492337842290413
+    second: groundBeige_white_190
+  - first:
+      213: 3788042181272480826
+    second: groundBeige_white_191
+  - first:
+      213: -4391838372579107803
+    second: groundBeige_white_192
+  - first:
+      213: -8468485160748017131
+    second: groundBeige_white_193
+  - first:
+      213: -5716278790703107499
+    second: groundBeige_white_194
+  - first:
+      213: 8351302718966721512
+    second: groundBeige_white_195
+  - first:
+      213: -3168259645766823914
+    second: groundBeige_white_196
+  - first:
+      213: -5995947566562157391
+    second: groundBeige_white_197
+  - first:
+      213: -4730115710168721661
+    second: groundBeige_white_198
+  - first:
+      213: 5374704773375097188
+    second: groundBeige_white_199
+  - first:
+      213: 2625749738147450965
+    second: groundBeige_white_200
+  - first:
+      213: 998758648885516777
+    second: groundBeige_white_201
+  - first:
+      213: -8597102003907579689
+    second: groundBeige_white_202
+  - first:
+      213: 1068347416187432997
+    second: groundBeige_white_203
+  - first:
+      213: 9045184759125624948
+    second: groundBeige_white_204
+  - first:
+      213: 1373442739852946924
+    second: groundBeige_white_205
+  - first:
+      213: -6165199689726709963
+    second: groundBeige_white_206
+  - first:
+      213: -6233355617609290960
+    second: groundBeige_white_207
+  - first:
+      213: -9167887728174360632
+    second: groundBeige_white_208
+  - first:
+      213: 1586874334859758030
+    second: groundBeige_white_209
+  - first:
+      213: -2782551430790900360
+    second: groundBeige_white_210
+  - first:
+      213: -8057377940088227553
+    second: groundBeige_white_211
+  - first:
+      213: 7231951050474578526
+    second: groundBeige_white_212
+  - first:
+      213: -2141587122259060609
+    second: groundBeige_white_213
+  - first:
+      213: -7730474287025619813
+    second: groundBeige_white_214
+  - first:
+      213: 5432842571272079726
+    second: groundBeige_white_215
+  - first:
+      213: 7946522840225904556
+    second: groundBeige_white_216
+  - first:
+      213: 1461697592932385303
+    second: groundBeige_white_217
+  - first:
+      213: 932839787202768653
+    second: groundBeige_white_218
+  - first:
+      213: 2472038163368077876
+    second: groundBeige_white_219
+  - first:
+      213: -3714907042510746018
+    second: groundBeige_white_220
+  - first:
+      213: -3927659408837980572
+    second: groundBeige_white_221
+  - first:
+      213: 1472021421633897667
+    second: groundBeige_white_222
+  - first:
+      213: 3789369085546052519
+    second: groundBeige_white_223
+  - first:
+      213: -2847613342799184453
+    second: groundBeige_white_224
+  - first:
+      213: -5606196365275951249
+    second: groundBeige_white_225
+  - first:
+      213: -27387529148625445
+    second: groundBeige_white_226
+  - first:
+      213: -5293249568796979994
+    second: groundBeige_white_227
+  - first:
+      213: -4626248259219275677
+    second: groundBeige_white_228
+  - first:
+      213: 4658654603935389551
+    second: groundBeige_white_229
+  - first:
+      213: -7025538786667786370
+    second: groundBeige_white_230
+  - first:
+      213: -4326247210994273213
+    second: groundBeige_white_231
+  - first:
+      213: -1466872936696183228
+    second: groundBeige_white_232
+  - first:
+      213: -517377831005376732
+    second: groundBeige_white_233
+  - first:
+      213: 3845437473009200160
+    second: groundBeige_white_234
+  - first:
+      213: 8282972160235757461
+    second: groundBeige_white_235
+  - first:
+      213: -9074622168655998442
+    second: groundBeige_white_236
+  - first:
+      213: 3767787827604960637
+    second: groundBeige_white_237
+  - first:
+      213: 2686564952198758248
+    second: groundBeige_white_238
+  - first:
+      213: -325509870972437311
+    second: groundBeige_white_239
+  - first:
+      213: 2944819656516116957
+    second: groundBeige_white_240
+  - first:
+      213: 5241725390700428890
+    second: groundBeige_white_241
+  - first:
+      213: 4916763040405074936
+    second: groundBeige_white_242
+  - first:
+      213: -7441627281193940268
+    second: groundBeige_white_243
+  - first:
+      213: 5138757526242137351
+    second: groundBeige_white_244
+  - first:
+      213: -6178881345010555532
+    second: groundBeige_white_245
+  - first:
+      213: -7220224102328704127
+    second: groundBeige_white_246
+  - first:
+      213: 4195485795566061792
+    second: groundBeige_white_247
+  - first:
+      213: -9167865135655392730
+    second: groundBeige_white_248
+  - first:
+      213: -6371695547801428765
+    second: groundBeige_white_249
+  - first:
+      213: -5554953586667907197
+    second: groundBeige_white_250
+  - first:
+      213: -2891101624147359042
+    second: groundBeige_white_251
+  - first:
+      213: 6211906859808565521
+    second: groundBeige_white_252
+  - first:
+      213: 4426197735880639733
+    second: groundBeige_white_253
+  - first:
+      213: 1340379036571394565
+    second: groundBeige_white_254
+  - first:
+      213: 230696767492436011
+    second: groundBeige_white_255
+  - first:
+      213: 2105410387248336461
+    second: groundBeige_white_256
+  - first:
+      213: -2595196278302843447
+    second: groundBeige_white_257
+  - first:
+      213: -4831113105229635142
+    second: groundBeige_white_258
+  - first:
+      213: -3969752161253057988
+    second: groundBeige_white_259
+  - first:
+      213: -8084844315508422410
+    second: groundBeige_white_260
+  - first:
+      213: -2604753521143754519
+    second: groundBeige_white_261
+  - first:
+      213: 5576958703236739234
+    second: groundBeige_white_262
+  - first:
+      213: -2334268858657351775
+    second: groundBeige_white_263
+  - first:
+      213: 4912260947996933920
+    second: groundBeige_white_264
+  - first:
+      213: 4756082906053812288
+    second: groundBeige_white_265
+  - first:
+      213: 7744494280723963672
+    second: groundBeige_white_266
+  - first:
+      213: -4234528005045506726
+    second: groundBeige_white_267
+  - first:
+      213: -3807999050283175792
+    second: groundBeige_white_268
+  - first:
+      213: -4307534673486007828
+    second: groundBeige_white_269
+  - first:
+      213: 1609136168036782029
+    second: groundBeige_white_270
+  - first:
+      213: 7246827803509514661
+    second: groundBeige_white_271
+  - first:
+      213: 6884967695909826334
+    second: groundBeige_white_272
+  - first:
+      213: -1245062403698833952
+    second: groundBeige_white_273
+  - first:
+      213: 2106490697899866269
+    second: groundBeige_white_274
+  - first:
+      213: 4068749662060190296
+    second: groundBeige_white_275
+  - first:
+      213: 1932031796095146956
+    second: groundBeige_white_276
+  - first:
+      213: 5464194521977085215
+    second: groundBeige_white_277
+  - first:
+      213: -3877289318953877565
+    second: groundBeige_white_278
+  - first:
+      213: 2364984801573930571
+    second: groundBeige_white_279
+  - first:
+      213: -5574877929475817310
+    second: groundBeige_white_280
+  - first:
+      213: 6237790331423804829
+    second: groundBeige_white_281
+  - first:
+      213: 3387199364905009820
+    second: groundBeige_white_282
+  - first:
+      213: -581935067893173417
+    second: groundBeige_white_283
+  - first:
+      213: -6373554536182014158
+    second: groundBeige_white_284
+  - first:
+      213: 7405794055748060652
+    second: groundBeige_white_285
+  - first:
+      213: -8619980580049803888
+    second: groundBeige_white_286
+  - first:
+      213: 4062501318360914173
+    second: groundBeige_white_287
+  - first:
+      213: 5683008316836184577
+    second: groundBeige_white_288
+  - first:
+      213: -127329407584523003
+    second: groundBeige_white_289
+  - first:
+      213: -8971555831884056991
+    second: groundBeige_white_290
+  - first:
+      213: 7766814265457207509
+    second: groundBeige_white_291
+  - first:
+      213: 8384400346645993122
+    second: groundBeige_white_292
+  - first:
+      213: -1415562832232984576
+    second: groundBeige_white_293
+  - first:
+      213: -419043347744426340
+    second: groundBeige_white_294
+  - first:
+      213: 2552465393479314382
+    second: groundBeige_white_295
+  - first:
+      213: 5896273237214788236
+    second: groundBeige_white_296
+  - first:
+      213: 5318802475280898631
+    second: groundBeige_white_297
+  - first:
+      213: 4402587648219455520
+    second: groundBeige_white_298
+  - first:
+      213: 9008768720284357150
+    second: groundBeige_white_299
+  - first:
+      213: 2552363994248236640
+    second: groundBeige_white_300
+  - first:
+      213: 4886554180169520452
+    second: groundBeige_white_301
+  - first:
+      213: 8660613421160905810
+    second: groundBeige_white_302
+  - first:
+      213: 4371792618511996523
+    second: groundBeige_white_303
+  - first:
+      213: -5573923868712911141
+    second: groundBeige_white_304
+  - first:
+      213: 310893303381493248
+    second: groundBeige_white_305
+  - first:
+      213: 9107060631579119031
+    second: groundBeige_white_306
+  - first:
+      213: -1102397426710987950
+    second: groundBeige_white_307
+  - first:
+      213: 4494918179406192168
+    second: groundBeige_white_308
+  - first:
+      213: 6468796977592008982
+    second: groundBeige_white_309
+  - first:
+      213: -600884916881247301
+    second: groundBeige_white_310
+  - first:
+      213: -5265357971226207949
+    second: groundBeige_white_311
+  - first:
+      213: 5987652420684426539
+    second: groundBeige_white_312
+  - first:
+      213: -680605982052295556
+    second: groundBeige_white_313
+  - first:
+      213: -6427836234555846471
+    second: groundBeige_white_314
+  - first:
+      213: 4558901297975689584
+    second: groundBeige_white_315
+  - first:
+      213: -8420489744015915843
+    second: groundBeige_white_316
+  - first:
+      213: -2397643494491881425
+    second: groundBeige_white_317
+  - first:
+      213: -4543325257061037156
+    second: groundBeige_white_318
+  - first:
+      213: -1554931018159042655
+    second: groundBeige_white_319
+  - first:
+      213: -3731984640761742363
+    second: groundBeige_white_320
+  - first:
+      213: -1621423701584040773
+    second: groundBeige_white_321
+  - first:
+      213: 2319792000417164123
+    second: groundBeige_white_322
+  - first:
+      213: -1302410208960438416
+    second: groundBeige_white_323
+  - first:
+      213: -4081263767986291613
+    second: groundBeige_white_324
+  - first:
+      213: 8674712151550639897
+    second: groundBeige_white_325
+  - first:
+      213: 7195378817457398589
+    second: groundBeige_white_326
+  - first:
+      213: -1411503182785545929
+    second: groundBeige_white_327
+  - first:
+      213: 313182231769333536
+    second: groundBeige_white_328
+  - first:
+      213: 8027885026854964677
+    second: groundBeige_white_329
+  - first:
+      213: 5636449065090947097
+    second: groundBeige_white_330
+  - first:
+      213: 8509424646929088679
+    second: groundBeige_white_331
+  - first:
+      213: -5543245595445913071
+    second: groundBeige_white_332
+  - first:
+      213: -7793203559160135940
+    second: groundBeige_white_333
+  - first:
+      213: 6540500925000083665
+    second: groundBeige_white_334
+  - first:
+      213: -7216378167058098749
+    second: groundBeige_white_335
+  - first:
+      213: -3817651810008293029
+    second: groundBeige_white_336
+  - first:
+      213: 5399629251524639622
+    second: groundBeige_white_337
+  - first:
+      213: -7218459710925452862
+    second: groundBeige_white_338
+  - first:
+      213: -7005181520509490469
+    second: groundBeige_white_339
+  - first:
+      213: 6799009684130001336
+    second: groundBeige_white_340
+  - first:
+      213: -4557332302707136716
+    second: groundBeige_white_341
+  - first:
+      213: 6990126032211837515
+    second: groundBeige_white_342
+  - first:
+      213: 6656981239030090841
+    second: groundBeige_white_343
+  - first:
+      213: -313055874342988460
+    second: groundBeige_white_344
+  - first:
+      213: 5064872096783879261
+    second: groundBeige_white_345
+  - first:
+      213: -1967816255489832314
+    second: groundBeige_white_346
+  - first:
+      213: 2078609607957127979
+    second: groundBeige_white_347
+  - first:
+      213: -4026321165378530170
+    second: groundBeige_white_348
+  - first:
+      213: 3082484892093494482
+    second: groundBeige_white_349
+  - first:
+      213: -4717739528432380327
+    second: groundBeige_white_350
+  - first:
+      213: 2031978690396192739
+    second: groundBeige_white_351
+  - first:
+      213: -5827990000559469398
+    second: groundBeige_white_352
+  - first:
+      213: 6277521176068522022
+    second: groundBeige_white_353
+  - first:
+      213: -2502856428661939702
+    second: groundBeige_white_354
+  - first:
+      213: -402069323013612250
+    second: groundBeige_white_355
+  - first:
+      213: -3119540811600695708
+    second: groundBeige_white_356
+  - first:
+      213: -6516510406189789903
+    second: groundBeige_white_357
+  - first:
+      213: 4805630920484229674
+    second: groundBeige_white_358
+  - first:
+      213: 5262848915357117838
+    second: groundBeige_white_359
+  - first:
+      213: 6383323857204769195
+    second: groundBeige_white_360
+  - first:
+      213: -7624622124721238205
+    second: groundBeige_white_361
+  - first:
+      213: 4000081321383492933
+    second: groundBeige_white_362
+  - first:
+      213: 6564158414324109888
+    second: groundBeige_white_363
+  - first:
+      213: -6983923107699679710
+    second: groundBeige_white_364
+  - first:
+      213: 4407715374126317667
+    second: groundBeige_white_365
+  - first:
+      213: 4045027641059589228
+    second: groundBeige_white_366
+  - first:
+      213: -6655795351024438461
+    second: groundBeige_white_367
+  - first:
+      213: -1408149353261972052
+    second: groundBeige_white_368
+  - first:
+      213: -6957405759514972762
+    second: groundBeige_white_369
+  - first:
+      213: 3615330885251235768
+    second: groundBeige_white_370
+  - first:
+      213: 6712169755519816135
+    second: groundBeige_white_371
+  - first:
+      213: 608560998000470591
+    second: groundBeige_white_372
+  - first:
+      213: -1056954283473207257
+    second: groundBeige_white_373
+  - first:
+      213: 4434837575495209142
+    second: groundBeige_white_374
+  - first:
+      213: 849823719602658111
+    second: groundBeige_white_375
+  - first:
+      213: -1114779960335816758
+    second: groundBeige_white_376
+  - first:
+      213: -8413238759441282951
+    second: groundBeige_white_377
+  - first:
+      213: 4377097056748480794
+    second: groundBeige_white_378
+  - first:
+      213: -5984798258533028249
+    second: groundBeige_white_379
+  - first:
+      213: 1531997039939247865
+    second: groundBeige_white_380
+  - first:
+      213: -5813740973952444704
+    second: groundBeige_white_381
+  - first:
+      213: 4639791104674508576
+    second: groundBeige_white_382
+  - first:
+      213: -7321500176764064856
+    second: groundBeige_white_383
+  - first:
+      213: -7114735862250252983
+    second: groundBeige_white_384
+  - first:
+      213: -89571423463454460
+    second: groundBeige_white_385
+  - first:
+      213: -2579970775908965595
+    second: groundBeige_white_386
+  - first:
+      213: 1414474199457845167
+    second: groundBeige_white_387
+  - first:
+      213: 4438178813191424637
+    second: groundBeige_white_388
+  - first:
+      213: -4631667304274801480
+    second: groundBeige_white_389
+  - first:
+      213: 7182183811146360972
+    second: groundBeige_white_390
+  - first:
+      213: -6108440344972406971
+    second: groundBeige_white_391
+  - first:
+      213: 180818408321639155
+    second: groundBeige_white_392
+  - first:
+      213: 7032582081517374549
+    second: groundBeige_white_393
+  - first:
+      213: -5262633209782410872
+    second: groundBeige_white_394
+  - first:
+      213: 7085161979404913248
+    second: groundBeige_white_395
+  - first:
+      213: 4700624137637295719
+    second: groundBeige_white_396
+  - first:
+      213: -5217987552443812680
+    second: groundBeige_white_397
+  - first:
+      213: 3352790099187379030
+    second: groundBeige_white_398
+  - first:
+      213: -928283080709152583
+    second: groundBeige_white_399
+  - first:
+      213: -9058527578092464550
+    second: groundBeige_white_400
+  - first:
+      213: -4658989740606491780
+    second: groundBeige_white_401
+  - first:
+      213: 1453779969371379129
+    second: groundBeige_white_402
+  - first:
+      213: 9171173758521038179
+    second: groundBeige_white_403
+  - first:
+      213: 1993391663518865567
+    second: groundBeige_white_404
+  - first:
+      213: -8213805630086131411
+    second: groundBeige_white_405
+  - first:
+      213: -2685862395381987718
+    second: groundBeige_white_406
+  - first:
+      213: 6423031446519597205
+    second: groundBeige_white_407
+  - first:
+      213: -4907344672145416284
+    second: groundBeige_white_408
+  - first:
+      213: 3551642643790644480
+    second: groundBeige_white_409
+  - first:
+      213: 2374529378541137601
+    second: groundBeige_white_410
+  - first:
+      213: 2321793069549127479
+    second: groundBeige_white_411
+  - first:
+      213: -6334382372017475845
+    second: groundBeige_white_412
+  - first:
+      213: -4196951300923972543
+    second: groundBeige_white_413
+  - first:
+      213: 2141613602984369597
+    second: groundBeige_white_414
+  - first:
+      213: -7500008552718481832
+    second: groundBeige_white_415
+  - first:
+      213: 3595698467580614717
+    second: groundBeige_white_416
+  - first:
+      213: 1727606744347070426
+    second: groundBeige_white_417
+  - first:
+      213: -6178007457365973791
+    second: groundBeige_white_418
+  - first:
+      213: -5261126311990099440
+    second: groundBeige_white_419
+  - first:
+      213: 8230848140475648033
+    second: groundBeige_white_420
+  - first:
+      213: 8065235592372426387
+    second: groundBeige_white_421
+  - first:
+      213: 8237215349764265470
+    second: groundBeige_white_422
+  - first:
+      213: 7856100546655240641
+    second: groundBeige_white_423
+  - first:
+      213: 6341117952515963051
+    second: groundBeige_white_424
+  - first:
+      213: -892249700813312963
+    second: groundBeige_white_425
+  - first:
+      213: 5430229213010683584
+    second: groundBeige_white_426
+  - first:
+      213: 1183522706150515092
+    second: groundBeige_white_427
+  - first:
+      213: -9207132696200859389
+    second: groundBeige_white_428
+  - first:
+      213: -2919720743514898648
+    second: groundBeige_white_429
+  - first:
+      213: 3982596018208696532
+    second: groundBeige_white_430
+  - first:
+      213: -6267647092681897875
+    second: groundBeige_white_431
+  - first:
+      213: -5183255425188513780
+    second: groundBeige_white_432
+  - first:
+      213: 4613403359229980042
+    second: groundBeige_white_433
+  - first:
+      213: -1647853476191412162
+    second: groundBeige_white_434
+  - first:
+      213: 2528992977905707175
+    second: groundBeige_white_435
+  - first:
+      213: 4354969016874004195
+    second: groundBeige_white_436
+  - first:
+      213: -2702879247937654901
+    second: groundBeige_white_437
+  - first:
+      213: -5868768512501669012
+    second: groundBeige_white_438
+  - first:
+      213: 4383937057388120462
+    second: groundBeige_white_439
+  - first:
+      213: 3359031098731675513
+    second: groundBeige_white_440
+  - first:
+      213: -8140019238043298643
+    second: groundBeige_white_441
+  - first:
+      213: 4592015155815014635
+    second: groundBeige_white_442
+  - first:
+      213: 5705844505206258538
+    second: groundBeige_white_443
+  - first:
+      213: -6984836589558756139
+    second: groundBeige_white_444
+  - first:
+      213: -4164249508324033011
+    second: groundBeige_white_445
+  - first:
+      213: 6486019169340224089
+    second: groundBeige_white_446
+  - first:
+      213: -6486252974239569305
+    second: groundBeige_white_447
+  - first:
+      213: -3584860670426499719
+    second: groundBeige_white_448
+  - first:
+      213: -3065970101867289481
+    second: groundBeige_white_449
+  - first:
+      213: 3775016266800911387
+    second: groundBeige_white_450
+  - first:
+      213: -6439154076137188945
+    second: groundBeige_white_451
+  - first:
+      213: 1292700701844474786
+    second: groundBeige_white_452
+  - first:
+      213: -9201434806868500337
+    second: groundBeige_white_453
+  - first:
+      213: -8458360124530540860
+    second: groundBeige_white_454
+  - first:
+      213: 6134606204295622278
+    second: groundBeige_white_455
+  - first:
+      213: -1710503047634867116
+    second: groundBeige_white_456
+  - first:
+      213: -1701158345956965373
+    second: groundBeige_white_457
+  - first:
+      213: 7976576349462476363
+    second: groundBeige_white_458
+  - first:
+      213: 6579870033649810316
+    second: groundBeige_white_459
+  - first:
+      213: 7207966866796453631
+    second: groundBeige_white_460
+  - first:
+      213: 2290351637814877436
+    second: groundBeige_white_461
+  - first:
+      213: 6462839475529632697
+    second: groundBeige_white_462
+  - first:
+      213: -8025495971235828000
+    second: groundBeige_white_463
+  - first:
+      213: -5017009650899700178
+    second: groundBeige_white_464
+  - first:
+      213: -8671620812500892896
+    second: groundBeige_white_465
+  - first:
+      213: -4019684572213792920
+    second: groundBeige_white_466
+  - first:
+      213: 2795529170911557714
+    second: groundBeige_white_467
+  - first:
+      213: 1926053693810462033
+    second: groundBeige_white_468
+  - first:
+      213: -2069181997375326073
+    second: groundBeige_white_469
+  - first:
+      213: 5564687502364391854
+    second: groundBeige_white_470
+  - first:
+      213: 1800588708942309287
+    second: groundBeige_white_471
+  - first:
+      213: 4160320767318549982
+    second: groundBeige_white_472
+  - first:
+      213: -7742171373304332217
+    second: groundBeige_white_473
+  - first:
+      213: 7285651500861431356
+    second: groundBeige_white_474
+  - first:
+      213: 8913149492258896906
+    second: groundBeige_white_475
+  - first:
+      213: -3690468363669469872
+    second: groundBeige_white_476
+  - first:
+      213: 1162305558477109439
+    second: groundBeige_white_477
+  - first:
+      213: 81171210172496437
+    second: groundBeige_white_478
+  - first:
+      213: 2637023468021014116
+    second: groundBeige_white_479
+  - first:
+      213: 6011331397551500362
+    second: groundBeige_white_480
+  - first:
+      213: 2749266021597547704
+    second: groundBeige_white_481
+  - first:
+      213: 3850066671145207619
+    second: groundBeige_white_482
+  - first:
+      213: -2041092336614458419
+    second: groundBeige_white_483
+  - first:
+      213: -1279685265241030875
+    second: groundBeige_white_484
+  - first:
+      213: -5120134558978789958
+    second: groundBeige_white_485
+  - first:
+      213: -6163841907826221716
+    second: groundBeige_white_486
+  - first:
+      213: -1935808227089601588
+    second: groundBeige_white_487
+  - first:
+      213: -858005382559564254
+    second: groundBeige_white_488
+  - first:
+      213: -6758206799121906364
+    second: groundBeige_white_489
+  - first:
+      213: -4831575071764838732
+    second: groundBeige_white_490
+  - first:
+      213: 7631131087187388559
+    second: groundBeige_white_491
+  - first:
+      213: 1469660443635171632
+    second: groundBeige_white_492
+  - first:
+      213: 7100215147051194974
+    second: groundBeige_white_493
+  - first:
+      213: -3123160267602543645
+    second: groundBeige_white_494
+  - first:
+      213: -2514032865750471330
+    second: groundBeige_white_495
+  - first:
+      213: 5834408980383587991
+    second: groundBeige_white_496
+  - first:
+      213: -5686824358010380767
+    second: groundBeige_white_497
+  - first:
+      213: -8790772711188052912
+    second: groundBeige_white_498
+  - first:
+      213: -4123210852883740541
+    second: groundBeige_white_499
+  - first:
+      213: 8423668867228180881
+    second: groundBeige_white_500
+  - first:
+      213: 2455130150650747142
+    second: groundBeige_white_501
+  - first:
+      213: 806134088436649004
+    second: groundBeige_white_502
+  - first:
+      213: 3390012752439787949
+    second: groundBeige_white_503
+  - first:
+      213: -2510101775738937136
+    second: groundBeige_white_504
+  - first:
+      213: 4542814364546900020
+    second: groundBeige_white_505
+  - first:
+      213: -8662494536853679538
+    second: groundBeige_white_506
+  - first:
+      213: -9160213310770368450
+    second: groundBeige_white_507
+  - first:
+      213: -1153502994510977535
+    second: groundBeige_white_508
+  - first:
+      213: -4595558119939967701
+    second: groundBeige_white_509
+  - first:
+      213: -2833670574748211141
+    second: groundBeige_white_510
+  - first:
+      213: 2718207618105047351
+    second: groundBeige_white_511
+  - first:
+      213: 5437093526234902678
+    second: groundBeige_white_512
+  - first:
+      213: -154576622241716842
+    second: groundBeige_white_513
+  - first:
+      213: 5269447932178047916
+    second: groundBeige_white_514
+  - first:
+      213: 3151529343621029680
+    second: groundBeige_white_515
+  - first:
+      213: -8873231707422912604
+    second: groundBeige_white_516
+  - first:
+      213: 6263415972112722457
+    second: groundBeige_white_517
+  - first:
+      213: 5606810380024153974
+    second: groundBeige_white_518
+  - first:
+      213: -4999581331011537867
+    second: groundBeige_white_519
+  - first:
+      213: 5833817314304890641
+    second: groundBeige_white_520
+  - first:
+      213: 1730452034846416879
+    second: groundBeige_white_521
+  - first:
+      213: 5755630913151448700
+    second: groundBeige_white_522
+  - first:
+      213: -5424178649204700897
+    second: groundBeige_white_523
+  - first:
+      213: -7076762382844826492
+    second: groundBeige_white_524
+  - first:
+      213: -5131399971301729019
+    second: groundBeige_white_525
+  - first:
+      213: -2683083131528429030
+    second: groundBeige_white_526
+  - first:
+      213: -1868523757362185030
+    second: groundBeige_white_527
+  - first:
+      213: 4267301209997892832
+    second: groundBeige_white_528
+  - first:
+      213: 7974576470829020251
+    second: groundBeige_white_529
+  - first:
+      213: 6154988589279548863
+    second: groundBeige_white_530
+  - first:
+      213: -3383495193798702911
+    second: groundBeige_white_531
+  - first:
+      213: -3123818653892782696
+    second: groundBeige_white_532
+  - first:
+      213: 9011233361891042712
+    second: groundBeige_white_533
+  - first:
+      213: -4606681142267694400
+    second: groundBeige_white_534
+  - first:
+      213: 992498655072498257
+    second: groundBeige_white_535
+  - first:
+      213: -2276011938776257532
+    second: groundBeige_white_536
+  - first:
+      213: 4818989729909533838
+    second: groundBeige_white_537
+  - first:
+      213: -9018136371060669229
+    second: groundBeige_white_538
+  - first:
+      213: 1314440763514237418
+    second: groundBeige_white_539
+  - first:
+      213: -3680450473418292774
+    second: groundBeige_white_540
+  - first:
+      213: 8079140645025718133
+    second: groundBeige_white_541
+  - first:
+      213: 1556038308468942159
+    second: groundBeige_white_542
+  - first:
+      213: 4478735630749396449
+    second: groundBeige_white_543
+  - first:
+      213: 8706494715017678777
+    second: groundBeige_white_544
+  - first:
+      213: -8326687232000319981
+    second: groundBeige_white_545
+  - first:
+      213: -2866183063705048455
+    second: groundBeige_white_546
+  - first:
+      213: -5891749909909181565
+    second: groundBeige_white_547
+  - first:
+      213: -3577336758060957110
+    second: groundBeige_white_548
+  - first:
+      213: 8685432758075567861
+    second: groundBeige_white_549
+  - first:
+      213: 8824773331360473372
+    second: groundBeige_white_550
+  - first:
+      213: -6659015827512047491
+    second: groundBeige_white_551
+  - first:
+      213: -5415415668927098861
+    second: groundBeige_white_552
+  - first:
+      213: 1912521988737897254
+    second: groundBeige_white_553
+  - first:
+      213: 5946319177490615240
+    second: groundBeige_white_554
+  - first:
+      213: -444923850913445478
+    second: groundBeige_white_555
+  - first:
+      213: 5571427705434927554
+    second: groundBeige_white_556
+  - first:
+      213: -8009503221538616579
+    second: groundBeige_white_557
+  - first:
+      213: 7703418126457128909
+    second: groundBeige_white_558
+  - first:
+      213: -3724005800023580643
+    second: groundBeige_white_559
+  - first:
+      213: 7218426988806589375
+    second: groundBeige_white_560
+  - first:
+      213: 1296740468057869528
+    second: groundBeige_white_561
+  - first:
+      213: -1984532586164108243
+    second: groundBeige_white_562
+  - first:
+      213: 7365437443443573920
+    second: groundBeige_white_563
+  - first:
+      213: 6398271016912391425
+    second: groundBeige_white_564
+  - first:
+      213: 6443901434176704675
+    second: groundBeige_white_565
+  - first:
+      213: 128351590770479381
+    second: groundBeige_white_566
+  - first:
+      213: -4574741104762129228
+    second: groundBeige_white_567
+  - first:
+      213: -2427017816998657422
+    second: groundBeige_white_568
+  - first:
+      213: 8916058557703042651
+    second: groundBeige_white_569
+  - first:
+      213: 5981092311634240186
+    second: groundBeige_white_570
+  - first:
+      213: 5808797343268179077
+    second: groundBeige_white_571
+  - first:
+      213: -4807465449382200333
+    second: groundBeige_white_572
+  - first:
+      213: 814785792318177835
+    second: groundBeige_white_573
+  - first:
+      213: 5907292381098544114
+    second: groundBeige_white_574
+  - first:
+      213: 8183715649702450088
+    second: groundBeige_white_575
+  - first:
+      213: -425314910696900490
+    second: groundBeige_white_576
+  - first:
+      213: -52415381405650811
+    second: groundBeige_white_577
+  - first:
+      213: 3029410201449555184
+    second: groundBeige_white_578
+  - first:
+      213: -3633252485433637507
+    second: groundBeige_white_579
+  - first:
+      213: -4041569915680029103
+    second: groundBeige_white_580
+  - first:
+      213: 7165151246434143482
+    second: groundBeige_white_581
+  - first:
+      213: 5184473024532179777
+    second: groundBeige_white_582
+  - first:
+      213: 3085643797337117446
+    second: groundBeige_white_583
+  - first:
+      213: -7779938925715671975
+    second: groundBeige_white_584
+  - first:
+      213: -6185800098819559526
+    second: groundBeige_white_585
+  - first:
+      213: -2893642715883967495
+    second: groundBeige_white_586
+  - first:
+      213: 5155060762116651091
+    second: groundBeige_white_587
+  - first:
+      213: 4784593833575211601
+    second: groundBeige_white_588
+  - first:
+      213: -6051241049849885626
+    second: groundBeige_white_589
+  - first:
+      213: 6678002714375359397
+    second: groundBeige_white_590
+  - first:
+      213: 1755489710216105952
+    second: groundBeige_white_591
+  - first:
+      213: -2412022164407081113
+    second: groundBeige_white_592
+  - first:
+      213: -8632304189665499233
+    second: groundBeige_white_593
+  - first:
+      213: -1687745383564805938
+    second: groundBeige_white_594
+  - first:
+      213: 338382493132431788
+    second: groundBeige_white_595
+  - first:
+      213: -2970267553237322483
+    second: groundBeige_white_596
+  - first:
+      213: -3519123032372215036
+    second: groundBeige_white_597
+  - first:
+      213: -1994508491417994875
+    second: groundBeige_white_598
+  - first:
+      213: 2287218196549891578
+    second: groundBeige_white_599
+  - first:
+      213: 7752538004501508135
+    second: groundBeige_white_600
+  - first:
+      213: -7541573830358918615
+    second: groundBeige_white_601
+  - first:
+      213: 934708926159437605
+    second: groundBeige_white_602
+  - first:
+      213: 3706674153312148484
+    second: groundBeige_white_603
+  - first:
+      213: -6247273235902831866
+    second: groundBeige_white_604
+  - first:
+      213: -3889532879927734744
+    second: groundBeige_white_605
+  - first:
+      213: 719316701688416271
+    second: groundBeige_white_606
+  - first:
+      213: -5424820691713325660
+    second: groundBeige_white_607
+  - first:
+      213: -1676016755488452938
+    second: groundBeige_white_608
+  - first:
+      213: -4068019790732190661
+    second: groundBeige_white_609
+  - first:
+      213: 819783693532582565
+    second: groundBeige_white_610
+  - first:
+      213: 3868792700270923327
+    second: groundBeige_white_611
+  - first:
+      213: 5650452721221098572
+    second: groundBeige_white_612
+  - first:
+      213: -3418534131810513709
+    second: groundBeige_white_613
+  - first:
+      213: 6526003716776974654
+    second: groundBeige_white_614
+  - first:
+      213: -98417314675983464
+    second: groundBeige_white_615
+  - first:
+      213: -245323327982318603
+    second: groundBeige_white_616
+  - first:
+      213: 1804494734399848092
+    second: groundBeige_white_617
+  - first:
+      213: -8084470291877957936
+    second: groundBeige_white_618
+  - first:
+      213: -3429424233798018081
+    second: groundBeige_white_619
+  - first:
+      213: 4922205383728561910
+    second: groundBeige_white_620
+  - first:
+      213: -865127904880994970
+    second: groundBeige_white_621
+  - first:
+      213: 6175422087148844378
+    second: groundBeige_white_622
+  - first:
+      213: 73520729333466607
+    second: groundBeige_white_623
+  - first:
+      213: -2996984549319594629
+    second: groundBeige_white_624
+  - first:
+      213: 8146610749028535207
+    second: groundBeige_white_625
+  - first:
+      213: 3912856487706698834
+    second: groundBeige_white_626
+  - first:
+      213: 9034897571964705285
+    second: groundBeige_white_627
+  - first:
+      213: 5146059136146682902
+    second: groundBeige_white_628
+  - first:
+      213: 2738990550981055680
+    second: groundBeige_white_629
+  - first:
+      213: -4877179111773730553
+    second: groundBeige_white_630
+  - first:
+      213: 3355298310812783796
+    second: groundBeige_white_631
+  - first:
+      213: -549012780313134642
+    second: groundBeige_white_632
+  - first:
+      213: 6098907357002453926
+    second: groundBeige_white_633
+  - first:
+      213: -2938577168676276735
+    second: groundBeige_white_634
+  - first:
+      213: -1629163662290239271
+    second: groundBeige_white_635
+  - first:
+      213: -1553177197604389126
+    second: groundBeige_white_636
+  - first:
+      213: 3614899870326998970
+    second: groundBeige_white_637
+  - first:
+      213: -5323895997775074838
+    second: groundBeige_white_638
+  - first:
+      213: 8142584199494737059
+    second: groundBeige_white_639
+  - first:
+      213: -4185482259072841753
+    second: groundBeige_white_640
+  - first:
+      213: 5428029817879354235
+    second: groundBeige_white_641
+  - first:
+      213: 4273963357315529669
+    second: groundBeige_white_642
+  - first:
+      213: -2363169286414072295
+    second: groundBeige_white_643
+  - first:
+      213: -5348725257305408369
+    second: groundBeige_white_644
+  - first:
+      213: 5576817795046056832
+    second: groundBeige_white_645
+  - first:
+      213: -5110944120954689884
+    second: groundBeige_white_646
+  - first:
+      213: 8376793961229564964
+    second: groundBeige_white_647
+  - first:
+      213: -6719674498032201322
+    second: groundBeige_white_648
+  - first:
+      213: -1144293402509396233
+    second: groundBeige_white_649
+  - first:
+      213: -2153873481408623639
+    second: groundBeige_white_650
+  - first:
+      213: 1001000146080391051
+    second: groundBeige_white_651
+  - first:
+      213: -5885182664904808708
+    second: groundBeige_white_652
+  - first:
+      213: -343475380950259840
+    second: groundBeige_white_653
+  - first:
+      213: -3504137827668393615
+    second: groundBeige_white_654
+  - first:
+      213: 4586378602195770307
+    second: groundBeige_white_655
+  - first:
+      213: -4528659808848619952
+    second: groundBeige_white_656
+  - first:
+      213: -5524907860065040521
+    second: groundBeige_white_657
+  - first:
+      213: 5514177591609341667
+    second: groundBeige_white_658
+  - first:
+      213: 5721265568519098260
+    second: groundBeige_white_659
+  - first:
+      213: 6620056600107117979
+    second: groundBeige_white_660
+  - first:
+      213: -8201023161107321969
+    second: groundBeige_white_661
+  - first:
+      213: 3988962715591487465
+    second: groundBeige_white_662
+  - first:
+      213: 2204558873612540314
+    second: groundBeige_white_663
+  - first:
+      213: -8571127877833226780
+    second: groundBeige_white_664
+  - first:
+      213: 4859167092600973493
+    second: groundBeige_white_665
+  - first:
+      213: -7710997771579943657
+    second: groundBeige_white_666
+  - first:
+      213: 7382652789916283511
+    second: groundBeige_white_667
+  - first:
+      213: -8320448105404953863
+    second: groundBeige_white_668
+  - first:
+      213: -6038599796396350559
+    second: groundBeige_white_669
+  - first:
+      213: 6573398074172575619
+    second: groundBeige_white_670
+  - first:
+      213: 3760223118393685621
+    second: groundBeige_white_671
+  - first:
+      213: -2204639061579013431
+    second: groundBeige_white_672
+  - first:
+      213: -7789368290882054035
+    second: groundBeige_white_673
+  - first:
+      213: -5132587864899693901
+    second: groundBeige_white_674
+  - first:
+      213: -2474095486788700717
+    second: groundBeige_white_675
+  - first:
+      213: 535035397201766267
+    second: groundBeige_white_676
+  - first:
+      213: 8593519455139397822
+    second: groundBeige_white_677
+  - first:
+      213: 5693917953413081894
+    second: groundBeige_white_678
+  - first:
+      213: 7958605946232357579
+    second: groundBeige_white_679
+  - first:
+      213: -2115349242629060946
+    second: groundBeige_white_680
+  - first:
+      213: -2720410821515705220
+    second: groundBeige_white_681
+  - first:
+      213: -2163987633279961662
+    second: groundBeige_white_682
+  - first:
+      213: 5478635303088368434
+    second: groundBeige_white_683
+  - first:
+      213: 2158061775080876684
+    second: groundBeige_white_684
+  - first:
+      213: -7572164620701151028
+    second: groundBeige_white_685
+  - first:
+      213: -8844399417909181104
+    second: groundBeige_white_686
+  - first:
+      213: -8267602295644175320
+    second: groundBeige_white_687
+  - first:
+      213: -175189148129167121
+    second: groundBeige_white_688
+  - first:
+      213: 6634864339817374575
+    second: groundBeige_white_689
+  - first:
+      213: -366823007203324563
+    second: groundBeige_white_690
+  - first:
+      213: -8328564904830355573
+    second: groundBeige_white_691
+  - first:
+      213: 97349003451907076
+    second: groundBeige_white_692
+  - first:
+      213: 2600589167622308590
+    second: groundBeige_white_693
+  - first:
+      213: -8681204825357847748
+    second: groundBeige_white_694
+  - first:
+      213: -1247106547823770967
+    second: groundBeige_white_695
+  - first:
+      213: 1164605513113520803
+    second: groundBeige_white_696
+  - first:
+      213: -5879907572711274778
+    second: groundBeige_white_697
+  - first:
+      213: 2806788532063003020
+    second: groundBeige_white_698
+  - first:
+      213: -4541790559803452843
+    second: groundBeige_white_699
+  - first:
+      213: -720761206378738554
+    second: groundBeige_white_700
+  - first:
+      213: -3622393660722745167
+    second: groundBeige_white_701
+  - first:
+      213: 4646750360504084806
+    second: groundBeige_white_702
+  - first:
+      213: 3129467364854622856
+    second: groundBeige_white_703
+  - first:
+      213: 4375036810357726276
+    second: groundBeige_white_704
+  - first:
+      213: -1408419412940847749
+    second: groundBeige_white_705
+  - first:
+      213: -828318711364770649
+    second: groundBeige_white_706
+  - first:
+      213: 3261837760709954253
+    second: groundBeige_white_707
+  - first:
+      213: 501948298018268877
+    second: groundBeige_white_708
+  - first:
+      213: 4135877287577740630
+    second: groundBeige_white_709
+  - first:
+      213: 1050793826756509969
+    second: groundBeige_white_710
+  - first:
+      213: -4284943279338230613
+    second: groundBeige_white_711
+  - first:
+      213: -6752220214466455911
+    second: groundBeige_white_712
+  - first:
+      213: 4088892509273890309
+    second: groundBeige_white_713
+  - first:
+      213: 4919240550795830099
+    second: groundBeige_white_714
+  - first:
+      213: -477691198252122739
+    second: groundBeige_white_715
+  - first:
+      213: 37117331022600947
+    second: groundBeige_white_716
+  - first:
+      213: 4799971387701981520
+    second: groundBeige_white_717
+  - first:
+      213: 8806441057892027224
+    second: groundBeige_white_718
+  - first:
+      213: -4136478924419641262
+    second: groundBeige_white_719
+  - first:
+      213: 258029718659217688
+    second: groundBeige_white_720
+  - first:
+      213: 8044718450437255388
+    second: groundBeige_white_721
+  - first:
+      213: 3258489353550250993
+    second: groundBeige_white_722
+  - first:
+      213: 2091684503541632170
+    second: groundBeige_white_723
+  - first:
+      213: -4346099502788328765
+    second: groundBeige_white_724
+  - first:
+      213: -2297683695786888663
+    second: groundBeige_white_725
+  - first:
+      213: -3351404965676681634
+    second: groundBeige_white_726
+  - first:
+      213: 2596334167372386416
+    second: groundBeige_white_727
+  - first:
+      213: -185919192195135150
+    second: groundBeige_white_728
+  - first:
+      213: 5945850950300655000
+    second: groundBeige_white_729
+  - first:
+      213: 3714083689780814367
+    second: groundBeige_white_730
+  - first:
+      213: 4914945885489684623
+    second: groundBeige_white_731
+  - first:
+      213: 5003882016567066131
+    second: groundBeige_white_732
+  - first:
+      213: 3820146459401129644
+    second: groundBeige_white_733
+  - first:
+      213: -2743834113166410991
+    second: groundBeige_white_734
+  - first:
+      213: 6252167429399284822
+    second: groundBeige_white_735
+  - first:
+      213: -1526179664378986530
+    second: groundBeige_white_736
+  - first:
+      213: 7815036518210002379
+    second: groundBeige_white_737
+  - first:
+      213: -6971717894688102597
+    second: groundBeige_white_738
+  - first:
+      213: -1652965632458337700
+    second: groundBeige_white_739
+  - first:
+      213: -1991073374015172707
+    second: groundBeige_white_740
+  - first:
+      213: -7764480190813299205
+    second: groundBeige_white_741
+  - first:
+      213: 2647397601320496827
+    second: groundBeige_white_742
+  - first:
+      213: 6033036567022335293
+    second: groundBeige_white_743
+  - first:
+      213: -6326819932856674586
+    second: groundBeige_white_744
+  - first:
+      213: 2030174133563275427
+    second: groundBeige_white_745
+  - first:
+      213: 2193014321067345634
+    second: groundBeige_white_746
+  - first:
+      213: 1489889498238496170
+    second: groundBeige_white_747
+  - first:
+      213: -7671237851337693710
+    second: groundBeige_white_748
+  - first:
+      213: -3550290712625533259
+    second: groundBeige_white_749
+  - first:
+      213: 3665488720108076127
+    second: groundBeige_white_750
+  - first:
+      213: -8671122566665188228
+    second: groundBeige_white_751
+  - first:
+      213: -7007322167340864678
+    second: groundBeige_white_752
+  - first:
+      213: -7206626308127757865
+    second: groundBeige_white_753
+  - first:
+      213: 812625011140771853
+    second: groundBeige_white_754
+  - first:
+      213: 6624033395699346546
+    second: groundBeige_white_755
+  - first:
+      213: 4679039578441460545
+    second: groundBeige_white_756
+  - first:
+      213: -4046499039181349169
+    second: groundBeige_white_757
+  - first:
+      213: -1412602289061384888
+    second: groundBeige_white_758
+  - first:
+      213: 4234458630333087747
+    second: groundBeige_white_759
+  - first:
+      213: 5887916042533563124
+    second: groundBeige_white_760
+  - first:
+      213: 4386893188925592677
+    second: groundBeige_white_761
+  - first:
+      213: 209574054533241318
+    second: groundBeige_white_762
+  - first:
+      213: 4044771633677376648
+    second: groundBeige_white_763
+  - first:
+      213: 3777218236589040602
+    second: groundBeige_white_764
+  - first:
+      213: -6131353618175156861
+    second: groundBeige_white_765
+  - first:
+      213: -4888974296853286972
+    second: groundBeige_white_766
+  - first:
+      213: -5317103686854771630
+    second: groundBeige_white_767
+  - first:
+      213: -2250572004037817634
+    second: groundBeige_white_768
+  - first:
+      213: 8000637576127767051
+    second: groundBeige_white_769
+  - first:
+      213: -6797728802763040194
+    second: groundBeige_white_770
+  - first:
+      213: 8797507507044687270
+    second: groundBeige_white_771
+  - first:
+      213: -4191185504147151248
+    second: groundBeige_white_772
+  - first:
+      213: -4744719615940102900
+    second: groundBeige_white_773
+  - first:
+      213: 7119995305573179750
+    second: groundBeige_white_774
+  - first:
+      213: -2279193067436525505
+    second: groundBeige_white_775
+  - first:
+      213: 7028055878741252102
+    second: groundBeige_white_776
+  - first:
+      213: -1659582031362098482
+    second: groundBeige_white_777
+  - first:
+      213: 1698979898700278537
+    second: groundBeige_white_778
+  - first:
+      213: -7961294048804180611
+    second: groundBeige_white_779
+  - first:
+      213: 8271249725912682684
+    second: groundBeige_white_780
+  - first:
+      213: -5401506681143770976
+    second: groundBeige_white_781
+  - first:
+      213: 2449238116248800157
+    second: groundBeige_white_782
+  - first:
+      213: -1945393412002317641
+    second: groundBeige_white_783
+  - first:
+      213: 4221446783918034394
+    second: groundBeige_white_784
+  - first:
+      213: 2541499826661359910
+    second: groundBeige_white_785
+  - first:
+      213: 7891240628473669622
+    second: groundBeige_white_786
+  - first:
+      213: 2465684309603325737
+    second: groundBeige_white_787
+  - first:
+      213: -8243990923700247204
+    second: groundBeige_white_788
+  - first:
+      213: 3995197887190091331
+    second: groundBeige_white_789
+  - first:
+      213: 5996670137176105092
+    second: groundBeige_white_790
+  - first:
+      213: 1483996279950025520
+    second: groundBeige_white_791
+  - first:
+      213: -7399365065961052081
+    second: groundBeige_white_792
+  - first:
+      213: -878371106035060566
+    second: groundBeige_white_793
+  - first:
+      213: 1803409696193705581
+    second: groundBeige_white_794
+  - first:
+      213: -7914843804971604258
+    second: groundBeige_white_795
+  - first:
+      213: 2023881032760004240
+    second: groundBeige_white_796
+  - first:
+      213: -2228432349537164336
+    second: groundBeige_white_797
+  - first:
+      213: 4369929592211486232
+    second: groundBeige_white_798
+  - first:
+      213: 3100877320065146589
+    second: groundBeige_white_799
+  - first:
+      213: 4564229039739965709
+    second: groundBeige_white_800
+  - first:
+      213: 8749351324619293470
+    second: groundBeige_white_801
+  - first:
+      213: 3290997169240521120
+    second: groundBeige_white_802
+  - first:
+      213: -3245853767187684149
+    second: groundBeige_white_803
+  - first:
+      213: 2055942890398870490
+    second: groundBeige_white_804
+  - first:
+      213: -6982931189030048258
+    second: groundBeige_white_805
+  - first:
+      213: -1588831272326806475
+    second: groundBeige_white_806
+  - first:
+      213: 2137859436154086274
+    second: groundBeige_white_807
+  - first:
+      213: 1242007744644091913
+    second: groundBeige_white_808
+  - first:
+      213: 4693137397308954407
+    second: groundBeige_white_809
+  - first:
+      213: 1848333948947014864
+    second: groundBeige_white_810
+  - first:
+      213: -5466426439370537264
+    second: groundBeige_white_811
+  - first:
+      213: 576381679953694277
+    second: groundBeige_white_812
+  - first:
+      213: -3472048386787929854
+    second: groundBeige_white_813
+  - first:
+      213: -7937919719233777697
+    second: groundBeige_white_814
+  - first:
+      213: 7802956134109401983
+    second: groundBeige_white_815
+  - first:
+      213: -7191539467258926289
+    second: groundBeige_white_816
+  - first:
+      213: -2756731613662286893
+    second: groundBeige_white_817
+  - first:
+      213: 4825303758625188500
+    second: groundBeige_white_818
+  - first:
+      213: -1547765545989274043
+    second: groundBeige_white_819
+  - first:
+      213: 8657828760320064383
+    second: groundBeige_white_820
+  - first:
+      213: -4434469358184851731
+    second: groundBeige_white_821
+  - first:
+      213: -2200883325459343908
+    second: groundBeige_white_822
+  - first:
+      213: -1043970012914628193
+    second: groundBeige_white_823
+  - first:
+      213: 3924646276418775683
+    second: groundBeige_white_824
+  - first:
+      213: 64335847138734043
+    second: groundBeige_white_825
+  - first:
+      213: -7161650321455332053
+    second: groundBeige_white_826
+  - first:
+      213: -4813467799708385869
+    second: groundBeige_white_827
+  - first:
+      213: 2284180713201248851
+    second: groundBeige_white_828
+  - first:
+      213: -440213516523529400
+    second: groundBeige_white_829
+  - first:
+      213: 330691628746201090
+    second: groundBeige_white_830
+  - first:
+      213: -3202258667041476608
+    second: groundBeige_white_831
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: groundBeige_white_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a3bc5b688014780800000000000000
+      internalID: -8700663630434452878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eac7a3a576077940800000000000000
+      internalID: 5293706989323930339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75c23369228276c0800000000000000
+      internalID: -4147109192585263745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315f587e63f66d510800000000000000
+      internalID: 1573567401415800083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5090c39dd1fc9a0800000000000000
+      internalID: -6210712542268291649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3589d5d40dd378eb0800000000000000
+      internalID: -4717734119786833837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3e698adf6be45f0800000000000000
+      internalID: -770477285662334038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8c15b748c1f0a40800000000000000
+      internalID: 5336515438787545327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1529b06519ca09a70800000000000000
+      internalID: 8831748609487376977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e06217d28c01c010800000000000000
+      internalID: 1207259931205591270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2f7ac6aa6a947a0800000000000000
+      internalID: -6392394945178111320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ce653989b7834b0800000000000000
+      internalID: -5460478652949533578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a9552db6dc11130800000000000000
+      internalID: 3535833045436570114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc349275097045af0800000000000000
+      internalID: -408693349664865331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4a45d1099467f00800000000000000
+      internalID: 1114158841136981164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00870d0cba6ab4fa0800000000000000
+      internalID: -5815371237214357504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a7e8d522a6e2450800000000000000
+      internalID: 6065902443945687614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b51500fc7f655d70800000000000000
+      internalID: 9031247210154890678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_18
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de73f7cf2049b19d0800000000000000
+      internalID: -2802483602560960531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb0f0e494c0e9ee0800000000000000
+      internalID: -1252550137380664387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_20
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20838a276d3e2a6d0800000000000000
+      internalID: -2980569493179713534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_21
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880766a9bdfd29090800000000000000
+      internalID: -8029109051366936440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_22
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512a8fa5593175320800000000000000
+      internalID: 2546525646498603541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_23
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef69eee6ec0594980800000000000000
+      internalID: -8554217169658931458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_24
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b969c41a3c2043da0800000000000000
+      internalID: -5966140567111035237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_25
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222d403c23fc03f90800000000000000
+      internalID: -6975848005869710814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e679e29fc1335acf0800000000000000
+      internalID: -241730805461772434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c598244a621825f0800000000000000
+      internalID: -781354287729437242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076e40c0549eafce0800000000000000
+      internalID: -1370526653817231760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00ffef6dd4239300800000000000000
+      internalID: 257590137174618125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50803f74e24c34700800000000000000
+      internalID: 523477684759758853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_31
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dcab93da7245b30800000000000000
+      internalID: 4275085571232812316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75290480b8f268700800000000000000
+      internalID: 542173079330132567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_33
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d8f275bfcbc2980800000000000000
+      internalID: -8562261003852608190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee95724fcf4edac70800000000000000
+      internalID: 8984088606753118702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_35
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b923c2cce5d68e0800000000000000
+      internalID: -1698597253440955602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_36
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784c13ef1b66375c0800000000000000
+      internalID: -4218915511256103801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_37
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6591cc5f2f7c915d0800000000000000
+      internalID: -3091219822893328042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3914f5780d57d90800000000000000
+      internalID: -7100539957642423315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3227b68b613f001e0800000000000000
+      internalID: -2233518136266886621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74efbdd9e961a14a0800000000000000
+      internalID: -6621955431585808825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd22659a4ee419850800000000000000
+      internalID: 6381968890961208028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ef0be2432fa07e0800000000000000
+      internalID: -1798358795245519296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbf42ac1ae675540800000000000000
+      internalID: 4996583952751066036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_44
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf98939580195d1e0800000000000000
+      internalID: -2173671780093687301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_45
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab4a3a66077f13a0800000000000000
+      internalID: -6692499651813553237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087a2b104941a5b50800000000000000
+      internalID: 6582596431271602048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_47
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef664738373908910800000000000000
+      internalID: 1837630772303128318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_48
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d5927c996a77b40800000000000000
+      internalID: 5437998254474747194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_49
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73e59cf055227b20800000000000000
+      internalID: 3130605720741208957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_50
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48622bf223a87fb10800000000000000
+      internalID: 2015231306424788612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8150cd8d5c8fb60800000000000000
+      internalID: 7780185891477461165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9dbae8b4ecc9f30800000000000000
+      internalID: 4583765344667818416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74300c135f2064780800000000000000
+      internalID: -8699262378094623929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8755009a2359370800000000000000
+      internalID: 8328618787328063651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ee28a1017761160800000000000000
+      internalID: 6995909982214614670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba22787b8c232c240800000000000000
+      internalID: 4810463189639045803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f8acb6df4436bb0800000000000000
+      internalID: -4944032110696820923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0928d351d5fa795b0800000000000000
+      internalID: -5361624017038114160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc95ea94f552bd70800000000000000
+      internalID: 9057396309654609086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_60
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4dade8992883a60800000000000000
+      internalID: 7654011162754471157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_61
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8c6b45559285e70800000000000000
+      internalID: 9104072093199681758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_62
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461bc4dd49237dcf0800000000000000
+      internalID: -227657641209581212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_63
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cd59a1c83c847c0800000000000000
+      internalID: -4086801655329858423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_64
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3f35d2af010d0c0800000000000000
+      internalID: -4553120556583226454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b226d1c1de5bfe2c0800000000000000
+      internalID: -4400098280934120917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03fb53c396275990800000000000000
+      internalID: -7397401446853119219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_67
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0294bc0366f6ce10800000000000000
+      internalID: 2217730771801903626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065022463a5991700800000000000000
+      internalID: 511604561675421024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_69
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0f1d9cbccc65d20800000000000000
+      internalID: 3267023755340279993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6974323b65d9880b0800000000000000
+      internalID: -5726153930503403626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_71
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29d89747d9eb45f0800000000000000
+      internalID: -771265800335468243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_72
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ace088d21fd37f0800000000000000
+      internalID: -631083194903508396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_73
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fab04f9e88dec80800000000000000
+      internalID: -8291820800516051181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_74
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbc1d79148f86d80800000000000000
+      internalID: -8257076956180132921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_75
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62a7e00818461e50800000000000000
+      internalID: 6779685556984455791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_76
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7624734f9e53b8a0800000000000000
+      internalID: -6290580216381954438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_77
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d24538ec0ea8d7f0800000000000000
+      internalID: -587528380913204519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff71e140c081c750800000000000000
+      internalID: 6323476915032260599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eed6eb5ffd140720800000000000000
+      internalID: 2811405049981755105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a10d418a992c170800000000000000
+      internalID: 8197283218950462106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06c88ccb03369270800000000000000
+      internalID: 8256843092599555599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c848a88e5647eebf0800000000000000
+      internalID: -293168944690592628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_83
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598499962c2bf3ec0800000000000000
+      internalID: -3584950230298572651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cce5fa250d35db10800000000000000
+      internalID: 2005576301468314823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_85
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0043efc96b910660800000000000000
+      internalID: 7350326945607008266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cba6f207bcef3260800000000000000
+      internalID: 7079637410022599624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_87
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2196fda5b81ad9230800000000000000
+      internalID: 3647248893137086738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_88
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfb6df9437223260800000000000000
+      internalID: 7075761071525904335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_89
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5041d6863e950c8c0800000000000000
+      internalID: -3981083237351091195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_90
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcda260f091d844d0800000000000000
+      internalID: -3150037518907167283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f4b78c15eb41560800000000000000
+      internalID: 7283655755830087445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccc437649247d150800000000000000
+      internalID: 5897255442219060424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_93
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f8dec5d432c9580800000000000000
+      internalID: -8819135155119747238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_94
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca664260680ffaf0800000000000000
+      internalID: -360560235107685688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_95
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9933d702e76a56a00800000000000000
+      internalID: 749187973668221849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_96
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c683e9d37ba54aff0800000000000000
+      internalID: -25795954798086036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_97
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18597bad00af2c340800000000000000
+      internalID: 4882739827599447425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_98
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d684c424050e6f0800000000000000
+      internalID: -657437299918213870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_99
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d042b216ef5f6480800000000000000
+      internalID: -8903792496527392558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_100
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c7ec73cc2c4a3f0800000000000000
+      internalID: -890372643947119589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_101
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618daccf36a538450800000000000000
+      internalID: 6089810506624456726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_102
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ea793fb28086570800000000000000
+      internalID: 8460020884878896697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_103
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4ea735dc6980220800000000000000
+      internalID: 2452375805716260092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefc09a62939d85a0800000000000000
+      internalID: -6517390828672856086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_105
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3224e2653a1818470800000000000000
+      internalID: 8395133718920839715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133e61f831dea37c0800000000000000
+      internalID: -4090696643251870927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_107
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf47ecdc99b2c46a0800000000000000
+      internalID: -6463743425600654085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_108
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75e28cb7a2b627e0800000000000000
+      internalID: -1790547368341215875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_109
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5af7ca490862fa90800000000000000
+      internalID: -7281643258386056612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_110
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a6c557286b26790800000000000000
+      internalID: -7538262154833794537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_111
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984a2f7b1c7069d50800000000000000
+      internalID: 6743586020630111369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_112
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5499ea9f3fd749aa0800000000000000
+      internalID: -6155156303889131195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_113
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a9f3f4dae69a1b0800000000000000
+      internalID: -5644858967294240164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_114
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0d711fec0a16ce0800000000000000
+      internalID: -1413671997349048151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_115
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70da34455d18fcdb0800000000000000
+      internalID: -4769450727120327417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_116
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e98040e74866fd80800000000000000
+      internalID: -8217265812176598552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164f4edd4cb3cd430800000000000000
+      internalID: 3808985101570995297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_118
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e88c50039d1f1d00800000000000000
+      internalID: 945506963974555878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_119
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4934c4f435b9d6c0800000000000000
+      internalID: -4118061145204180660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_120
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2ae5dfc4dbc6ed0800000000000000
+      internalID: -2419350761438797099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_121
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec084b8bf01ffb10800000000000000
+      internalID: 2017349830644862181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_122
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a670f16bc4c165360800000000000000
+      internalID: 7157939773550561130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_123
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e351a17755ed01190800000000000000
+      internalID: -7993644879930845890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_124
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d559800fbf72040800000000000000
+      internalID: 4622940550873832789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_125
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d66b01987946a460800000000000000
+      internalID: 7252565032105109201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_126
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a029dbaa658e3c0800000000000000
+      internalID: -4330115750391838081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_127
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd4a17fdb9ebc9b0800000000000000
+      internalID: -5058692754316833314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_128
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d427ade8f84923a80800000000000000
+      internalID: -8488559003342048691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_129
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664a2c04ee0760c80800000000000000
+      internalID: -8356867889948351386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3b9285d3899c630800000000000000
+      internalID: 3947853937606505468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_131
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5534e63b99504c0800000000000000
+      internalID: -4321879271464020550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a434f8bede02a90800000000000000
+      internalID: -7340605796637259190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_133
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dab715f46093cc60800000000000000
+      internalID: 7837266539837897427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_134
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef406392f3f55700800000000000000
+      internalID: 528596754466099179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_135
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c07af9e023e8f50800000000000000
+      internalID: 6885495918685523090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_136
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5791964a8b27492d0800000000000000
+      internalID: -3272864891833607819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_137
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdebb2ace13c5fb0800000000000000
+      internalID: -4657793022195667461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_138
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a65d8dfc4eb3a400800000000000000
+      internalID: 334320035236239015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_139
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e19e8f6170f87130800000000000000
+      internalID: 3564863475057332713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_140
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca0a40deb17454a0800000000000000
+      internalID: -6605529689093436733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_141
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5276d8934b4ab6050800000000000000
+      internalID: 5794906439508911909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_142
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d406b80eafcae9e0800000000000000
+      internalID: -1591231171944643376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd1ce951181e5680800000000000000
+      internalID: -8764541362014249537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_144
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123c178998e50fb10800000000000000
+      internalID: 2013212978495734561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_145
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae016b239fea6e450800000000000000
+      internalID: 6117769529150279914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_146
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56fa281492370410800000000000000
+      internalID: 1443177817237550683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_147
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dd5f6011f3608d0800000000000000
+      internalID: -2880545569293083342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_148
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b913839e0398330800000000000000
+      internalID: 3713553145971972905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_149
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144f31d8e29b99070800000000000000
+      internalID: 8113719813271188545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_150
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f718f30c56b0509d0800000000000000
+      internalID: -2808826260950646401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_151
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8ccfd4886491f40800000000000000
+      internalID: 5699664354651981991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_152
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cdaeea937624420800000000000000
+      internalID: 2612764231273733235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_153
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec351ee7c59fb33b0800000000000000
+      internalID: -5531553541633518642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_154
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23eb54509cf4d950800000000000000
+      internalID: 6473076261259043626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_155
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01a291fb7fabc9b0800000000000000
+      internalID: -5058756809551863541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be05dfc080848b50800000000000000
+      internalID: 6594537045108264632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_157
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff059ab49faa9c60800000000000000
+      internalID: 7825760355830009851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_158
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e00908aed873dc70800000000000000
+      internalID: 8994665778486247656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_159
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21ea8067325e80a0800000000000000
+      internalID: -6877469183151775441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_160
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579cc76f15b3f1cd0800000000000000
+      internalID: -2585282437873612427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_161
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ab5e34132914850800000000000000
+      internalID: 6359524889114032798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_162
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcfaf713a499bea0800000000000000
+      internalID: -5856486412215714594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_163
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409c9f3056b7fb0f0800000000000000
+      internalID: -1099024110266496764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_164
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5e942270c16a020800000000000000
+      internalID: 2352598672313279991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_165
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f57a145e2f96530800000000000000
+      internalID: 3848874423027720055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_166
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4576fde5d8d09920800000000000000
+      internalID: 2995132165533365579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_167
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dff4ef914422d310800000000000000
+      internalID: 1428243896103927762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_168
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174552bb3b49a7720800000000000000
+      internalID: 2844749614297732209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_169
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05efc86c414b6e10800000000000000
+      internalID: 2191917440077653260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_170
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b659d2f87c45ccb80800000000000000
+      internalID: -8373224391111240341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_171
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0263c20475ba2c0800000000000000
+      internalID: -4419342676202741517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_172
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abde56f7bbb70fe70800000000000000
+      internalID: 9146946888415964602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_173
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e780ce7b844e5660800000000000000
+      internalID: 7376408605597140966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_174
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da48581e05c2c3270800000000000000
+      internalID: 8231502944819053741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_175
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792194a81abfce060800000000000000
+      internalID: 6984233793373147799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_176
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678f3dbf164cbc280800000000000000
+      internalID: -9021901503390812042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_177
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794a3969a5694f040800000000000000
+      internalID: 4680531228562269335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_178
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae51d231a2443b20800000000000000
+      internalID: 3113186502529605285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_179
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6427f90d963ca40800000000000000
+      internalID: 5387265924014425782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_180
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c311872a5c0bb6b30800000000000000
+      internalID: 4281710233626612028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_181
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc34a3a2ad03f3d0800000000000000
+      internalID: -3174178320184755015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469022482c2d5a9a0800000000000000
+      internalID: -6222335577260160668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_183
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a87924fb1956220800000000000000
+      internalID: 2478547420579334768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_184
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa748aee89056990800000000000000
+      internalID: -7393492703834244357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_185
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b97edc326f99350800000000000000
+      internalID: 6024116610223545188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_186
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b9ea7e7de0313f0800000000000000
+      internalID: -931384377467823321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_187
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b153b529f7325780800000000000000
+      internalID: -8695826387280113227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_188
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269b02148661921c0800000000000000
+      internalID: -4528063313319249566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_189
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af06d51ae2f2d0e0800000000000000
+      internalID: -2246466176901836891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_190
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3118de8a193e29ca0800000000000000
+      internalID: -6011492337842290413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_191
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c21f04b44d19430800000000000000
+      internalID: 3788042181272480826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_192
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c1e73e44e0d03c0800000000000000
+      internalID: -4391838372579107803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_193
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a92ff3d95e97a80800000000000000
+      internalID: -8468485160748017131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_194
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552ba0bd9b2bba0b0800000000000000
+      internalID: -5716278790703107499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_195
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebe3c76399c5e370800000000000000
+      internalID: 8351302718966721512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_196
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6101dd963a41804d0800000000000000
+      internalID: -3168259645766823914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_197
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcd133c47d1acca0800000000000000
+      internalID: -5995947566562157391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_198
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30716e4a2d04b5eb0800000000000000
+      internalID: -4730115710168721661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_199
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4697e95d389c69a40800000000000000
+      internalID: 5374704773375097188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_200
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5509a5b9979807420800000000000000
+      internalID: 2625749738147450965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_201
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e99b2313bd4cdd00800000000000000
+      internalID: 998758648885516777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_202
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d03a4fd645f0b880800000000000000
+      internalID: -8597102003907579689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_203
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520fe8e805883de00800000000000000
+      internalID: 1068347416187432997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_204
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478c57f6d93f68d70800000000000000
+      internalID: 9045184759125624948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_205
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced264425e27f0310800000000000000
+      internalID: 1373442739852946924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_206
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fad7cfb8fc07aa0800000000000000
+      internalID: -6165199689726709963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundBeige_white_207
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b66bd671cae79a0800000000000000
+      internalID: -6233355617609290960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
