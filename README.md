@@ -4,253 +4,40 @@ Dodgeball game
 
 our game on itch website:
 
-https://aviv-jessie.itch.io/assignment3
+
 
 
 **Dodgeball game- try to hit me and keep moving**
 
-<div dir='rtl' lang='he'>
-  
-  
-## מהות המשחק
-משחק מחניים שניתן לשחק בו שחקן יחיד \ מרובה משתתפים
-המשחק מיועד לפלטפורמת המחשב, ויוגש כמשחק אינטרנטי
-המשחק מיועד לכל גיל, בלי צורך בכישרון או ניסיון. משחק ספורטיבי מהנה
-המשחק יכלול 2 סוגי משחקיות, שחקן יחיד ומרובה משתתפים- 2 שחקנים.
-לקחנו את משחק המחניים הישן והאהוב והפכנו אותו לספורטיבי, תחרותי ומהנה הרבה יותר. 
+the changes we made at this assignment:
 
 
-## פרטי המשחק
 
+## CharacterManualMover-
+* This component moves its object when the player clicks the arrow keys.
 
-### 1. מה רואים?
 
-מסך המשחק מכיל מגרש מחנים, עם 5 שחקנים בכל קבוצה, והמשתמש רואה גבולות מסך ברורים שלא ניתן לעבור אותם. גבולות המסך הינם קו סיום המגרש
-מעבר לגבולות המסך ישנם את הספסלים של השחקנים הפסולים, שיכולים לחזור למשחק בכל רגע נתון כאשר  השחקן שהפסיל אותם- נפסל בעצמו
+## CharacterModeSwitcher-
+* This class represents the modes of the characters. temporary we use a images, at the next assignment we will change it to animations.
 
-  
-### שני המסכים הראשונים
-* מסך ראשי
-* בחירת שלבים במצב משתמש יחיד..
-  
-## שרטוטים
-![alt text](https://github.com/Aviv-Jessie/AuthenticDodgeball/blob/main/doc/figure_1.png?raw=true)
-![alt text](https://github.com/Aviv-Jessie/AuthenticDodgeball/blob/main/doc/figure_2.png?raw=true)
 
-### מסך בחירת המשחק
-1. בחירת כמות שחקנים
-2. אפשרות בחירת משחק- אדם מול אדם או אדם מול מחשב
-3. אפשרות בחירת מגרש
-4. הגדרות מפתחים: מצב סטורי הוא כניסה לסצנה בכל שלב עם הגדרות מפתחים אחרות
+## CharacterSpawnerBall-
+* This class represents the ball spawner of each player.
 
-* AI is character behavior.
-* character team is Which character(in tutorial have bullseye).
 
-![alt text](https://github.com/Aviv-Jessie/AuthenticDodgeball/blob/main/doc/figure_4.png?raw=true)
+## ControllerManual-
+* This class is controller to the manual player, (not the auto player- the computer).
 
 
+## ManagerController-
+* This class represents the game manager controller, this script manage the player characters, update the current character and enable them to move.
 
 
-### מסך המשחק
-1. דמויות במשחק: ישנה אפשרות לבחור עד חמש דמויות. לחיצה על מספר במקלדת מעבירה את השליטה של המשתמש לדמות(הסבר נוסף בהמשך).
-2. כפטור זריקת כדור
-3. מתחת לניקוד קיימות האותיות אשר משמשות את השחקן ללחצן תפיסת הכדור (L\E)
-4. דמויות השבוים במשחק, השחקנים הפסולים ברגע זה, יושבים על הספסל. (הסבר נוסף בהמשך..)
-5. קהל
-6. מצלמה עם שתי מצבים: מצב אחד בו התמקדות המצלמה במשחק בלבד. ומצב שני בו רואים את הקהל מריע.
-7. הודעות\הסברים\התראות..
+## TemporaryDestroyOnTrigger2D-
+ * This is temporary script, we will change it at the next assignment. this script is for the trigger touch destories.
 
-#### שליטה במשחק
-בטלפונים/מחשבים עם מסך מגע הזזת הדמויות תיהיה על ידי drag and drop.
-במחשב רגיל יהיה ניתן להזיז את הדמויות על ידי חצים במיקלדת.
-השחקן שמשחק בצד הימני של המגרש ישתמש בחיצים ובמספרים בצד המקלדת (Num Lock)
-במצב של משחק מרובה משתתפים, השחקן שמשחק בצד השמאלי של המגרש ישתמש במספרים ו WASD
-מצב תפיסה יהיה על ידי לחיצה על כפתור במסך או במיקלדת. (כדוגמה מלעיל L\E)
 
-> הדמויות נוצרו רנדומלית לצרוך המחשה על ידי האתר avatarmaker.com
+## TemporarySceneChooser-
 
-![alt text](https://github.com/Aviv-Jessie/AuthenticDodgeball/blob/main/doc/figure_5.png?raw=true)
+* This is temporary script, we will change it at the next assignment. the script is for change scene- from the tutorial to the game.
 
-### 2. מה עושים?
-
-המשחק מתחיל כאשר ישנן שתי קבוצות בשני צידי המגרש, ועל כל קבוצה לפסול את כל שחקני הקבוצה יריבה.
-* תהליך ההתחלה של המשחק- בתחילת המשחק השחקנים מקבלים כדור לאמצע המגרש, עליהם לתפוס את הכדור ראשונים ולהתחיל בזריקה לעבר הקבוצה היריבה במטרה לפסול כמה שיותר שחקנים מהקבוצה היריבה. 
-* תהליך הליבה של המשחק- על כל שחקן לתפוס את הכדור כאשר זורקים עליו, בעזרת מקש ייעודי לכך. ובהמשך לזרוק את הכדור על הקבוצה היריבה.
-* תהליך הסיום של המשחק- בכדי לנצח על השחקן לפסול את כל שחקני הקבוצה היריבה, זאת אומרת שכאשר פוסל המשתמש את שחקני כל הקבוצה היריבה- ניצח
-* מטרות שהשחקן צריך להשיג- פסילת כל שחקני היריב.
-* כאשר דמות מסויימת פוסלת דמות מהקבוצה היריבה, הדמות שנפסלה יורדת לספסל והופכת להיות שבויה של הפוסל.
-הדמות השבויה תחזור לשחק רק כאשר דמות השחקן הפוסל ייפסל בעצמו.
-
-
-במהלך המשחק הפקדים שישתמש השחקן- מקלדת. מקשי חיצים, 2 מקשים לתפיסה ולזריקה ומקשי מספרים למעבר בין השחקנים.
-
-
-תמונות אשר ממחישות את התהליכים השונים הינן תמונות של השחקנים ב3 מצבי הפעולה: 
-
-שחקן תופס 
-
-<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up3/vcitwmznwozy.png" border="0" alt="redPlayerDefender" /></a>
-
-שחקן עם כדור
-
-<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up2/gtogvun2zcwi.png" border="0" alt="redPlayerWithBall - Copy" /></a>
-
-שחקן בורח
-
-<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up3/2m1mmvznnjyt.png" border="0" alt="redPlayer" /></a>
-
-
-
-### 3. מה העצמים?
-
-
-
-האובייקטים במשחק הינם- שחקנים וכדור. השחקנים צריכים לזרוק את הכדור על שחקני הקבוצה היריבה, ולחמוק מהכדור שזורקים עליהם.
-
-החשקנים והכדור כאחד, שניהם עצמים חיוניים במשחק- ובלעדיהם לא ניתן להמשיך לשחק. השגת היעדים- ניצחון המשחק תלויה בשני עצמםים אלו.
-
-עצם לא חיובי אך מסייע לשחקן- משאב, הוא הכדורים המיוחדים שעוזרים לשחקן לפסול את הקבוצה השניה בקלות
-
-עצם ניטרלי שקיים במשחק הוא הקהל, אשר לא מועיל ולא מזיק לשחקנים.
-
-המכשולים במשחק הם גבולות הגזרה והכדור
-
-
-העצמים במשחק הינם הדמויות והכדור. אנו מצרפים תמונה של הכדור, תמונות של הדמויות נצרף בהמשך בקטגוריה דמויות.
-
-<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up1/mtzmzmnyldyk.png" border="0" alt="ball" /></a>
-
-נצרף תמונות נוספות שממחישות את סוגי הכדורים המיוחדים שניתן לקבל במהלך המשחק:
-
-כדור מתפצל:
-
-<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up2/hmozizuz0hmt.png" border="0" alt="תמונה1" /></a>
-
-כדור חזק:
-
-<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up2/ygbzn2hkrdmh.png" border="0" alt="תמונה6" /></a>
-
-כדור מהיר:
-
-<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up2/zdzvmmddmknc.png" border="0" alt="תמונה4" /></a>
-
-
-### 4. מה האפשרויות?
-
-במשחק המולטי-פלייר רמת הקושי תקבע על פי השחקנים עצמם כי הם משחק אחד נגד השני.
-במשחק הסינגל-פלייר, יהיו שלבים בהם רמת הקושי תעלה בצורה הדרגתית.
-מעצבת השלבים תוכל לשחק עם:
-* כמות הכדורים
-* כמות הדמויות
-* מהירות השחקנים של המחשב
-* רמת תפיסת הכדור של המחשב
-* רמת זריקת הכדור של המחשב
-
-
-סוגי השחקנים שכנראה ישחקו במשחק הינם השחקנים התחרותיים והספורטיבים מכיוון שזה משחק ספורט תחרותי שכל המטרה של השחקן בו היא לנצח את היריב, בין אם הוא אדם או מחשב.
-
-תמונה שתמחיש את בחירת האפשרויות במשחק הינה תמונת התפריט הראשי, שכבר הצגנו מלעיל: 
-
-![alt text](https://github.com/Aviv-Jessie/AuthenticDodgeball/blob/main/doc/figure_1.png?raw=true)
-
-
-### 5. מה העולם?
-
-
-המשחק מתרחש בסביבה סגורה, מגרש מחניים
-
-עולם המשחק הינו עולם סגור
-
-חוקי הפיסיקה במשחק הם החוקים ההגיונים לנו, כגון כוח המשיכה, חיכוך וכדומה..
-
-הגבלת פעולות השחקן תתבצע ע"י חוקי הפיסיקה כמו- לא יוכל לעבור קיר
-
-אנו מצרפים תמונה שהוספנו מלעיל, אשר ממחישה את העולם-
-
-![alt text](https://github.com/Aviv-Jessie/AuthenticDodgeball/blob/main/doc/figure_2.png?raw=true)
-
-### 6.	מה הסיפור?
-* למשחק שלנו אין סיפור רקע, הרי זהו משחק ספורט תחרותי 
-
-* עלילת המשחק הינה עלילה מתגברת אשר גרף הקושי עולה בהתאמה לרמות המשחק
-
-הקשת הדרמטית של המשחק הינה קשת עולה בצורה לינארית, כמו בתמונה:
-
-* נוסיף ונציין כי הקשת הדרמטית מתייחסת רק למשחק שחקן-מול-מחשב. כיוון שבמשחק שחקן-מול-שחקן, הקשת הדרמטית נקבעת על פי רמת השחקנים.
-
-<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up1/iy1rjbmzzkiz.png" border="0" alt="Picture1" /></a>
-
-
-### 7.	מי הדמויות?
-
-
-* הדמויות במשחק הינן דמויות אקראיות של שחקני מחניים
-* לדמויות אין תכונות מיוחדות, אין להן תפקיד מיוחד, אלא רק דמות שחקן
-* הדמויות המרכזיות במשחק הינן 2 הקבוצות, כאשר כל קבוצה מורכבת מחמישה שחקני מחניים
-* דמויות המתנגדים הינם שחקני הקבוצה היריבה ואילו ה"גיבורים" הינם שחקני קבוצת הבית 
-
-כרגע יש במשחק שלנו עד כה 2 דמויות, דמות כחולה ודמות אדומה. בהמשך נוסיף דמויות עם אנימציה שזזות. התמונות כרגע להמחשה בלבד וישתנו בהמשך. 
-
-שחקן כחול-
-
-<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up1/uvtmzhmmmmk2.png" border="0" alt="bluePlayer" /></a>
-
-שחקן אדום-
-
-<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up3/2m1mmvznnjyt.png" border="0" alt="redPlayer" /></a>
-
-
-## שלבים במשחק
-
-שלבים 1-5 המדריך של המשחק. שחקני המחשב לא יזוזו ויהיו מטרות נייחות.
-* שלב ראשון שחקן אחד בכל קבוצה. והמיקום הוא אחד מול השני. המשתמש לומד לטפוס ולזרוק את הכדור.
-* שלב שני עדיין רק שחקן אחד בכל קבוצה אבל לא אחד מול השני. המשתמש לומד להזיז את השחקן.
-* שלב שלישי יש שני שחקנים במגרש. המשתמש לומד לעבור בין השחקנים.
-* שלב רביעים יש כוחות מיוחדים. המשתמש לומד להשתמש בהם.
-* שלב חמישי כל החמישה על המגרש המטרות עדיין נייחות. המשתמש מתרגל את המשחק כמו שהוא אמור להיות.
-
-
-## סקר שוק
-
-נראה כאן משחקים דומים למשחק שלנו, כאשר חיפשנו במנועי החיפוש השונים את המילים:
-Dodgeball, Dodge ball.
-מצאנו 3 משחקים דומים לרעיון המשחק שלנו בשמות:
-
-Dodgeball
-
-Super Dodgeball
-
-Super Dodgeball Advance
-
-* צילומי מסך וקישורים:
-
-Dodgeball
-
-<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up2/zzod3dmnwtjm.jpeg" border="0" alt="WhatsApp Image 2020-12-01 at 20.21.53." /></a>
-
-https://apps.apple.com/il/app/stickman-1-on-1-dodgeball/id926245484
-
-Super Dodgeball
-
-<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up1/y3ttfe3hgnto.jpeg" border="0" alt="WhatsApp Image 2020-12-01 at 20.30.16." /></a>
-
-https://oldgameshelf.com/super-dodge-ball-1008.html
-
-Super Dodgeball Advance
-
-<a href="http://www.siz.co.il/"><img src="http://up419.siz.co.il/up2/zzdmmngm0fkw.jpeg" border="0" alt="WhatsApp Image 2020-12-01 at 20.26.38." /></a>
-
-https://arcadespot.com/game/super-dodgeball-advance/
-
-* בכדי שהמשחק שלנו יהיה שונה מקורי וטוב יותר ממשחקים אלו, ניצור במשחק אפשרות לכדורים מיוחדים כגון- 
-
-כדורים מתפצלים, כדורים שנזרקים יותר מהר וכדומה..
-
-שחקנים יעדיפו לשחק את המשחק שלנו ולא את משחקי היריבים מכיוון שאצלנו יש אפשרות למשחק מרובה משתתפים- שחקן נגד שחקן, ביחד על אותה מקלדת. מה שנותן אפשרות לשחק עם חבר ביחד.
-
-בנוסף במשחק שלנו כמות הדמויות הינם 5על5 בעוד שבשאר המשחקים ניתן לשחק רק 1על1
-
-במשחק שלנו יהיו Achievements
-שאין במשחקים אחרים, מה שיגרום לשחקן לרצות לשחק עוד ועוד בכדי לאסוף ולקבל את כל ההשגים.
-
-</div>
