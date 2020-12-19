@@ -7,6 +7,7 @@ public class CharacterSpawnerBall : MonoBehaviour
     [SerializeField] protected KeyCode keyToPress;
     [SerializeField] protected GameObject prefabToSpawn;
     [SerializeField] protected Vector3 velocityOfSpawnedObject;
+    [SerializeField] protected float linearDrag = 1f;
     [SerializeField] Transform spawnPosition = null;
     protected ForceMode2D forceMode = ForceMode2D.Impulse;
     private Rigidbody2D rb;
@@ -21,6 +22,7 @@ public class CharacterSpawnerBall : MonoBehaviour
         // we need to make here RigidBody that changes the Velocity of 
         rb = newObject.GetComponent<Rigidbody2D>();
         rb.AddForce(velocityOfSpawnedObject, forceMode);
+        rb.drag = linearDrag;
 
         return newObject;
     }
