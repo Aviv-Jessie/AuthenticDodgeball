@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 /*
  * This is temporary script, we will change it at the next assignment.
- * the script is for the change scene- from the tutorial to the game.
+ * the script is for change scene- from the tutorial to the game.
  */
 
 public class TemporarySceneChooser : MonoBehaviour{

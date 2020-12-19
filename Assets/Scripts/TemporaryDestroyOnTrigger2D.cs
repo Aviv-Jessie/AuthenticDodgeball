@@ -8,7 +8,7 @@ using UnityEngine;
  */
 public class TemporaryDestroyOnTrigger2D : MonoBehaviour
 {
-        [Tooltip("Every object tagged with this tag will trigger the destruction of this object")]
+    [Tooltip("Every object tagged with this tag will trigger the destruction of this object")]
     [SerializeField] string triggeringTag = "Player";
     [Tooltip("destroy self gameObject")]
     [SerializeField] bool destroyMySelf = false;

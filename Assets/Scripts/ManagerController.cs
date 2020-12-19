@@ -19,7 +19,7 @@ public class CharacterUnit
 
 
 /*
- * This class represents the game manager controller, this script manage the player characters.
+ * This class represents the game manager controller, this script manage the player characters,
  * update the current character and enable them to move.
  */
 public class ManagerController : MonoBehaviour
