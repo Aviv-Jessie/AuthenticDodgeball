@@ -4,6 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+/*
+ * This is temporary script, we will change it at the next assignment.
+ * the script is for the change scene- from the tutorial to the game.
+ */
+
 public class TemporarySceneChooser : MonoBehaviour{
     //https://docs.unity3d.com/2018.3/Documentation/ScriptReference/UI.Button-onClick.html
     public Button StartGame;

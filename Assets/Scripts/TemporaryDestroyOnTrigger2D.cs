@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * This is temporary script, we will change it at the next assignment.
+ * this script is for the trigger touch destories
+ */
 public class TemporaryDestroyOnTrigger2D : MonoBehaviour
 {
         [Tooltip("Every object tagged with this tag will trigger the destruction of this object")]

@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * this class represents the modes of the characters.
+ * temporary we use a images, at the next assignment we will change it to animations.
+ */
+
+
 [RequireComponent(typeof(CharacterSpawnerBall))]
 public class CharacterModeSwitcher : MonoBehaviour
 {

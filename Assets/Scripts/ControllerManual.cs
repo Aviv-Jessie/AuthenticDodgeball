@@ -2,12 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ *  this class is controller to the manual player, (not the auto player- the computer).
+ */
+
 public class ControllerManual : MonoBehaviour
 {
     enum Mod{throwBall,defendBall}
-    [Tooltip("player in the team")]
+    [Tooltip("players in the team")]
     [SerializeField] CharacterModeSwitcher[] characterModeSwitchers = null;
-    [Tooltip("key to catch ")]
+    [Tooltip("key to catch a ball")]
     [SerializeField] KeyCode keyCode = KeyCode.P;
     [Tooltip("SwitchToWithoutBallPlayer if we in throw mode and SwitchToDefenderPlayer if we on Defend mode ")]
     [SerializeField] Mod mod = Mod.throwBall;
@@ -20,6 +24,7 @@ public class ControllerManual : MonoBehaviour
         }
     }
     // Update is called once per frame
+    // check the current mode and switch to the other if the player is enable.
     void Update()
     {
         if(Input.GetKeyDown(keyCode))
