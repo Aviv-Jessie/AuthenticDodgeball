@@ -502,7 +502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bd7440e9a1b5f3478aac863602584de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 4
+  Speed: 7
   left: 97
   right: 100
   up: 119
@@ -558,7 +558,7 @@ MonoBehaviour:
   keyToPress: 0
   prefabToSpawn: {fileID: 5507618341651535256, guid: 6e07708db0099f543b06c2e458eba03f,
     type: 3}
-  velocityOfSpawnedObject: {x: 5, y: 0, z: 0}
+  velocityOfSpawnedObject: {x: 8, y: 0, z: 0}
   linearDrag: 1
   spawnPosition: {fileID: 1189824392}
 --- !u!212 &334331160
@@ -839,7 +839,7 @@ MonoBehaviour:
   keyToPress: 0
   prefabToSpawn: {fileID: 5507618341651535256, guid: 6e07708db0099f543b06c2e458eba03f,
     type: 3}
-  velocityOfSpawnedObject: {x: -5, y: 0, z: 0}
+  velocityOfSpawnedObject: {x: -8, y: 0, z: 0}
   linearDrag: 1
   spawnPosition: {fileID: 130048155}
 --- !u!114 &355627125
@@ -854,7 +854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bd7440e9a1b5f3478aac863602584de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 4
+  Speed: 7
   left: 276
   right: 275
   up: 273
@@ -1659,7 +1659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bd7440e9a1b5f3478aac863602584de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 4
+  Speed: 7
   left: 97
   right: 100
   up: 119
@@ -1715,7 +1715,7 @@ MonoBehaviour:
   keyToPress: 0
   prefabToSpawn: {fileID: 5507618341651535256, guid: 6e07708db0099f543b06c2e458eba03f,
     type: 3}
-  velocityOfSpawnedObject: {x: 5, y: 0, z: 0}
+  velocityOfSpawnedObject: {x: 8, y: 0, z: 0}
   linearDrag: 1
   spawnPosition: {fileID: 1193857779}
 --- !u!212 &783081117
@@ -3752,7 +3752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bd7440e9a1b5f3478aac863602584de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 4
+  Speed: 7
   left: 97
   right: 100
   up: 119
@@ -3808,7 +3808,7 @@ MonoBehaviour:
   keyToPress: 0
   prefabToSpawn: {fileID: 5507618341651535256, guid: 6e07708db0099f543b06c2e458eba03f,
     type: 3}
-  velocityOfSpawnedObject: {x: 5, y: 0, z: 0}
+  velocityOfSpawnedObject: {x: 8, y: 0, z: 0}
   linearDrag: 1
   spawnPosition: {fileID: 1807796149}
 --- !u!212 &1299869018
@@ -3911,7 +3911,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bd7440e9a1b5f3478aac863602584de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 4
+  Speed: 7
   left: 97
   right: 100
   up: 119
@@ -3967,7 +3967,7 @@ MonoBehaviour:
   keyToPress: 0
   prefabToSpawn: {fileID: 5507618341651535256, guid: 6e07708db0099f543b06c2e458eba03f,
     type: 3}
-  velocityOfSpawnedObject: {x: 5, y: 0, z: 0}
+  velocityOfSpawnedObject: {x: 8, y: 0, z: 0}
   linearDrag: 1
   spawnPosition: {fileID: 293974964}
 --- !u!212 &1343483830
@@ -4105,7 +4105,7 @@ MonoBehaviour:
   keyToPress: 0
   prefabToSpawn: {fileID: 5507618341651535256, guid: 6e07708db0099f543b06c2e458eba03f,
     type: 3}
-  velocityOfSpawnedObject: {x: -5, y: 0, z: 0}
+  velocityOfSpawnedObject: {x: -8, y: 0, z: 0}
   linearDrag: 1
   spawnPosition: {fileID: 1871421379}
 --- !u!114 &1418843660
@@ -4120,7 +4120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bd7440e9a1b5f3478aac863602584de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 4
+  Speed: 7
   left: 276
   right: 275
   up: 273
@@ -4984,7 +4984,7 @@ MonoBehaviour:
   keyToPress: 0
   prefabToSpawn: {fileID: 5507618341651535256, guid: 6e07708db0099f543b06c2e458eba03f,
     type: 3}
-  velocityOfSpawnedObject: {x: -5, y: 0, z: 0}
+  velocityOfSpawnedObject: {x: -8, y: 0, z: 0}
   linearDrag: 1
   spawnPosition: {fileID: 1650175015}
 --- !u!114 &1911971407
@@ -4999,7 +4999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bd7440e9a1b5f3478aac863602584de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 4
+  Speed: 7
   left: 276
   right: 275
   up: 273
@@ -5140,7 +5140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bd7440e9a1b5f3478aac863602584de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 4
+  Speed: 7
   left: 97
   right: 100
   up: 119
@@ -5196,7 +5196,7 @@ MonoBehaviour:
   keyToPress: 0
   prefabToSpawn: {fileID: 5507618341651535256, guid: 6e07708db0099f543b06c2e458eba03f,
     type: 3}
-  velocityOfSpawnedObject: {x: 5, y: 0, z: 0}
+  velocityOfSpawnedObject: {x: 8, y: 0, z: 0}
   linearDrag: 1
   spawnPosition: {fileID: 771437930}
 --- !u!212 &1927848665
@@ -5483,7 +5483,7 @@ MonoBehaviour:
   keyToPress: 0
   prefabToSpawn: {fileID: 5507618341651535256, guid: 6e07708db0099f543b06c2e458eba03f,
     type: 3}
-  velocityOfSpawnedObject: {x: -5, y: 0, z: 0}
+  velocityOfSpawnedObject: {x: -8, y: 0, z: 0}
   linearDrag: 1
   spawnPosition: {fileID: 1010862880}
 --- !u!114 &2039863261
@@ -5498,7 +5498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bd7440e9a1b5f3478aac863602584de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 4
+  Speed: 7
   left: 276
   right: 275
   up: 273
@@ -5706,7 +5706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bd7440e9a1b5f3478aac863602584de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 4
+  Speed: 7
   left: 276
   right: 275
   up: 273
@@ -5726,7 +5726,7 @@ MonoBehaviour:
   keyToPress: 0
   prefabToSpawn: {fileID: 5507618341651535256, guid: 6e07708db0099f543b06c2e458eba03f,
     type: 3}
-  velocityOfSpawnedObject: {x: -5, y: 0, z: 0}
+  velocityOfSpawnedObject: {x: -8, y: 0, z: 0}
   linearDrag: 1
   spawnPosition: {fileID: 1296673945}
 --- !u!114 &2051225632
