@@ -20,20 +20,30 @@ public class CharacterManualMover: MonoBehaviour {
     [SerializeField] KeyCode down = KeyCode.DownArrow;
 
 
+    public float rightWall = 6.0f;
+    public float leftWall = -6.0f;
+    public float topWall = 4.0f;
+    public float bottomWall =-4.0f;
+
+
 
     void Update() {              
         Vector3 pos = transform.position;
-
-        if (Input.GetKey(up)){
+        
+        if (Input.GetKey(up) && pos.y <= topWall)
+        {
             pos.y += Speed * Time.deltaTime;
         }
-        if (Input.GetKey(down)){
+        if (Input.GetKey(down) && pos.y >= bottomWall)
+        {
             pos.y -= Speed * Time.deltaTime;
         }
-        if (Input.GetKey(right)){
+        if (Input.GetKey(right) && pos.x <= rightWall)
+        {
             pos.x += Speed * Time.deltaTime;
         }
-        if (Input.GetKey(left)){
+        if (Input.GetKey(left) && pos.x >= leftWall)
+        {
             pos.x -= Speed * Time.deltaTime;
         }
 

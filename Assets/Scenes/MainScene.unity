@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 32953653}
   - component: {fileID: 32953652}
   - component: {fileID: 32953651}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -337,6 +337,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 796754189}
+  - {fileID: 1535450099}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -349,7 +350,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 130048155}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -379,7 +380,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 293974964}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -483,7 +484,7 @@ GameObject:
   - component: {fileID: 334331159}
   - component: {fileID: 334331158}
   - component: {fileID: 334331157}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlayerRed3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -507,6 +508,10 @@ MonoBehaviour:
   right: 100
   up: 119
   down: 115
+  rightWall: -0.25
+  leftWall: -6
+  topWall: 4
+  bottomWall: -4
 --- !u!70 &334331157
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -543,6 +548,7 @@ MonoBehaviour:
     type: 3}
   timeToWait: 1
   ballTag: ball
+  ballVelocity: 1
 --- !u!114 &334331159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -640,7 +646,7 @@ GameObject:
   - component: {fileID: 335092518}
   - component: {fileID: 335092517}
   - component: {fileID: 335092516}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -685,7 +691,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 4
+  m_text: '5
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -817,7 +825,7 @@ GameObject:
   - component: {fileID: 355627124}
   - component: {fileID: 355627128}
   - component: {fileID: 355627129}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlayerBlue2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -849,7 +857,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 355627123}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bd7440e9a1b5f3478aac863602584de, type: 3}
   m_Name: 
@@ -859,6 +867,10 @@ MonoBehaviour:
   right: 275
   up: 273
   down: 274
+  rightWall: 6
+  leftWall: 0.25
+  topWall: 4
+  bottomWall: -4
 --- !u!212 &355627126
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -946,6 +958,7 @@ MonoBehaviour:
     type: 3}
   timeToWait: 1
   ballTag: ball
+  ballVelocity: 1
 --- !u!70 &355627129
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1192,7 +1205,7 @@ GameObject:
   - component: {fileID: 624519761}
   - component: {fileID: 624519760}
   - component: {fileID: 624519759}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1433,7 +1446,7 @@ GameObject:
   - component: {fileID: 666782660}
   - component: {fileID: 666782659}
   - component: {fileID: 666782658}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1605,7 +1618,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 771437930}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1640,7 +1653,7 @@ GameObject:
   - component: {fileID: 783081116}
   - component: {fileID: 783081115}
   - component: {fileID: 783081114}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlayerRed2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1664,6 +1677,10 @@ MonoBehaviour:
   right: 100
   up: 119
   down: 115
+  rightWall: -0.25
+  leftWall: -6
+  topWall: 4
+  bottomWall: -4
 --- !u!70 &783081114
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1700,6 +1717,7 @@ MonoBehaviour:
     type: 3}
   timeToWait: 1
   ballTag: ball
+  ballVelocity: 1
 --- !u!114 &783081116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1796,7 +1814,8 @@ GameObject:
   - component: {fileID: 796754189}
   - component: {fileID: 796754191}
   - component: {fileID: 796754190}
-  m_Layer: 0
+  - component: {fileID: 796754192}
+  m_Layer: 9
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3247,6 +3266,27 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!68 &796754192
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796754188}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -7.5018992, y: 3.9438195}
+  - {x: 5.8716073, y: 3.933599}
+  - {x: 5.856711, y: -4.8713245}
+  - {x: -6.9114976, y: -4.864709}
+  - {x: -6.8750257, y: 3.9393935}
 --- !u!1 &986319785
 GameObject:
   m_ObjectHideFlags: 0
@@ -3259,7 +3299,7 @@ GameObject:
   - component: {fileID: 986319789}
   - component: {fileID: 986319788}
   - component: {fileID: 986319787}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3436,7 +3476,7 @@ GameObject:
   - component: {fileID: 1009862854}
   - component: {fileID: 1009862853}
   - component: {fileID: 1009862852}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3608,7 +3648,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1010862880}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3638,7 +3678,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1189824392}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3668,7 +3708,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1193857779}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3698,7 +3738,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1296673945}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3733,7 +3773,7 @@ GameObject:
   - component: {fileID: 1299869017}
   - component: {fileID: 1299869016}
   - component: {fileID: 1299869015}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlayerRed4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3757,6 +3797,10 @@ MonoBehaviour:
   right: 100
   up: 119
   down: 115
+  rightWall: -0.25
+  leftWall: -6
+  topWall: 4
+  bottomWall: -4
 --- !u!70 &1299869015
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3793,6 +3837,7 @@ MonoBehaviour:
     type: 3}
   timeToWait: 1
   ballTag: ball
+  ballVelocity: 1
 --- !u!114 &1299869017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3892,7 +3937,7 @@ GameObject:
   - component: {fileID: 1343483829}
   - component: {fileID: 1343483828}
   - component: {fileID: 1343483827}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlayerRed1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3916,6 +3961,10 @@ MonoBehaviour:
   right: 100
   up: 119
   down: 115
+  rightWall: -0.25
+  leftWall: -6
+  topWall: 4
+  bottomWall: -4
 --- !u!70 &1343483827
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3952,6 +4001,7 @@ MonoBehaviour:
     type: 3}
   timeToWait: 1
   ballTag: ball
+  ballVelocity: 1
 --- !u!114 &1343483829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4083,7 +4133,7 @@ GameObject:
   - component: {fileID: 1418843659}
   - component: {fileID: 1418843663}
   - component: {fileID: 1418843664}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlayerBlue3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4115,7 +4165,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1418843658}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bd7440e9a1b5f3478aac863602584de, type: 3}
   m_Name: 
@@ -4125,6 +4175,10 @@ MonoBehaviour:
   right: 275
   up: 273
   down: 274
+  rightWall: 6
+  leftWall: 0.25
+  topWall: 4
+  bottomWall: -4
 --- !u!212 &1418843661
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4212,6 +4266,7 @@ MonoBehaviour:
     type: 3}
   timeToWait: 1
   ballTag: ball
+  ballVelocity: 1
 --- !u!70 &1418843664
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -4240,7 +4295,7 @@ GameObject:
   - component: {fileID: 1510996955}
   - component: {fileID: 1510996954}
   - component: {fileID: 1510996953}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4415,7 +4470,7 @@ GameObject:
   - component: {fileID: 1524768502}
   - component: {fileID: 1524768501}
   - component: {fileID: 1524768500}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4578,6 +4633,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1524768498}
   m_CullTransparentMesh: 0
+--- !u!1 &1535450098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1535450099}
+  - component: {fileID: 1535450100}
+  m_Layer: 9
+  m_Name: CenterLine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1535450099
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535450098}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.1575012, y: -0.030318916, z: -0.3217707}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 65494445}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1535450100
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535450098}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.7002157, y: 4.188461}
+  - {x: 0.68939114, y: -5.1345434}
 --- !u!1 &1650175014
 GameObject:
   m_ObjectHideFlags: 0
@@ -4587,7 +4691,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1650175015}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4720,7 +4824,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807796149}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4750,7 +4854,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1871421379}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4783,7 +4887,7 @@ GameObject:
   - component: {fileID: 1899997614}
   - component: {fileID: 1899997613}
   - component: {fileID: 1899997612}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4962,7 +5066,7 @@ GameObject:
   - component: {fileID: 1911971406}
   - component: {fileID: 1911971410}
   - component: {fileID: 1911971411}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlayerBlue4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4994,7 +5098,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1911971405}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bd7440e9a1b5f3478aac863602584de, type: 3}
   m_Name: 
@@ -5004,6 +5108,10 @@ MonoBehaviour:
   right: 275
   up: 273
   down: 274
+  rightWall: 6
+  leftWall: 0.25
+  topWall: 4
+  bottomWall: -4
 --- !u!212 &1911971408
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5091,6 +5199,7 @@ MonoBehaviour:
     type: 3}
   timeToWait: 1
   ballTag: ball
+  ballVelocity: 1
 --- !u!70 &1911971411
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5121,7 +5230,7 @@ GameObject:
   - component: {fileID: 1927848664}
   - component: {fileID: 1927848663}
   - component: {fileID: 1927848662}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlayerRed5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5145,6 +5254,10 @@ MonoBehaviour:
   right: 100
   up: 119
   down: 115
+  rightWall: -0.25
+  leftWall: -6
+  topWall: 4
+  bottomWall: -4
 --- !u!70 &1927848662
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5181,6 +5294,7 @@ MonoBehaviour:
     type: 3}
   timeToWait: 1
   ballTag: ball
+  ballVelocity: 1
 --- !u!114 &1927848664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5461,7 +5575,7 @@ GameObject:
   - component: {fileID: 2039863260}
   - component: {fileID: 2039863264}
   - component: {fileID: 2039863265}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlayerBlue5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5493,7 +5607,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039863259}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bd7440e9a1b5f3478aac863602584de, type: 3}
   m_Name: 
@@ -5503,6 +5617,10 @@ MonoBehaviour:
   right: 275
   up: 273
   down: 274
+  rightWall: 6
+  leftWall: 0.25
+  topWall: 4
+  bottomWall: -4
 --- !u!212 &2039863262
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5590,6 +5708,7 @@ MonoBehaviour:
     type: 3}
   timeToWait: 1
   ballTag: ball
+  ballVelocity: 1
 --- !u!70 &2039863265
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5620,7 +5739,7 @@ GameObject:
   - component: {fileID: 2051225631}
   - component: {fileID: 2051225632}
   - component: {fileID: 2051225633}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlayerBlue1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5701,7 +5820,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051225627}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bd7440e9a1b5f3478aac863602584de, type: 3}
   m_Name: 
@@ -5711,6 +5830,10 @@ MonoBehaviour:
   right: 275
   up: 273
   down: 274
+  rightWall: 6
+  leftWall: 0.25
+  topWall: 4
+  bottomWall: -4
 --- !u!114 &2051225631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5749,6 +5872,7 @@ MonoBehaviour:
     type: 3}
   timeToWait: 1
   ballTag: ball
+  ballVelocity: 1
 --- !u!70 &2051225633
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5880,7 +6004,7 @@ GameObject:
   - component: {fileID: 2083270499}
   - component: {fileID: 2083270498}
   - component: {fileID: 2083270497}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}

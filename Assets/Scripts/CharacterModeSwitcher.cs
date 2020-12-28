@@ -21,7 +21,8 @@ public class CharacterModeSwitcher : MonoBehaviour
     [SerializeField] float timeToWait = 1f;
     [Tooltip("to trigger with ball")]
     [SerializeField] string ballTag = "ball";
-
+    [Tooltip("balls velocity to disqualification")]
+    [SerializeField] float ballVelocity = 1.0f;
 
     private SpriteRenderer show;
     public enum PlayerMode {withBall,withoutBall,defender};
@@ -57,7 +58,7 @@ public class CharacterModeSwitcher : MonoBehaviour
             show.sprite = spriteWithBall;
             Destroy(ball);
         }else{
-            disqualification();
+            disqualification(ball);
         }
     }
 
@@ -77,9 +78,20 @@ public class CharacterModeSwitcher : MonoBehaviour
             SwitchToWithBallPlayer(other.gameObject);
         }
     }
-    public void disqualification(){    
-        this.gameObject.SetActive(false);
-        //Destroy(this.gameObject);
+    public void disqualification(GameObject ball){
+        Rigidbody2D ballBody = ball.GetComponent<Rigidbody2D>();
+        // if the ball moving very slow- the player will not disqualification.
+        // if the ball moving fast- meanig bigger then "ballVelocity"- disqualification.
+        if (ballBody.velocity.x >= ballVelocity || ballBody.velocity.y >= ballVelocity || ballBody.velocity.x <= -ballVelocity || ballBody.velocity.y <= -ballVelocity)
+        {
+            this.gameObject.SetActive(false);
+        }
+        else
+        {
+            // the player is go and take automatically the ball
+            SwitchToDefenderPlayer();
+            SwitchToWithBallPlayer(ball);
+        }
     }
 
 
