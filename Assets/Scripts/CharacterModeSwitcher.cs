@@ -14,6 +14,7 @@ public class CharacterModeSwitcher : MonoBehaviour
     [Tooltip("set the time to defend")]
     [SerializeField] float timeToWait = 1f;
 
+    // animator
     private Animator m_Animator;
     private bool haveBall;
     void Start()
@@ -25,6 +26,7 @@ public class CharacterModeSwitcher : MonoBehaviour
 
     public void Defender()
     {
+        // change to catch animation and wait the timer.
         m_Animator.SetTrigger("Catch");
         StartCoroutine(DefenderTimr());
 
@@ -32,9 +34,11 @@ public class CharacterModeSwitcher : MonoBehaviour
     //call when ControllerManual thrown.
     public void Thrown()
     {
+        // if the player is on chatch mode-
         CharacterCatcher characterCatcher = GetComponentInChildren<CharacterCatcher>();
         if(characterCatcher)//Component exist
         {
+            // throw..
             bool ballThrownSuccess = characterCatcher.Thrown();
             if(ballThrownSuccess)
                   m_Animator.SetTrigger("Thrown");
@@ -42,6 +46,7 @@ public class CharacterModeSwitcher : MonoBehaviour
     }
     private IEnumerator DefenderTimr()
     {
+        // the timer for the defender mode. (catch)
         yield return new WaitForSeconds(timeToWait);
         if (!haveBall)
             m_Animator.SetTrigger("Thrown");

@@ -18,7 +18,6 @@ public class TemporaryDestroyOnTrigger2D : MonoBehaviour
         if (other.tag == triggeringTag) {
             if(destroyMySelf)
                 Destroy(this.gameObject);
-            //Destroy(other.gameObject); Temporary bed code.
         }
     }
 }

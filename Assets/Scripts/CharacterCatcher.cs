@@ -23,14 +23,12 @@ public class CharacterCatcher : MonoBehaviour
         {
             Debug.Log("catch ball______");
             ball = other.gameObject;
-            //CircleCollider2D circleCollider2D = ball.GetComponent<CircleCollider2D>();
-            //circleCollider2D.enabled = false;
             Rigidbody2D rd = ball.GetComponent<Rigidbody2D>();
-            rd.isKinematic = true;
-            rd.velocity = Vector3.zero;
-            ball.transform.parent = transform.parent;
-            characterModeSwitcher.setHaveBall(true);
-            //ball.transform.position = this.transform.position;
+            rd.isKinematic = true;                                  // change to kinematic to disable the pyshics.
+            rd.velocity = Vector3.zero;                             // ball stops to move..
+            ball.transform.parent = transform.parent;               // the ball will be the child of the player
+            characterModeSwitcher.setHaveBall(true);                // setter to the haveBall
+            ball.transform.position = this.transform.position;      // ball stay with the player position..
         }
 
     }
@@ -43,29 +41,23 @@ public class CharacterCatcher : MonoBehaviour
         {
             Debug.Log("Thrown ball______");
             characterModeSwitcher.setHaveBall(false);
-
             Rigidbody2D rb = ball.GetComponent<Rigidbody2D>();
-            rb.isKinematic = false;
-
-            ball.transform.SetParent(null);
-
-            Transform player = transform.parent;
-            Vector3 velocity = this.transform.position - player.position;
-            float distance = Vector3.Distance(transform.position, player.position);
-            velocity = velocity / distance;
-            velocity = velocity * speedThrown;
-
-            //CircleCollider2D circleCollider2D = ball.GetComponent<CircleCollider2D>();
-            //circleCollider2D.enabled = true;
-
-            rb.AddForce(velocity, forceMode);
+            rb.isKinematic = false;                             // return the pyshics rules..
+            ball.transform.SetParent(null);                     // the ball no the playuer's child- the ball by his own..
+            // here we calculate the ball's velocity for the throw.
+            Transform playerTransform = transform.parent;       // to calculate the velocity of the trown ball
+            Vector3 velocity = this.transform.position - playerTransform.position;  // the calc..
+            float distance = Vector3.Distance(transform.position, playerTransform.position);    // distance calc
+            velocity = velocity / distance; // normalize
+            velocity = velocity * speedThrown;  // normalize = 1, we need to * speed of the throw..
+            rb.AddForce(velocity, forceMode);   // add force to move the ball
             rb.drag = linearDrag;
 
             ball = null;
-            return true;
+            return true;    // return true if thrown
         }
         else
-            return false;
+            return false;   // do not thrown..
 
     }
 

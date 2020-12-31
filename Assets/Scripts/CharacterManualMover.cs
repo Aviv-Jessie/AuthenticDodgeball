@@ -20,7 +20,7 @@ public class CharacterManualMover: MonoBehaviour {
     [Tooltip("ket to move down")]
     [SerializeField] KeyCode down = KeyCode.DownArrow;
 
-
+    // the yard size
     public float rightWall = 6.0f;
     public float leftWall = -6.0f;
     public float topWall = 4.0f;
@@ -34,8 +34,10 @@ public class CharacterManualMover: MonoBehaviour {
     }
 
 
-    void Update() {              
+    void Update() {             
+        // position vector
         Vector3 pos = transform.position;
+        // how many add to the position?
         Vector3 adder = Vector3.zero;
         
         if (Input.GetKey(up) && pos.y <= topWall)
@@ -59,6 +61,7 @@ public class CharacterManualMover: MonoBehaviour {
         
         //calculateAngle
         if(adder.x != 0 || adder.y != 0)
+            // Quaternion = for rotating players on its axis
             transform.rotation = Quaternion.Euler(0,0,calculateAngle(adder));
 
         //walk animation
@@ -69,6 +72,7 @@ public class CharacterManualMover: MonoBehaviour {
             m_Animator.SetTrigger("StopWalk");
      }
 
+    // method that calculate the rotate angle.
      private float calculateAngle(Vector3 adder)
      {
         if(adder.x != 0 && adder.y == 0)

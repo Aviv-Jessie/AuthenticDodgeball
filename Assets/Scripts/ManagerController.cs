@@ -36,12 +36,14 @@ public class ManagerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // check which character to move
          for (int i = 0; i < characterUnits.Length; i++)
             if(Input.GetKeyDown(characterUnits[i].key))
                 enableOneCharacter(i);
     }
 
     private void enableOneCharacter(int index){
+        // enabling one character at the time.
         for (int i = 0; i < characterUnits.Length; i++)
             if(i == index)
                 characterUnits[i].moverComponet.enabled = true;

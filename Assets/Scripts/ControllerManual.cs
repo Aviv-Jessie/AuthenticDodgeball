@@ -29,7 +29,7 @@ public class ControllerManual : MonoBehaviour
     {
         if(Input.GetKeyDown(keyCode))
             foreach(CharacterModeSwitcher character in characterModeSwitchers)
-                if(character.gameObject.activeSelf)
+                if(character.gameObject.activeSelf)             // if the character is exist - gameobject active..
                     if(mod == Mod.throwBall)
                         character.Thrown();
                     else//mod == Mod.defendBall
