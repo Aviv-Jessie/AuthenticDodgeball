@@ -31,9 +31,9 @@ public class ControllerManual : MonoBehaviour
             foreach(CharacterModeSwitcher character in characterModeSwitchers)
                 if(character.gameObject.activeSelf)
                     if(mod == Mod.throwBall)
-                        character.SwitchToWithoutBallPlayer();
-                    else
-                        character.SwitchToDefenderPlayer();
+                        character.Thrown();
+                    else//mod == Mod.defendBall
+                        character.Defender();
         
     }
 }

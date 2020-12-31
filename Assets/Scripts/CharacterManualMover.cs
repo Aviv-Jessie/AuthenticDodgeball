@@ -6,6 +6,7 @@ using UnityEngine;
 /**
  * This component moves its object when the player clicks the arrow keys.
  */
+ [RequireComponent(typeof(Animator))]
 public class CharacterManualMover: MonoBehaviour {
 
     [Tooltip("Speed of movement, in meters per second")]
@@ -25,29 +26,59 @@ public class CharacterManualMover: MonoBehaviour {
     public float topWall = 4.0f;
     public float bottomWall =-4.0f;
 
+    private Animator m_Animator;
+
+    void Start()
+    {         
+        m_Animator = gameObject.GetComponent<Animator>();
+    }
 
 
     void Update() {              
         Vector3 pos = transform.position;
+        Vector3 adder = Vector3.zero;
         
         if (Input.GetKey(up) && pos.y <= topWall)
         {
-            pos.y += Speed * Time.deltaTime;
+            adder.y += Speed * Time.deltaTime;            
         }
         if (Input.GetKey(down) && pos.y >= bottomWall)
         {
-            pos.y -= Speed * Time.deltaTime;
+            adder.y -= Speed * Time.deltaTime;
         }
         if (Input.GetKey(right) && pos.x <= rightWall)
         {
-            pos.x += Speed * Time.deltaTime;
+            adder.x += Speed * Time.deltaTime;
         }
         if (Input.GetKey(left) && pos.x >= leftWall)
         {
-            pos.x -= Speed * Time.deltaTime;
+            adder.x -= Speed * Time.deltaTime;
         }
 
+        transform.position += adder;
+        
+        //calculateAngle
+        if(adder.x != 0 || adder.y != 0)
+            transform.rotation = Quaternion.Euler(0,0,calculateAngle(adder));
 
-        transform.position = pos;
+        //walk animation
+        if(Input.GetKeyDown(up) || Input.GetKeyDown(down) || Input.GetKeyDown(left) || Input.GetKeyDown(right))
+            m_Animator.SetTrigger("StartWalk");
+
+        if(Input.GetKeyUp(up) || Input.GetKeyUp(down) || Input.GetKeyUp(left) || Input.GetKeyUp(right))
+            m_Animator.SetTrigger("StopWalk");
+     }
+
+     private float calculateAngle(Vector3 adder)
+     {
+        if(adder.x != 0 && adder.y == 0)
+            return adder.x > 0 ? 0 : 180;
+        else if(adder.x == 0 && adder.y != 0)
+            return adder.y > 0 ? 90 : 270;
+        else //adder.x != 0 && adder.y != 0)
+            if(adder.x > 0)
+                return adder.y>0 ? 45 : 315;
+            else//x < 0
+                return adder.y>0 ? 135 : 225;
      }
 }

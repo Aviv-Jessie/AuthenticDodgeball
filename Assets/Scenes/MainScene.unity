@@ -196,7 +196,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2051225629}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -29.968697}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &87738994
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -574,7 +574,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &334331156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -624,15 +624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d0d5ee890d44b4e8e40607b2657887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteWithBall: {fileID: -3691462189956410642, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteWithoutBall: {fileID: 2003885465509361429, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteDefender: {fileID: 1095873731628908417, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
   timeToWait: 1
-  ballTag: ball
-  ballVelocity: 1
 --- !u!114 &334331159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -728,6 +720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 342280004}
   - component: {fileID: 342280005}
+  - component: {fileID: 342280006}
   m_Layer: 9
   m_Name: catcher
   m_TagString: Untagged
@@ -775,6 +768,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &342280006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342280003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf76cc5e1ff8fe4fb14aaa0e2533ea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballTag: ball
+  speedThrown: 8
+  linearDrag: 1
 --- !u!1 &355627123
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,7 +803,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &355627124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -914,15 +922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d0d5ee890d44b4e8e40607b2657887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteWithBall: {fileID: -1020292330531004552, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteWithoutBall: {fileID: -3255117911446142979, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteDefender: {fileID: -1353958943040661357, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
   timeToWait: 1
-  ballTag: ball
-  ballVelocity: 1
 --- !u!70 &355627129
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1798,7 +1798,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &783081113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1848,15 +1848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d0d5ee890d44b4e8e40607b2657887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteWithBall: {fileID: -3691462189956410642, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteWithoutBall: {fileID: 2003885465509361429, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteDefender: {fileID: 1095873731628908417, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
   timeToWait: 1
-  ballTag: ball
-  ballVelocity: 1
 --- !u!114 &783081116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3898,7 +3890,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2051225629}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 29.968697}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1209450384
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4082,7 +4074,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1299869014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4132,15 +4124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d0d5ee890d44b4e8e40607b2657887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteWithBall: {fileID: -3691462189956410642, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteWithoutBall: {fileID: 2003885465509361429, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteDefender: {fileID: 1095873731628908417, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
   timeToWait: 1
-  ballTag: ball
-  ballVelocity: 1
 --- !u!114 &1299869017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4246,7 +4230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1343483826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4296,15 +4280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d0d5ee890d44b4e8e40607b2657887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteWithBall: {fileID: -3691462189956410642, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteWithoutBall: {fileID: 2003885465509361429, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteDefender: {fileID: 1095873731628908417, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
   timeToWait: 1
-  ballTag: ball
-  ballVelocity: 1
 --- !u!114 &1343483829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4617,7 +4593,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1418843659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4736,15 +4712,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d0d5ee890d44b4e8e40607b2657887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteWithBall: {fileID: -1020292330531004552, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteWithoutBall: {fileID: -3255117911446142979, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteDefender: {fileID: -1353958943040661357, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
   timeToWait: 1
-  ballTag: ball
-  ballVelocity: 1
 --- !u!70 &1418843664
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5375,7 +5343,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1911971406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5494,15 +5462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d0d5ee890d44b4e8e40607b2657887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteWithBall: {fileID: -1020292330531004552, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteWithoutBall: {fileID: -3255117911446142979, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteDefender: {fileID: -1353958943040661357, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
   timeToWait: 1
-  ballTag: ball
-  ballVelocity: 1
 --- !u!70 &1911971411
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5539,7 +5499,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1927848661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5589,15 +5549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d0d5ee890d44b4e8e40607b2657887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteWithBall: {fileID: -3691462189956410642, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteWithoutBall: {fileID: 2003885465509361429, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteDefender: {fileID: 1095873731628908417, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
   timeToWait: 1
-  ballTag: ball
-  ballVelocity: 1
 --- !u!114 &1927848664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5966,7 +5918,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2039863260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6085,15 +6037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d0d5ee890d44b4e8e40607b2657887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteWithBall: {fileID: -1020292330531004552, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteWithoutBall: {fileID: -3255117911446142979, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteDefender: {fileID: -1353958943040661357, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
   timeToWait: 1
-  ballTag: ball
-  ballVelocity: 1
 --- !u!70 &2039863265
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -6123,6 +6067,7 @@ GameObject:
   - component: {fileID: 2051225630}
   - component: {fileID: 2051225631}
   - component: {fileID: 2051225632}
+  - component: {fileID: 2051225635}
   - component: {fileID: 2051225633}
   - component: {fileID: 2051225634}
   m_Layer: 9
@@ -6190,8 +6135,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051225627}
-  m_LocalRotation: {x: 0, y: 0, z: 0.89852613, w: 0.4389201}
-  m_LocalPosition: {x: 2.55, y: 1.36, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.537, y: 1.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1296673945}
@@ -6203,7 +6148,7 @@ Transform:
   - {fileID: 1989380805}
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 127.93}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2051225630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6255,15 +6200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d0d5ee890d44b4e8e40607b2657887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteWithBall: {fileID: -1020292330531004552, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteWithoutBall: {fileID: -3255117911446142979, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
-  spriteDefender: {fileID: -1353958943040661357, guid: f33bf765184914143aba91c934c01f93,
-    type: 3}
   timeToWait: 1
-  ballTag: ball
-  ballVelocity: 1
 --- !u!70 &2051225633
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -6277,8 +6214,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.328125, y: 0.484375}
+  m_Offset: {x: -0.04, y: 0}
+  m_Size: {x: 0.18, y: 0.484375}
   m_Direction: 0
 --- !u!95 &2051225634
 Animator:
@@ -6299,6 +6236,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2051225635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051225627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7256f14859e89df428a65652ae7afb16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballTag: ball
 --- !u!1 &2064900599
 GameObject:
   m_ObjectHideFlags: 0

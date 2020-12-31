@@ -2,35 +2,48 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Animation))]
+[RequireComponent(typeof(Animator))]
 public class TemporaryExampleScript : MonoBehaviour
 {
-    private Animation anim;
-
+    public Transform target;
+    private Animator m_Animator;
+  // Angular speed in radians per sec.
+    public float speed = 1.0f;
 
     // Start is called before the first frame update
     void Start()
     {
-        anim = gameObject.GetComponent<Animation>();
+         //Get the Animator attached to the GameObject you are intending to animate.
+        m_Animator = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-         if (Input.GetKeyDown(KeyCode.S))
+          //Press the up arrow button to reset the trigger and set another one
+        if (Input.GetKeyDown(KeyCode.R))
         {
-            Debug.Log("Catch");
-            anim.Play("Catch");
+            
+            //Send the message to the Animator to activate the trigger parameter named "Jump"
+            m_Animator.SetTrigger("Catch");
         }
-        if (Input.GetKeyDown(KeyCode.J))
+
+        if (Input.GetKeyDown(KeyCode.T))
         {
-            Debug.Log("Thrown");
-            anim.Play("Thrown");
+            //Send the message to the Animator to activate the trigger parameter named "Crouch"
+            m_Animator.SetTrigger("Thrown");
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+
+        if (Input.GetKeyDown(KeyCode.Y))
         {
-            Debug.Log("Walk");
-            anim.Play("Walk");        
+            //Send the message to the Animator to activate the trigger parameter named "Crouch"
+            m_Animator.SetTrigger("StartWalk");
+        }
+
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            //Send the message to the Animator to activate the trigger parameter named "Crouch"
+            m_Animator.SetTrigger("StopWalk");
         }
 
     }

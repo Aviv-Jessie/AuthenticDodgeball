@@ -8,99 +8,50 @@ using UnityEngine;
  */
 
 
-[RequireComponent(typeof(CharacterSpawnerBall))]
+[RequireComponent(typeof(Animator))]
 public class CharacterModeSwitcher : MonoBehaviour
 {
-     [Tooltip("sprite spawners with ball")]
-    [SerializeField] Sprite spriteWithBall = null;
-    [Tooltip("sprite spawners without ball")]
-    [SerializeField] Sprite spriteWithoutBall = null;
-    [Tooltip("sprite spawners defender")]
-    [SerializeField] Sprite spriteDefender = null;
     [Tooltip("set the time to defend")]
     [SerializeField] float timeToWait = 1f;
-    [Tooltip("to trigger with ball")]
-    [SerializeField] string ballTag = "ball";
-    [Tooltip("balls velocity to disqualification")]
-    [SerializeField] float ballVelocity = 1.0f;
 
-    private SpriteRenderer show;
-    public enum PlayerMode {withBall,withoutBall,defender};
-    private PlayerMode playerMode;
-
-    // Start is called before the first frame update
+    private Animator m_Animator;
+    private bool haveBall;
     void Start()
     {
-        show = GetComponent<SpriteRenderer>();
-        playerMode = PlayerMode.withoutBall;
+        //Get the Animator attached to the GameObject you are intending to animate.
+        m_Animator = gameObject.GetComponent<Animator>();
+        haveBall = false;
     }
 
-    public CharacterModeSwitcher.PlayerMode GetPlayerMode()
+    public void Defender()
     {
-        return playerMode;
-    }
+        m_Animator.SetTrigger("Catch");
+        StartCoroutine(DefenderTimr());
 
-    public void SwitchToDefenderPlayer()
+    }
+    //call when ControllerManual thrown.
+    public void Thrown()
     {
-        if(playerMode == PlayerMode.withoutBall)    //check if we can change the player mode to defender.
+        CharacterCatcher characterCatcher = GetComponentInChildren<CharacterCatcher>();
+        if(characterCatcher)//Component exist
         {
-            playerMode = PlayerMode.defender;
-            show.sprite = spriteDefender;
-            StartCoroutine(TimerToDisableDefender());
+            bool ballThrownSuccess = characterCatcher.Thrown();
+            if(ballThrownSuccess)
+                  m_Animator.SetTrigger("Thrown");
         }
     }
-
-    public void SwitchToWithBallPlayer(GameObject ball)
+    private IEnumerator DefenderTimr()
     {
-        if (playerMode == PlayerMode.defender)    //check if we can change the player mode to with ball.
-        {
-            playerMode = PlayerMode.withBall;
-            show.sprite = spriteWithBall;
-            Destroy(ball);
-        }else{
-            disqualification(ball);
-        }
+        yield return new WaitForSeconds(timeToWait);
+        if (!haveBall)
+            m_Animator.SetTrigger("Thrown");
+
     }
 
-    public void SwitchToWithoutBallPlayer()
+    public void setHaveBall(bool haveBall)
     {
-            if(playerMode == PlayerMode.withBall) // we need thrown the ball
-            {
-                GetComponent<CharacterSpawnerBall>().spawnObject();
-            }
-            playerMode = PlayerMode.withoutBall;
-            show.sprite = spriteWithoutBall;
-    }
-
-    private void OnTriggerEnter2D(Collider2D other){ 
-        if (other.tag == ballTag) //other is ball
-        {
-            SwitchToWithBallPlayer(other.gameObject);
-        }
-    }
-    public void disqualification(GameObject ball){
-        Rigidbody2D ballBody = ball.GetComponent<Rigidbody2D>();
-        // if the ball moving very slow- the player will not disqualification.
-        // if the ball moving fast- meanig bigger then "ballVelocity"- disqualification.
-        if (ballBody.velocity.x >= ballVelocity || ballBody.velocity.y >= ballVelocity || ballBody.velocity.x <= -ballVelocity || ballBody.velocity.y <= -ballVelocity)
-        {
-            this.gameObject.SetActive(false);
-        }
-        else
-        {
-            // the player is go and take automatically the ball
-            SwitchToDefenderPlayer();
-            SwitchToWithBallPlayer(ball);
-        }
+        this.haveBall = haveBall;
     }
 
 
-    private IEnumerator TimerToDisableDefender()
-    {
-        yield return new WaitForSeconds(timeToWait);    // wait "X" time (1sec default), to wait before change mode. 
-        if(playerMode == PlayerMode.defender)
-        {
-            SwitchToWithoutBallPlayer();
-        }
-    }
 }
