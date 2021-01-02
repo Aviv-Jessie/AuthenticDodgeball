@@ -20,6 +20,9 @@ public class CharacterManualMover: MonoBehaviour {
     [Tooltip("ket to move down")]
     [SerializeField] KeyCode down = KeyCode.DownArrow;
 
+    // the text number of the character over the players head 
+    Vector3 TextPosition = new Vector3 (0.0f, 0.75f, 0.0f);
+
     // the yard size
     public float rightWall = 6.0f;
     public float leftWall = -6.0f;
@@ -39,7 +42,10 @@ public class CharacterManualMover: MonoBehaviour {
         Vector3 pos = transform.position;
         // how many add to the position?
         Vector3 adder = Vector3.zero;
-        
+
+        // text Transform - variable to save the position of the number over the player's head.
+        RectTransform textTransform = transform.GetComponentInChildren<RectTransform>();
+
         if (Input.GetKey(up) && pos.y <= topWall)
         {
             adder.y += Speed * Time.deltaTime;            
@@ -58,18 +64,26 @@ public class CharacterManualMover: MonoBehaviour {
         }
 
         transform.position += adder;
-        
+
         //calculateAngle
-        if(adder.x != 0 || adder.y != 0)
+        if (adder.x != 0 || adder.y != 0)
+        {
             // Quaternion = for rotating players on its axis
-            transform.rotation = Quaternion.Euler(0,0,calculateAngle(adder));
-
+            transform.rotation = Quaternion.Euler(0, 0, calculateAngle(adder));
+            // to stay the text verticall to the players head.
+            textTransform.rotation = Quaternion.Euler(0, 0, 0);
+            textTransform.position = pos + TextPosition;
+        }
         //walk animation
-        if(Input.GetKeyDown(up) || Input.GetKeyDown(down) || Input.GetKeyDown(left) || Input.GetKeyDown(right))
+        if (Input.GetKeyDown(up) || Input.GetKeyDown(down) || Input.GetKeyDown(left) || Input.GetKeyDown(right))
+        {
             m_Animator.SetTrigger("StartWalk");
+        }
 
-        if(Input.GetKeyUp(up) || Input.GetKeyUp(down) || Input.GetKeyUp(left) || Input.GetKeyUp(right))
+        if (Input.GetKeyUp(up) || Input.GetKeyUp(down) || Input.GetKeyUp(left) || Input.GetKeyUp(right))
+        {
             m_Animator.SetTrigger("StopWalk");
+        }
      }
 
     // method that calculate the rotate angle.
