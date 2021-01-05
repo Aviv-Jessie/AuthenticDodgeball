@@ -44,6 +44,22 @@ public class ManagerCharacter : MonoBehaviour
             startPosition.Add(leftCharacters[i],leftCharacters[i].transform.position);
             characterStatus.Add(leftCharacters[i],new ArrayList());
         }
+        //disable non play charter
+        for (int i = rightCharactersNumber; i < rightCharacters.Length; i++)
+        {
+            rightCharacters[i].SetActive(false);
+        }
+         for (int i = leftCharactersNumber; i < leftCharacters.Length; i++)
+        {
+            leftCharacters[i].SetActive(false);
+        }
+    }
+
+    public bool isDisqualification(GameObject character){
+        if(characterStatus.ContainsKey(character))
+            return ( characterStatus[character] == null );
+        else
+            return false;
     }
 
     public void setThrower(GameObject character){
@@ -52,25 +68,28 @@ public class ManagerCharacter : MonoBehaviour
 
     public void disqualification(GameObject character){
         if(thrower == null)
+            return;        
+
+        bool throwerIsRight = isRightTeam(thrower);
+        bool characterIsRight = isRightTeam(character);
+        if(throwerIsRight == characterIsRight)//character disqualification character from same team.
             return;
 
-        Debug.Log(character.name + " Disqualification by " + thrower.name);
+        Debug.Log(thrower.name + " Disqualification " + character.name);
 
-        //checked if characters is in right team.
-        for (int i = 0; i < rightCharacters.Length; i++)
-        {
-            if(character == rightCharacters[i]){
-                DisqualificationRight(character);
-                return;
-            }
-        }
-        DisqualificationLeft(character);
+        if(characterIsRight)
+            DisqualificationRight(character);
+        else
+            DisqualificationLeft(character);
+
     }
 
     private void DisqualificationLeft(GameObject character){
         //move object to captive
         Transform capTransform = leftCaptivesPositions[indexLeftCaptivesPositions++].transform;
         character.transform.position = capTransform.position;
+        character.transform.rotation = Quaternion.Euler(new Vector3(0,0,180));
+        character.GetComponent<CharacterManualMover>().enabled = false;
         
         //free Captives
         ArrayList capToFree = characterStatus[character];
@@ -91,6 +110,8 @@ public class ManagerCharacter : MonoBehaviour
         //move object to captive
         Transform capTransform = rightCaptivesPositions[indexReftCaptivesPositions++].transform;
         character.transform.position = capTransform.position;
+        character.transform.rotation = Quaternion.Euler(new Vector3(0,0,0));
+        character.GetComponent<CharacterManualMover>().enabled = false;
         
         //free Captives
         ArrayList capToFree = characterStatus[character];
@@ -105,5 +126,15 @@ public class ManagerCharacter : MonoBehaviour
         characterStatus[character] = null;
         //mark thrower
         characterStatus[thrower].Add(character);    
+    }
+
+    private bool isRightTeam(GameObject character){
+        for (int i = 0; i < rightCharacters.Length; i++)
+        {
+            if(character == rightCharacters[i]){                
+                return true;
+            }
+        }
+        return false;
     }
 }

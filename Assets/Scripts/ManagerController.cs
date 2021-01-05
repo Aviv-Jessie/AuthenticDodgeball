@@ -22,16 +22,20 @@ public class CharacterUnit
  * This class represents the game manager controller, this script manage the player characters,
  * update the current character and enable them to move.
  */
+ [RequireComponent(typeof(ManagerCharacter))]
 public class ManagerController : MonoBehaviour
 {
     [SerializeField] CharacterUnit[] characterUnits = null;
+    private ManagerCharacter managerCharacter;
     // Start is called before the first frame update
     void Start()
     {
         if(characterUnits == null || characterUnits.Length == 0)
         {
             Debug.LogError("characterUnits can't be null or zero");
-        }
+        }       
+        managerCharacter = GetComponent<ManagerCharacter>();
+        enableOneCharacter(0);
     }
     // Update is called once per frame
     void Update()
@@ -44,11 +48,14 @@ public class ManagerController : MonoBehaviour
 
     private void enableOneCharacter(int index){
         // enabling one character at the time.
-        for (int i = 0; i < characterUnits.Length; i++)
-            if(i == index)
-                characterUnits[i].moverComponet.enabled = true;
-            else
-                characterUnits[i].moverComponet.enabled = false;
+        for (int i = 0; i < characterUnits.Length; i++){
+            GameObject c = characterUnits[i].moverComponet.gameObject;
+            if(!managerCharacter.isDisqualification(c))
+                if(i == index)
+                    characterUnits[i].moverComponet.enabled = true;
+                else
+                    characterUnits[i].moverComponet.enabled = false;
+        }
         
     }
 }

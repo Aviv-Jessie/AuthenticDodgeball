@@ -936,6 +936,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1614384624013428215, guid: 6e07708db0099f543b06c2e458eba03f,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5507618341651535256, guid: 6e07708db0099f543b06c2e458eba03f,
         type: 3}
       propertyPath: m_Name
@@ -944,12 +949,12 @@ PrefabInstance:
     - target: {fileID: 5507618341651535259, guid: 6e07708db0099f543b06c2e458eba03f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.394735
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5507618341651535259, guid: 6e07708db0099f543b06c2e458eba03f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.17255658
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5507618341651535259, guid: 6e07708db0099f543b06c2e458eba03f,
         type: 3}
@@ -1144,6 +1149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballTag: ball
   managerCharacter: {fileID: 2033025296}
+  acceptable: 1
 --- !u!114 &325541199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1182,7 +1188,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325541195}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bd7440e9a1b5f3478aac863602584de, type: 3}
   m_Name: 
@@ -2076,6 +2082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballTag: ball
   managerCharacter: {fileID: 2033025296}
+  acceptable: 1
 --- !u!114 &483765856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5239,6 +5246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballTag: ball
   managerCharacter: {fileID: 2033025296}
+  acceptable: 1
 --- !u!114 &860050193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5867,6 +5875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballTag: ball
   managerCharacter: {fileID: 2033025296}
+  acceptable: 1
 --- !u!114 &967134131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8036,6 +8045,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballTag: ball
   managerCharacter: {fileID: 2033025296}
+  acceptable: 1
 --- !u!114 &1655029657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9219,6 +9229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballTag: ball
   managerCharacter: {fileID: 2033025296}
+  acceptable: 1
 --- !u!114 &1880521667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9463,6 +9474,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballTag: ball
   managerCharacter: {fileID: 2033025296}
+  acceptable: 1
 --- !u!114 &1923805781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9659,6 +9671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballTag: ball
   managerCharacter: {fileID: 2033025296}
+  acceptable: 1
 --- !u!114 &1925176984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10841,6 +10854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballTag: ball
   managerCharacter: {fileID: 2033025296}
+  acceptable: 1
 --- !u!114 &2001342862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11490,7 +11504,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051225627}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bd7440e9a1b5f3478aac863602584de, type: 3}
   m_Name: 
@@ -11584,6 +11598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballTag: ball
   managerCharacter: {fileID: 2033025296}
+  acceptable: 1
 --- !u!1 &2064900599
 GameObject:
   m_ObjectHideFlags: 0
