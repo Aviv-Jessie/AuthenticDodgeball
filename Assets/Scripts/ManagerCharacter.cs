@@ -9,14 +9,14 @@ public class ManagerCharacter : MonoBehaviour
     [Tooltip("players in the right")]
     [SerializeField] GameObject[] rightCharacters = null;
     [Tooltip("number player play in right team")]
-    [SerializeField] int rightCharactersNumber = 5;
+    [SerializeField]public int rightCharactersNumber = 5;
     
     [Tooltip("left captives positions")]
     [SerializeField] Transform[] leftCaptivesPositions = null;
     [Tooltip("players in the left")]
     [SerializeField] GameObject[] leftCharacters = null;
     [Tooltip("number player play in left team")]
-    [SerializeField] int leftCharactersNumber = 5;
+    [SerializeField]public int leftCharactersNumber = 5;
 
     //HashMap hold for every Character list captives. emtpty list is zero captive. null meen the character it self captive.
     private Dictionary<GameObject, ArrayList> characterStatus = new Dictionary<GameObject, ArrayList>();
