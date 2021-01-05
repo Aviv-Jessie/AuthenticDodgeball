@@ -22,6 +22,14 @@ public class ManagerCharacter : MonoBehaviour
     private Dictionary<GameObject, ArrayList> rightCharacterStatus = new Dictionary<GameObject, ArrayList>();
     //like rightCharacterStatus for left team
     private Dictionary<GameObject, ArrayList> leftCharacterStatus = new Dictionary<GameObject, ArrayList>();
+    //spawn in start position
+    private Dictionary<GameObject, Vector3> startPosition = new Dictionary<GameObject, Vector3>();
+
+    private GameObject thrower;
+
+    private int indexLeftCaptivesPositions = 0;
+    private int indexReftCaptivesPositions = 0;
+
 
     // Start is called before the first frame update
     void Start()
@@ -29,16 +37,27 @@ public class ManagerCharacter : MonoBehaviour
         //insert empty list for rightCharacterStatus
         for (int i = 0; i < rightCharactersNumber; i++)
         {
+            startPosition.Add(rightCharacters[i],rightCharacters[i].transform.position);
             rightCharacterStatus.Add(rightCharacters[i],new ArrayList());
         }
          //insert empty list for rightCharacterStatus
         for (int i = 0; i < leftCharactersNumber; i++)
         {
-            leftCharacterStatus.Add(rightCharacters[i],new ArrayList());
+            startPosition.Add(leftCharacters[i],leftCharacters[i].transform.position);
+            leftCharacterStatus.Add(leftCharacters[i],new ArrayList());
         }
     }
 
+    public void setThrower(GameObject character){
+        thrower = character;
+    }
+
     public void disqualification(GameObject character){
+        if(thrower == null)
+            return;
+
+        Debug.Log(character.name + " Disqualification by " + thrower.name);
+
         //checked if characters is in right team.
         for (int i = 0; i < rightCharacters.Length; i++)
         {
@@ -51,10 +70,40 @@ public class ManagerCharacter : MonoBehaviour
     }
 
     private void DisqualificationLeft(GameObject character){
-        Debug.Log("disqualification left character. is "+character.name);
-        //TODO finde the thrower
+        //move object to captive
+        Transform capTransform = leftCaptivesPositions[indexLeftCaptivesPositions++].transform;
+        character.transform.position = capTransform.position;
+        
+        //free Captives
+        ArrayList capToFree = leftCharacterStatus[character];
+        foreach (GameObject c in capToFree)
+        {
+            c.transform.position = startPosition[c];
+            rightCharacterStatus[c] = new ArrayList();
+        }
+
+        //mark is Captive
+        leftCharacterStatus[character] = null;
+        //mark thrower
+        rightCharacterStatus[thrower].Add(character);
+        
     }
-    private void DisqualificationRight(GameObject character){
-        Debug.Log("disqualification right character. is "+character.name);
+    private void DisqualificationRight(GameObject character){  
+        //move object to captive
+        Transform capTransform = rightCaptivesPositions[indexReftCaptivesPositions++].transform;
+        character.transform.position = capTransform.position;
+        
+        //free Captives
+        ArrayList capToFree = rightCharacterStatus[character];
+        foreach (GameObject c in capToFree)
+        {
+            c.transform.position = startPosition[c];
+            leftCharacterStatus[c] = new ArrayList();
+        }
+
+        //mark is Captive
+        rightCharacterStatus[character] = null;
+        //mark thrower
+        leftCharacterStatus[thrower].Add(character);    
     }
 }

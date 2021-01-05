@@ -7,6 +7,8 @@ public class CharacterCatcher : MonoBehaviour
     [SerializeField] string ballTag = "ball";
     [SerializeField] float speedThrown = 8f;
     [SerializeField] protected float linearDrag = 1f;
+    [Tooltip("report to managerCharacter")]
+    [SerializeField] ManagerCharacter managerCharacter = null;
     private GameObject ball;
     private ForceMode2D forceMode = ForceMode2D.Impulse;
 
@@ -20,8 +22,7 @@ public class CharacterCatcher : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == ballTag) //other is ball
-        {
-            Debug.Log("catch ball______");
+        {            
             ball = other.gameObject;
             Rigidbody2D rd = ball.GetComponent<Rigidbody2D>();
             rd.isKinematic = true;                                  // change to kinematic to disable the pyshics.
@@ -38,8 +39,7 @@ public class CharacterCatcher : MonoBehaviour
     public bool Thrown()
     {
         if (ball)
-        {
-            Debug.Log("Thrown ball______");
+        {            
             characterModeSwitcher.setHaveBall(false);
             Rigidbody2D rb = ball.GetComponent<Rigidbody2D>();
             rb.isKinematic = false;                             // return the pyshics rules..
@@ -54,6 +54,7 @@ public class CharacterCatcher : MonoBehaviour
             rb.drag = linearDrag;
 
             ball = null;
+            managerCharacter.setThrower(transform.parent.gameObject);
             return true;    // return true if thrown
         }
         else

@@ -5,7 +5,7 @@ using UnityEngine;
 public class GizmosSphere : MonoBehaviour
 {
     [SerializeField] Color color = Color.red;
-    void OnDrawGizmosSelected()
+    void OnDrawGizmos()
     {
         // Draw a yellow sphere at the transform's position
         Gizmos.color = color;

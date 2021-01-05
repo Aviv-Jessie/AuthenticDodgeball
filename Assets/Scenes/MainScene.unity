@@ -1045,6 +1045,7 @@ MonoBehaviour:
   ballTag: ball
   speedThrown: 8
   linearDrag: 1
+  managerCharacter: {fileID: 2033025296}
 --- !u!61 &311694927
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1370,6 +1371,7 @@ MonoBehaviour:
   ballTag: ball
   speedThrown: 8
   linearDrag: 1
+  managerCharacter: {fileID: 2033025296}
 --- !u!1 &347280691
 GameObject:
   m_ObjectHideFlags: 0
@@ -1417,6 +1419,7 @@ MonoBehaviour:
   ballTag: ball
   speedThrown: 8
   linearDrag: 1
+  managerCharacter: {fileID: 2033025296}
 --- !u!61 &347280694
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2389,6 +2392,7 @@ MonoBehaviour:
   ballTag: ball
   speedThrown: 8
   linearDrag: 1
+  managerCharacter: {fileID: 2033025296}
 --- !u!61 &592768778
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2626,6 +2630,7 @@ MonoBehaviour:
   ballTag: ball
   speedThrown: 8
   linearDrag: 1
+  managerCharacter: {fileID: 2033025296}
 --- !u!61 &622521136
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5729,6 +5734,7 @@ MonoBehaviour:
   ballTag: ball
   speedThrown: 8
   linearDrag: 1
+  managerCharacter: {fileID: 2033025296}
 --- !u!61 &958545086
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6545,6 +6551,7 @@ MonoBehaviour:
   ballTag: ball
   speedThrown: 8
   linearDrag: 1
+  managerCharacter: {fileID: 2033025296}
 --- !u!61 &1243701277
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7063,6 +7070,7 @@ MonoBehaviour:
   ballTag: ball
   speedThrown: 8
   linearDrag: 1
+  managerCharacter: {fileID: 2033025296}
 --- !u!61 &1429389977
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8819,6 +8827,7 @@ MonoBehaviour:
   ballTag: ball
   speedThrown: 8
   linearDrag: 1
+  managerCharacter: {fileID: 2033025296}
 --- !u!61 &1772769204
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9995,6 +10004,7 @@ MonoBehaviour:
   ballTag: ball
   speedThrown: 8
   linearDrag: 1
+  managerCharacter: {fileID: 2033025296}
 --- !u!61 &1955337253
 BoxCollider2D:
   m_ObjectHideFlags: 0
