@@ -19,9 +19,7 @@ public class ManagerCharacter : MonoBehaviour
     [SerializeField] int leftCharactersNumber = 5;
 
     //HashMap hold for every Character list captives. emtpty list is zero captive. null meen the character it self captive.
-    private Dictionary<GameObject, ArrayList> rightCharacterStatus = new Dictionary<GameObject, ArrayList>();
-    //like rightCharacterStatus for left team
-    private Dictionary<GameObject, ArrayList> leftCharacterStatus = new Dictionary<GameObject, ArrayList>();
+    private Dictionary<GameObject, ArrayList> characterStatus = new Dictionary<GameObject, ArrayList>();
     //spawn in start position
     private Dictionary<GameObject, Vector3> startPosition = new Dictionary<GameObject, Vector3>();
 
@@ -38,13 +36,13 @@ public class ManagerCharacter : MonoBehaviour
         for (int i = 0; i < rightCharactersNumber; i++)
         {
             startPosition.Add(rightCharacters[i],rightCharacters[i].transform.position);
-            rightCharacterStatus.Add(rightCharacters[i],new ArrayList());
+            characterStatus.Add(rightCharacters[i],new ArrayList());
         }
          //insert empty list for rightCharacterStatus
         for (int i = 0; i < leftCharactersNumber; i++)
         {
             startPosition.Add(leftCharacters[i],leftCharacters[i].transform.position);
-            leftCharacterStatus.Add(leftCharacters[i],new ArrayList());
+            characterStatus.Add(leftCharacters[i],new ArrayList());
         }
     }
 
@@ -75,17 +73,18 @@ public class ManagerCharacter : MonoBehaviour
         character.transform.position = capTransform.position;
         
         //free Captives
-        ArrayList capToFree = leftCharacterStatus[character];
+        ArrayList capToFree = characterStatus[character];
         foreach (GameObject c in capToFree)
         {
             c.transform.position = startPosition[c];
-            rightCharacterStatus[c] = new ArrayList();
+            characterStatus[c] = new ArrayList();
+            indexReftCaptivesPositions--;
         }
 
         //mark is Captive
-        leftCharacterStatus[character] = null;
+        characterStatus[character] = null;
         //mark thrower
-        rightCharacterStatus[thrower].Add(character);
+        characterStatus[thrower].Add(character);
         
     }
     private void DisqualificationRight(GameObject character){  
@@ -94,16 +93,17 @@ public class ManagerCharacter : MonoBehaviour
         character.transform.position = capTransform.position;
         
         //free Captives
-        ArrayList capToFree = rightCharacterStatus[character];
+        ArrayList capToFree = characterStatus[character];
         foreach (GameObject c in capToFree)
         {
             c.transform.position = startPosition[c];
-            leftCharacterStatus[c] = new ArrayList();
+            characterStatus[c] = new ArrayList();
+            indexLeftCaptivesPositions--;
         }
 
         //mark is Captive
-        rightCharacterStatus[character] = null;
+        characterStatus[character] = null;
         //mark thrower
-        leftCharacterStatus[thrower].Add(character);    
+        characterStatus[thrower].Add(character);    
     }
 }
