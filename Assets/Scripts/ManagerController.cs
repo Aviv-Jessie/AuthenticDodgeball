@@ -16,7 +16,7 @@ public class CharacterUnit
     public KeyCode key;
 }
 
-
+public enum Side{left,right};
 
 /*
  * This class represents the game manager controller, this script manage the player characters,
@@ -25,6 +25,7 @@ public class CharacterUnit
  [RequireComponent(typeof(ManagerCharacter))]
 public class ManagerController : MonoBehaviour
 {
+    [SerializeField] Side side = Side.left;
     [SerializeField] CharacterUnit[] characterUnits = null;
     private ManagerCharacter managerCharacter;
     // Start is called before the first frame update
@@ -33,10 +34,40 @@ public class ManagerController : MonoBehaviour
         if(characterUnits == null || characterUnits.Length == 0)
         {
             Debug.LogError("characterUnits can't be null or zero");
-        }       
+        }
         managerCharacter = GetComponent<ManagerCharacter>();
+        SingletonGameBuilder gameBuilder = SingletonGameBuilder.Instance;
+        if(side == Side.left)
+            if(gameBuilder.teamLeft.teamType == SingletonGameBuilder.TeamType.ai)
+                StartAi();
+            else
+                StartManuel();
+        else
+            if(gameBuilder.teamRight.teamType == SingletonGameBuilder.TeamType.ai)
+                StartAi();
+            else
+                StartManuel();
+
+       
+    }
+
+    private void StartAi(){
+        for (int i = 0; i < characterUnits.Length; i++){
+            CharacterAutoMover characterAutoMover = characterUnits[i].moverComponet.gameObject.GetComponent<CharacterAutoMover>();
+            CharacterDragAndDrop characterDragAndDrop = characterUnits[i].moverComponet.gameObject.GetComponent<CharacterDragAndDrop>();
+            if(characterAutoMover)
+                characterAutoMover.enabled = true;
+            if(characterDragAndDrop)
+                characterDragAndDrop.enabled = false;
+        }
+            
+        enabled = false;
+    }
+
+    private void StartManuel(){         
         enableOneCharacter(0);
     }
+
     // Update is called once per frame
     void Update()
     {

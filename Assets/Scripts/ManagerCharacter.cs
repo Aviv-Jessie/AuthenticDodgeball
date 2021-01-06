@@ -90,14 +90,18 @@ public class ManagerCharacter : MonoBehaviour
         character.transform.position = capTransform.position;
         character.transform.rotation = Quaternion.Euler(new Vector3(0,0,180));
         character.GetComponent<CharacterManualMover>().enabled = false;
+        //FIXME enable and disable CharacterDragAndDrop and CharacterAutoMover
+        character.GetComponent<CharacterDragAndDrop>().enabled = false;
         
         //free Captives
         ArrayList capToFree = characterStatus[character];
         foreach (GameObject c in capToFree)
         {
             c.transform.position = startPosition[c];
+            c.GetComponent<CharacterDragAndDrop>().enabled = true;
             characterStatus[c] = new ArrayList();
             indexReftCaptivesPositions--;
+            
         }
 
         //mark is Captive

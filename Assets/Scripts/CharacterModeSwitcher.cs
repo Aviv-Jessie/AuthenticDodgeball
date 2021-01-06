@@ -12,7 +12,7 @@ using UnityEngine;
 public class CharacterModeSwitcher : MonoBehaviour
 {
     [Tooltip("set the time to defend")]
-    [SerializeField] float timeToWait = 1f;
+    [SerializeField]public float timeToWait = 1f;
 
     // animator
     private Animator m_Animator;

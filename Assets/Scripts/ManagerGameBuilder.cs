@@ -8,9 +8,6 @@ public class ManagerGameBuilder : MonoBehaviour
     void Start()
     {
         SingletonGameBuilder gameBuilder = SingletonGameBuilder.Instance;
-        Debug.Log(gameBuilder.area);
-        Debug.Log(gameBuilder.teamLeft.numCharacters);
-        Debug.Log(gameBuilder.teamRight.numCharacters);
 
         ManagerCharacter managerCharacter = GetComponent<ManagerCharacter>();
         managerCharacter.rightCharactersNumber = gameBuilder.teamRight.numCharacters;

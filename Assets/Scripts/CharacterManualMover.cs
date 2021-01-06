@@ -6,8 +6,10 @@ using UnityEngine;
 /**
  * This component moves its object when the player clicks the arrow keys.
  */
- [RequireComponent(typeof(Animator))]
-public class CharacterManualMover: MonoBehaviour {
+[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(RectTransform))]
+public class CharacterManualMover : MonoBehaviour
+{
 
     [Tooltip("Speed of movement, in meters per second")]
     [SerializeField] float Speed = 4f;
@@ -21,48 +23,83 @@ public class CharacterManualMover: MonoBehaviour {
     [SerializeField] KeyCode down = KeyCode.DownArrow;
 
     // the text number of the character over the players head 
-    Vector3 TextPosition = new Vector3 (0.0f, 0.75f, 0.0f);
+    Vector3 TextPosition = new Vector3(0.0f, 0.75f, 0.0f);
 
     // the yard size
     public float rightWall = 6.0f;
     public float leftWall = -6.0f;
     public float topWall = 4.0f;
-    public float bottomWall =-4.0f;
+    public float bottomWall = -4.0f;
 
     private Animator m_Animator;
+    private RectTransform textTransform;
 
-    void Start()
-    {         
+    void Awake()
+    {
         m_Animator = gameObject.GetComponent<Animator>();
+        // text Transform - variable to save the position of the number over the player's head.
+        textTransform = transform.GetComponentInChildren<RectTransform>();
+        // to stay the text verticall to the players head.
+        textTransform.rotation = Quaternion.Euler(0, 0, 0);
+        textTransform.position = transform.position + TextPosition;
     }
 
 
-    void Update() {             
+    void Update()
+    {
+        bool _up = Input.GetKey(up);
+        bool _down = Input.GetKey(down);
+        bool _right = Input.GetKey(right);
+        bool _left = Input.GetKey(left);
+        move(_up,_left,_down,_right);
+
+        //walk animation
+        if (Input.GetKeyDown(up) || Input.GetKeyDown(down) || Input.GetKeyDown(left) || Input.GetKeyDown(right))
+        {
+           StartAnimation();
+        }
+
+        if (Input.GetKeyUp(up) || Input.GetKeyUp(down) || Input.GetKeyUp(left) || Input.GetKeyUp(right))
+        {
+            StopAnimation();
+        }
+    }
+
+    public void StartAnimation(){
+        m_Animator.SetTrigger("StartWalk");
+    }
+
+    public void StopAnimation(){
+         m_Animator.SetTrigger("StopWalk");
+    }
+
+    public void move(bool up,bool left,bool down,bool right){
+        
         // position vector
         Vector3 pos = transform.position;
         // how many add to the position?
         Vector3 adder = Vector3.zero;
 
-        // text Transform - variable to save the position of the number over the player's head.
-        RectTransform textTransform = transform.GetComponentInChildren<RectTransform>();
 
-        if (Input.GetKey(up) && pos.y <= topWall)
+
+        if (up && pos.y <= topWall)
         {
-            adder.y += Speed * Time.deltaTime;            
+            adder.y += Speed * Time.deltaTime;
         }
-        if (Input.GetKey(down) && pos.y >= bottomWall)
+        if (down && pos.y >= bottomWall)
         {
             adder.y -= Speed * Time.deltaTime;
         }
-        if (Input.GetKey(right) && pos.x <= rightWall)
+        if (right && pos.x <= rightWall)
         {
             adder.x += Speed * Time.deltaTime;
         }
-        if (Input.GetKey(left) && pos.x >= leftWall)
+        if (left && pos.x >= leftWall)
         {
             adder.x -= Speed * Time.deltaTime;
         }
 
+        
         transform.position += adder;
 
         //calculateAngle
@@ -74,29 +111,19 @@ public class CharacterManualMover: MonoBehaviour {
             textTransform.rotation = Quaternion.Euler(0, 0, 0);
             textTransform.position = pos + TextPosition;
         }
-        //walk animation
-        if (Input.GetKeyDown(up) || Input.GetKeyDown(down) || Input.GetKeyDown(left) || Input.GetKeyDown(right))
-        {
-            m_Animator.SetTrigger("StartWalk");
-        }
-
-        if (Input.GetKeyUp(up) || Input.GetKeyUp(down) || Input.GetKeyUp(left) || Input.GetKeyUp(right))
-        {
-            m_Animator.SetTrigger("StopWalk");
-        }
-     }
+    }
 
     // method that calculate the rotate angle.
-     private float calculateAngle(Vector3 adder)
-     {
-        if(adder.x != 0 && adder.y == 0)
+    private float calculateAngle(Vector3 adder)
+    {
+        if (adder.x != 0 && adder.y == 0)
             return adder.x > 0 ? 0 : 180;
-        else if(adder.x == 0 && adder.y != 0)
+        else if (adder.x == 0 && adder.y != 0)
             return adder.y > 0 ? 90 : 270;
         else //adder.x != 0 && adder.y != 0)
-            if(adder.x > 0)
-                return adder.y>0 ? 45 : 315;
-            else//x < 0
-                return adder.y>0 ? 135 : 225;
-     }
+            if (adder.x > 0)
+            return adder.y > 0 ? 45 : 315;
+        else//x < 0
+            return adder.y > 0 ? 135 : 225;
+    }
 }
