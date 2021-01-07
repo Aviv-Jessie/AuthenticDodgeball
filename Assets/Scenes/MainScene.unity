@@ -1295,6 +1295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7176b460541459141b2d7e329fb284ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ball: {fileID: 1872364068}
 --- !u!114 &325541205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2367,6 +2368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7176b460541459141b2d7e329fb284ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ball: {fileID: 1872364068}
 --- !u!114 &483765862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5605,6 +5607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7176b460541459141b2d7e329fb284ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ball: {fileID: 1872364068}
 --- !u!114 &860050197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6317,6 +6320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7176b460541459141b2d7e329fb284ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ball: {fileID: 1872364068}
 --- !u!114 &967134135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8823,6 +8827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7176b460541459141b2d7e329fb284ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ball: {fileID: 1872364068}
 --- !u!114 &1655029663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9722,6 +9727,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1872364068 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5507618341651535256, guid: 6e07708db0099f543b06c2e458eba03f,
+    type: 3}
+  m_PrefabInstance: {fileID: 306936514}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1875540400
 GameObject:
   m_ObjectHideFlags: 0
@@ -10112,6 +10123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7176b460541459141b2d7e329fb284ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ball: {fileID: 1872364068}
 --- !u!114 &1880521671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10474,6 +10486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7176b460541459141b2d7e329fb284ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ball: {fileID: 1872364068}
 --- !u!114 &1923805787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10753,6 +10766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7176b460541459141b2d7e329fb284ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ball: {fileID: 1872364068}
 --- !u!114 &1925176990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12042,6 +12056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7176b460541459141b2d7e329fb284ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ball: {fileID: 1872364068}
 --- !u!114 &2001342866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12794,6 +12809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7176b460541459141b2d7e329fb284ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ball: {fileID: 1872364068}
 --- !u!114 &2051225637
 MonoBehaviour:
   m_ObjectHideFlags: 0

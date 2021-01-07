@@ -6,7 +6,8 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterModeSwitcher))]
 public class CharacterAutoMover : MonoBehaviour
 {
-
+    [SerializeField] public GameObject ball = null;
+    enum State { defense, attack }
 
     private CharacterManualMover mover;
     private CharacterModeSwitcher modeSwitcher;
@@ -14,18 +15,31 @@ public class CharacterAutoMover : MonoBehaviour
     private bool left;
     private bool down;
     private bool right;
-    // Start is called before the first frame update
+
+    private bool meLeftSide;
+
+    private bool ballInMySide;
+
+    private State state;
+    void Start()
+    {
+        //now if i in ledt side or right side.
+        meLeftSide = transform.position.x < 0;
+        state = State.defense;
+    }
 
     private void OnEnable()
     {
         mover = GetComponent<CharacterManualMover>();
+        modeSwitcher = GetComponent<CharacterModeSwitcher>();
+
         mover.StartAnimation();
 
-        modeSwitcher = GetComponent<CharacterModeSwitcher>();
+
         SingletonGameBuilder builder = SingletonGameBuilder.Instance;
-        StartCoroutine(moveAuto(builder.aiAutoMoveTime));
-        StartCoroutine(defenderAuto(builder.aiAutoDefenderTime));
-        StartCoroutine(thrownAuto(builder.aiAutoThrownTime));
+        //StartCoroutine(moveAuto(builder.aiAutoMoveTime));
+        //StartCoroutine(defenderAuto(builder.aiAutoDefenderTime));
+        //StartCoroutine(thrownAuto(builder.aiAutoThrownTime));
         mover.StartAnimation();
     }
 
@@ -35,42 +49,39 @@ public class CharacterAutoMover : MonoBehaviour
     }
 
 
-    private IEnumerator moveAuto(float waitTime)
-    {
-        while (enabled)
-        {
-
-            int d = Random.Range(0, 4);
-            up = (d == 0);
-            left = (d == 1);
-            down = (d == 2);
-            right = (d == 3);
-            yield return new WaitForSeconds(waitTime);
-
-        }
-    }
-
-    private IEnumerator defenderAuto(float waitTime)
-    {
-        while (enabled)
-        {
-            yield return new WaitForSeconds(modeSwitcher.timeToWait + waitTime);
-            modeSwitcher.Defender();
-        }
-    }
-
-    private IEnumerator thrownAuto(float waitTime)
-    {
-        while (enabled)
-        {
-            yield return new WaitForSeconds(waitTime);
-            modeSwitcher.Thrown();
-        }
-    }
-
     // Update is called once per frame
     void Update()
     {
+        //detect 
+        if (meLeftSide)
+            ballInMySide = ball.transform.position.x < 0;
+        else
+            ballInMySide = ball.transform.position.x > 0;
+
+        //go to ball if is in my side
+         if (state == State.defense)
+                if (ballInMySide)
+                {
+                    Vector3 direction = ball.transform.position - transform.position;
+
+                    up = direction.y > 0;
+                    left = direction.x < -0;
+                    down = direction.y < -0;
+                    right = direction.x > 0;
+                }
+                else
+                {
+                    up = false;
+                    left = false;
+                    down = false;
+                    right = false;
+                }
+
         mover.move(up, left, down, right);
     }
+
+   
+
+
+
 }

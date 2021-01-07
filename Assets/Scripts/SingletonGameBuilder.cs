@@ -21,12 +21,12 @@ public class SingletonGameBuilder
         //insert default value
         teamLeft = new TeamConfiguration();
         teamRight = new TeamConfiguration();
-        teamLeft.numCharacters = 5;
-        teamLeft.teamType = TeamType.manual;
-        teamRight.numCharacters = 5;
-        teamRight.teamType = TeamType.manual;
+        teamLeft.numCharacters = 1;
+        teamLeft.teamType = TeamType.ai;
+        teamRight.numCharacters = 1;
+        teamRight.teamType = TeamType.ai;
         area = "groundBeige_white";
-        aiAutoMoveTime = 0.1f;
+        aiAutoMoveTime = 0.5f;
         aiAutoDefenderTime = 0.25f;
         aiAutoThrownTime = 0.5f;
         textTutorial = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
