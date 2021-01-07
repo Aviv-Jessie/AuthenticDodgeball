@@ -86,19 +86,25 @@ public class ManagerCharacter : MonoBehaviour
 
     private void DisqualificationLeft(GameObject character){
         //move object to captive
+        SingletonGameBuilder singleton = SingletonGameBuilder.Instance;
         Transform capTransform = leftCaptivesPositions[indexLeftCaptivesPositions++].transform;
         character.transform.position = capTransform.position;
         character.transform.rotation = Quaternion.Euler(new Vector3(0,0,180));
         character.GetComponent<CharacterManualMover>().enabled = false;
-        //FIXME enable and disable CharacterDragAndDrop and CharacterAutoMover
         character.GetComponent<CharacterDragAndDrop>().enabled = false;
+        character.GetComponent<CharacterAutoMover>().enabled = false;
         
         //free Captives
         ArrayList capToFree = characterStatus[character];
         foreach (GameObject c in capToFree)
         {
             c.transform.position = startPosition[c];
-            c.GetComponent<CharacterDragAndDrop>().enabled = true;
+            if(singleton.teamRight.teamType == SingletonGameBuilder.TeamType.manual)
+                c.GetComponent<CharacterDragAndDrop>().enabled = true;
+            else
+                c.GetComponent<CharacterAutoMover>().enabled = true;
+
+            //ManualMover by manager controller
             characterStatus[c] = new ArrayList();
             indexReftCaptivesPositions--;
             
@@ -112,16 +118,23 @@ public class ManagerCharacter : MonoBehaviour
     }
     private void DisqualificationRight(GameObject character){  
         //move object to captive
+        SingletonGameBuilder singleton = SingletonGameBuilder.Instance;
         Transform capTransform = rightCaptivesPositions[indexReftCaptivesPositions++].transform;
         character.transform.position = capTransform.position;
         character.transform.rotation = Quaternion.Euler(new Vector3(0,0,0));
         character.GetComponent<CharacterManualMover>().enabled = false;
+        character.GetComponent<CharacterDragAndDrop>().enabled = false;
+        character.GetComponent<CharacterAutoMover>().enabled = false;
         
         //free Captives
         ArrayList capToFree = characterStatus[character];
         foreach (GameObject c in capToFree)
         {
             c.transform.position = startPosition[c];
+            if(singleton.teamLeft.teamType == SingletonGameBuilder.TeamType.manual)
+                c.GetComponent<CharacterDragAndDrop>().enabled = true;
+            else
+                c.GetComponent<CharacterAutoMover>().enabled = true;
             characterStatus[c] = new ArrayList();
             indexLeftCaptivesPositions--;
         }

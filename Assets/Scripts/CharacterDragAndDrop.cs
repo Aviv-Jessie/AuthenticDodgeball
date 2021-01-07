@@ -7,6 +7,7 @@ using TouchScript.Gestures;
 [RequireComponent(typeof(CharacterManualMover))]
 public class CharacterDragAndDrop : MonoBehaviour
 {
+    [SerializeField] float dis = 0.3f;
     private CharacterManualMover mover;
 
     // Start is called before the first frame update
@@ -37,13 +38,15 @@ public class CharacterDragAndDrop : MonoBehaviour
     {
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector3 direction = mousePosition - transform.position;
-        bool up = direction.y > 0;
-        bool left = direction.x < 0;
-        bool down = direction.y < 0;
-        bool right = direction.x > 0;
 
-        mover.move(up, left, down, right);
-
+        if (Vector2.Distance(mousePosition, transform.position) > dis)
+        {    
+            bool up = direction.y > dis;
+            bool left = direction.x < -dis;
+            bool down = direction.y < -dis;
+            bool right = direction.x > dis;
+            mover.move(up, left, down, right);
+        }
     }
 
     private void PointerReleasedHandler(object sender, System.EventArgs e)

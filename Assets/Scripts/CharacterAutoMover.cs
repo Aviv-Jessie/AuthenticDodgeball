@@ -20,16 +20,8 @@ public class CharacterAutoMover : MonoBehaviour
     {
         mover = GetComponent<CharacterManualMover>();
         mover.StartAnimation();
-    }
 
-    private void OnDisable()
-    {
-        mover.StopAnimation();
-    }
-    void Start()
-    {
-             
-        modeSwitcher = GetComponent<CharacterModeSwitcher>();       
+        modeSwitcher = GetComponent<CharacterModeSwitcher>();
         SingletonGameBuilder builder = SingletonGameBuilder.Instance;
         StartCoroutine(moveAuto(builder.aiAutoMoveTime));
         StartCoroutine(defenderAuto(builder.aiAutoDefenderTime));
@@ -37,12 +29,18 @@ public class CharacterAutoMover : MonoBehaviour
         mover.StartAnimation();
     }
 
+    private void OnDisable()
+    {
+        mover.StopAnimation();
+    }
+
+
     private IEnumerator moveAuto(float waitTime)
-    {        
-        while (true)
+    {
+        while (enabled)
         {
-           
-            int d = Random.Range(0,4);
+
+            int d = Random.Range(0, 4);
             up = (d == 0);
             left = (d == 1);
             down = (d == 2);
@@ -52,16 +50,18 @@ public class CharacterAutoMover : MonoBehaviour
         }
     }
 
-    private IEnumerator defenderAuto(float waitTime){
-     while(true)
+    private IEnumerator defenderAuto(float waitTime)
+    {
+        while (enabled)
         {
             yield return new WaitForSeconds(modeSwitcher.timeToWait + waitTime);
             modeSwitcher.Defender();
         }
     }
 
-    private IEnumerator thrownAuto(float waitTime){
-        while(true)
+    private IEnumerator thrownAuto(float waitTime)
+    {
+        while (enabled)
         {
             yield return new WaitForSeconds(waitTime);
             modeSwitcher.Thrown();
@@ -70,7 +70,7 @@ public class CharacterAutoMover : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {        
+    {
         mover.move(up, left, down, right);
     }
 }

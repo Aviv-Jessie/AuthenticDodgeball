@@ -13,6 +13,10 @@ public class ManagerGameBuilder : MonoBehaviour
         managerCharacter.rightCharactersNumber = gameBuilder.teamRight.numCharacters;
         managerCharacter.leftCharactersNumber = gameBuilder.teamLeft.numCharacters;
         managerCharacter.enabled = true;
+
+        //TODO add Tutorial and area.
+        Debug.Log("Tutorial: "+gameBuilder.textTutorial);
+        Debug.Log("area: "+gameBuilder.area);
     }
 
     // Update is called once per frame
