@@ -14,6 +14,9 @@ public class MenuGameStarter : MonoBehaviour
     [SerializeField] float aiAutoMoveTime = 0.05f;
     [SerializeField] float aiAutoDefenderTime = 0.25f;
     [SerializeField] float aiAutoThrownTime = 0.5f;
+
+    [SerializeField] string area = "groundBeige_white";
+    [SerializeField] string textTutorial = "";
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +35,9 @@ public class MenuGameStarter : MonoBehaviour
         gameBuilder.aiAutoMoveTime = aiAutoMoveTime;
         gameBuilder.aiAutoDefenderTime = aiAutoDefenderTime;
         gameBuilder.aiAutoThrownTime = aiAutoThrownTime;
+
+        gameBuilder.area = area;
+        gameBuilder.textTutorial = textTutorial;
 
         SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
     }
