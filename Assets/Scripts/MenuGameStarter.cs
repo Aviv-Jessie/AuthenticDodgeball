@@ -11,10 +11,6 @@ public class MenuGameStarter : MonoBehaviour
     [SerializeField] int rightNumCharacters = 5;
     [SerializeField] SingletonGameBuilder.TeamType rightTeamType = SingletonGameBuilder.TeamType.manual;
 
-    [SerializeField] float aiAutoMoveTime = 0.05f;
-    [SerializeField] float aiAutoDefenderTime = 0.25f;
-    [SerializeField] float aiAutoThrownTime = 0.5f;
-
     [SerializeField] string area = "groundBeige_white";
     [SerializeField] string textTutorial = "";
     // Start is called before the first frame update
@@ -31,10 +27,6 @@ public class MenuGameStarter : MonoBehaviour
         gameBuilder.teamLeft.teamType = leftTeamType;
         gameBuilder.teamRight.numCharacters = rightNumCharacters;
         gameBuilder.teamRight.teamType = rightTeamType;
-
-        gameBuilder.aiAutoMoveTime = aiAutoMoveTime;
-        gameBuilder.aiAutoDefenderTime = aiAutoDefenderTime;
-        gameBuilder.aiAutoThrownTime = aiAutoThrownTime;
 
         gameBuilder.area = area;
         gameBuilder.textTutorial = textTutorial;

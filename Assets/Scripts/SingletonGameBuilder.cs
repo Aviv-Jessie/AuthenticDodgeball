@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,23 +12,16 @@ public class SingletonGameBuilder
 
     public string textTutorial;
 
-    public float aiAutoMoveTime;
-    public float aiAutoDefenderTime;
-    public float aiAutoThrownTime;
-
     private SingletonGameBuilder()
     {
         //insert default value
         teamLeft = new TeamConfiguration();
         teamRight = new TeamConfiguration();
         teamLeft.numCharacters = 1;
-        teamLeft.teamType = TeamType.ai;
+        teamLeft.teamType = TeamType.manual;
         teamRight.numCharacters = 1;
         teamRight.teamType = TeamType.ai;
         area = "groundBeige_white";
-        aiAutoMoveTime = 0.5f;
-        aiAutoDefenderTime = 0.25f;
-        aiAutoThrownTime = 0.5f;
         textTutorial = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
     }
 

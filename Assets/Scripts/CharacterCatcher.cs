@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CharacterCatcher : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class CharacterCatcher : MonoBehaviour
     private ForceMode2D forceMode = ForceMode2D.Impulse;
 
     private CharacterModeSwitcher characterModeSwitcher;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +24,7 @@ public class CharacterCatcher : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == ballTag) //other is ball
-        {            
+        {
             ball = other.gameObject;
             Rigidbody2D rd = ball.GetComponent<Rigidbody2D>();
             rd.isKinematic = true;                                  // change to kinematic to disable the pyshics.
@@ -30,6 +32,10 @@ public class CharacterCatcher : MonoBehaviour
             ball.transform.parent = transform.parent;               // the ball will be the child of the player
             characterModeSwitcher.setHaveBall(true);                // setter to the haveBall
             ball.transform.position = this.transform.position;      // ball stay with the player position..
+
+            CharacterAutoMover characterAutoMover = GetComponentInParent<CharacterAutoMover>();
+            if(characterAutoMover && characterAutoMover.enabled)
+                characterAutoMover.onCatchBall();
         }
 
     }
@@ -39,7 +45,7 @@ public class CharacterCatcher : MonoBehaviour
     public bool Thrown()
     {
         if (ball)
-        {            
+        {
             characterModeSwitcher.setHaveBall(false);
             Rigidbody2D rb = ball.GetComponent<Rigidbody2D>();
             rb.isKinematic = false;                             // return the pyshics rules..
