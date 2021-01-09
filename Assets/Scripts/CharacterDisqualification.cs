@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/*
+ *  That class represents the disqualification of the characters .
+ */
 public class CharacterDisqualification : MonoBehaviour
 {
     [SerializeField] string ballTag = "ball";

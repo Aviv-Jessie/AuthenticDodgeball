@@ -23,6 +23,8 @@ public class MenuGameStarter : MonoBehaviour
         button.onClick.AddListener(click);
     }
 
+
+    // initialization
     void click()
     {
         SingletonGameBuilder gameBuilder = SingletonGameBuilder.Instance;

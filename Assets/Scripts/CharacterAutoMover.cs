@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// plse sask for aviv show "state machine.pptx" before you read thr code.
+
+/*
+ * That class represents the AI state machine
+ */
 [RequireComponent(typeof(CharacterManualMover))]
 [RequireComponent(typeof(CharacterModeSwitcher))]
 public class CharacterAutoMover : MonoBehaviour
@@ -23,6 +26,7 @@ public class CharacterAutoMover : MonoBehaviour
 
     private State state;
 
+    // common between the characters
     private static ArrayList charactersLeft = new ArrayList();
     private static ArrayList charactersRight = new ArrayList();
 
@@ -39,6 +43,7 @@ public class CharacterAutoMover : MonoBehaviour
 
     private Vector3 gizmosDes = Vector3.zero;
 
+    // method to show the direction and shoe to leader..
     void OnDrawGizmos()
     {
         if (iLeader)
@@ -47,6 +52,7 @@ public class CharacterAutoMover : MonoBehaviour
             Gizmos.color = Color.green;
             Gizmos.DrawSphere(transform.position, 0.25f);
         }
+        // stay on the position.
         if (gizmosDes != Vector3.zero)
             Gizmos.DrawLine(transform.position, gizmosDes);
     }
@@ -55,28 +61,19 @@ public class CharacterAutoMover : MonoBehaviour
     {
         startPosition = transform.position;
         state = State.defense;
-        //now if i in left side or right side.
+        //now check if i in left side or right side.
         meLeftSide = transform.position.x < 0;
         if (meLeftSide)
             myIndex = charactersLeft.Add(this);
         else
             myIndex = charactersRight.Add(this);
-
         setSomeLeader();
-
     }
 
     private void OnEnable()
     {
         mover = GetComponent<CharacterManualMover>();
         modeSwitcher = GetComponent<CharacterModeSwitcher>();
-
-        mover.StartAnimation();
-
-        SingletonGameBuilder builder = SingletonGameBuilder.Instance;
-        //StartCoroutine(moveAuto(builder.aiAutoMoveTime));
-        //StartCoroutine(defenderAuto(builder.aiAutoDefenderTime));
-        //StartCoroutine(thrownAuto(builder.aiAutoThrownTime));
         mover.StartAnimation();
     }
 
@@ -85,8 +82,6 @@ public class CharacterAutoMover : MonoBehaviour
         mover.StopAnimation();
         setSomeLeader();
     }
-
-
 
 
     // Update is called once per frame
@@ -103,9 +98,6 @@ public class CharacterAutoMover : MonoBehaviour
             onBallExit();
         if (oldBallInMySide == false && ballInMySide == true)
             onBallEnter();
-
-
-
 
 
         switch (state)
@@ -139,6 +131,7 @@ public class CharacterAutoMover : MonoBehaviour
         modeSwitcher.Defender();
     }
 
+    // Random (the first character) setter leader to some character. 
     private void setSomeLeader()
     {
         if (meLeftSide)
@@ -163,6 +156,7 @@ public class CharacterAutoMover : MonoBehaviour
             }
 
     }
+
     private void setMeLeader()
     {
         if (meLeftSide)
@@ -174,9 +168,6 @@ public class CharacterAutoMover : MonoBehaviour
 
         if(ballInMySide)
             state = State.attack;
-
-
-
     }
 
     private void moveTo(Vector3 pos, float dis)
@@ -213,8 +204,6 @@ public class CharacterAutoMover : MonoBehaviour
                     ArrivedDestinationAttack();
                     break;
             }
-
-
     }
 
     private void onBallExit()
@@ -234,11 +223,6 @@ public class CharacterAutoMover : MonoBehaviour
         else
              mover.move(false, true, false, false);
         modeSwitcher.Thrown();        
-
     }
-
-
-
-
 
 }

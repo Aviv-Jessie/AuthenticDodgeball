@@ -12,6 +12,7 @@ public class CharacterUnit
 {
     [Tooltip("Component enable when we want the character can move")]
     public CharacterManualMover moverComponet;
+    // the numbers to choose characters
     [Tooltip("key to enable the mover Component ")]
     public KeyCode key;
 }
@@ -46,9 +47,7 @@ public class ManagerController : MonoBehaviour
             if(gameBuilder.teamRight.teamType == SingletonGameBuilder.TeamType.ai)
                 StartAi();
             else
-                StartManuel();
-
-       
+                StartManuel();     
     }
 
     private void StartAi(){
@@ -59,8 +58,7 @@ public class ManagerController : MonoBehaviour
                 characterAutoMover.enabled = true;
             if(characterDragAndDrop)
                 characterDragAndDrop.enabled = false;
-        }
-            
+        }            
         enabled = false;
     }
 
@@ -77,6 +75,7 @@ public class ManagerController : MonoBehaviour
                 enableOneCharacter(i);
     }
 
+    // this is the only character that move and controll. 
     private void enableOneCharacter(int index){
         // enabling one character at the time.
         for (int i = 0; i < characterUnits.Length; i++){

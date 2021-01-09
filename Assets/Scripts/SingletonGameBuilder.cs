@@ -50,6 +50,7 @@ public class SingletonGameBuilder
 
 }
 
+// Num of characters and team type (AI \ Player)
 public class TeamConfiguration
 {
     public int numCharacters;

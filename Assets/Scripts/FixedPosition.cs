@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * This class use to fix the camera view when the aspect is Free aspect. 
+ */
+
 public class FixedPosition : MonoBehaviour
 {
     
