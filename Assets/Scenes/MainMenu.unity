@@ -264,6 +264,8 @@ MonoBehaviour:
   rightTeamType: 0
   area: groundBeige_white
   textTutorial: 
+  buttonText: main menu
+  nextScene: MainMenu
 --- !u!114 &31008691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -480,6 +482,8 @@ MonoBehaviour:
   rightTeamType: 1
   area: groundBeige_white
   textTutorial: 
+  buttonText: main menu
+  nextScene: MainMenu
 --- !u!114 &72688264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -618,6 +622,8 @@ MonoBehaviour:
   rightTeamType: 0
   area: groundBeige_white
   textTutorial: 
+  buttonText: main menu
+  nextScene: MainMenu
 --- !u!114 &91970440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -995,6 +1001,8 @@ MonoBehaviour:
   rightTeamType: 0
   area: groundBeige_white
   textTutorial: 
+  buttonText: main menu
+  nextScene: MainMenu
 --- !u!114 &273377865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1133,6 +1141,8 @@ MonoBehaviour:
   rightTeamType: 1
   area: groundBeige_white
   textTutorial: 
+  buttonText: main menu
+  nextScene: MainMenu
 --- !u!114 &469872903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1349,6 +1359,8 @@ MonoBehaviour:
   rightTeamType: 0
   area: groundBeige_white
   textTutorial: 
+  buttonText: main menu
+  nextScene: MainMenu
 --- !u!114 &555411642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1487,6 +1499,8 @@ MonoBehaviour:
   rightTeamType: 0
   area: groundBeige_white
   textTutorial: 
+  buttonText: main menu
+  nextScene: MainMenu
 --- !u!114 &647155198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1769,6 +1783,8 @@ MonoBehaviour:
   rightTeamType: 1
   area: groundBeige_white
   textTutorial: 
+  buttonText: main menu
+  nextScene: MainMenu
 --- !u!114 &943333996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2288,16 +2304,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1107364743}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa08464c821f98e4c94b67f9d160c865, type: 3}
+  m_Script: {fileID: 11500000, guid: 2f301dd488378d648a5568945ea84fa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftNumCharacters: 2
-  leftTeamType: 0
-  rightNumCharacters: 2
-  rightTeamType: 1
-  area: groundBeige_white
-  textTutorial: You need to throw the ball on the opponent characters, L to throw,
-    P to chatch.
+  sceneName: Tutorial
 --- !u!114 &1107364746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2436,6 +2446,8 @@ MonoBehaviour:
   rightTeamType: 1
   area: groundBeige_white
   textTutorial: 
+  buttonText: main menu
+  nextScene: MainMenu
 --- !u!114 &1125244715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2574,6 +2586,8 @@ MonoBehaviour:
   rightTeamType: 1
   area: groundBeige_white
   textTutorial: 
+  buttonText: main menu
+  nextScene: MainMenu
 --- !u!114 &1299703476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3268,6 +3282,8 @@ MonoBehaviour:
   rightTeamType: 1
   area: groundBeige_white
   textTutorial: 
+  buttonText: main menu
+  nextScene: MainMenu
 --- !u!114 &1709941676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3406,6 +3422,8 @@ MonoBehaviour:
   rightTeamType: 1
   area: groundBeige_white
   textTutorial: 
+  buttonText: main menu
+  nextScene: MainMenu
 --- !u!114 &1770375350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3544,6 +3562,8 @@ MonoBehaviour:
   rightTeamType: 1
   area: groundBeige_white
   textTutorial: 
+  buttonText: main menu
+  nextScene: MainMenu
 --- !u!114 &1898282447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3682,6 +3702,8 @@ MonoBehaviour:
   rightTeamType: 1
   area: groundBeige_white
   textTutorial: asdasdasdas
+  buttonText: main menu
+  nextScene: MainMenu
 --- !u!114 &1998669720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3976,6 +3998,8 @@ MonoBehaviour:
   rightTeamType: 1
   area: groundBeige_white
   textTutorial: 
+  buttonText: main menu
+  nextScene: MainMenu
 --- !u!114 &2112378856
 MonoBehaviour:
   m_ObjectHideFlags: 0
