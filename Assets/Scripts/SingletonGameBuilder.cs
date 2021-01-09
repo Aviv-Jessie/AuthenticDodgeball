@@ -12,6 +12,9 @@ public class SingletonGameBuilder
 
     public string textTutorial;
 
+    public string buttonText;
+    public string nextScene;
+
     private SingletonGameBuilder()
     {
         //insert default value
@@ -22,7 +25,9 @@ public class SingletonGameBuilder
         teamRight.numCharacters = 1;
         teamRight.teamType = TeamType.ai;
         area = "groundBeige_white";
-        textTutorial = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
+        textTutorial = "dfsdfds";
+        buttonText = "main menu";
+        nextScene = "MainMenu";
     }
 
     private static SingletonGameBuilder instance = null;

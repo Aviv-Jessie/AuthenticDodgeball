@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
  [RequireComponent(typeof(ManagerCharacter))]
 public class ManagerGameBuilder : MonoBehaviour
 {
+    [SerializeField] public TMP_Text tutorial = null;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,8 +16,13 @@ public class ManagerGameBuilder : MonoBehaviour
         managerCharacter.leftCharactersNumber = gameBuilder.teamLeft.numCharacters;
         managerCharacter.enabled = true;
 
-        //TODO add Tutorial and area.
-        Debug.Log("Tutorial: "+gameBuilder.textTutorial);
+
+        
+        if(!System.String.IsNullOrEmpty(gameBuilder.textTutorial))
+        {
+            tutorial.gameObject.SetActive(true);
+            tutorial.text = gameBuilder.textTutorial;
+        }       
         Debug.Log("area: "+gameBuilder.area);
     }
 

@@ -1053,7 +1053,7 @@ MonoBehaviour:
   rightNumCharacters: 1
   rightTeamType: 1
   area: groundBeige_white
-  textTutorial: 
+  textTutorial: asdasdasdas
 --- !u!114 &1998669720
 MonoBehaviour:
   m_ObjectHideFlags: 0

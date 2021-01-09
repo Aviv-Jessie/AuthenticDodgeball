@@ -13,6 +13,9 @@ public class MenuGameStarter : MonoBehaviour
 
     [SerializeField] string area = "groundBeige_white";
     [SerializeField] string textTutorial = "";
+
+    [SerializeField] string buttonText = "main menu";
+    [SerializeField] string nextScene = "MainMenu";
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +33,8 @@ public class MenuGameStarter : MonoBehaviour
 
         gameBuilder.area = area;
         gameBuilder.textTutorial = textTutorial;
+        gameBuilder.buttonText = buttonText;
+        gameBuilder.nextScene = nextScene;
 
         SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
     }
