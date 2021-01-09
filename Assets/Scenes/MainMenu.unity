@@ -3701,7 +3701,7 @@ MonoBehaviour:
   rightNumCharacters: 1
   rightTeamType: 1
   area: groundBeige_white
-  textTutorial: asdasdasdas
+  textTutorial: 
   buttonText: main menu
   nextScene: MainMenu
 --- !u!114 &1998669720
