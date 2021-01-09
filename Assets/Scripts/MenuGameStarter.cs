@@ -16,6 +16,8 @@ public class MenuGameStarter : MonoBehaviour
 
     [SerializeField] string buttonText = "main menu";
     [SerializeField] string nextScene = "MainMenu";
+
+
     // Start is called before the first frame update
     void Start()
     {

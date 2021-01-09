@@ -13,13 +13,13 @@ public class CharacterManualMover : MonoBehaviour
 
     [Tooltip("Speed of movement, in meters per second")]
     [SerializeField] float Speed = 4f;
-    [Tooltip("ket to move left")]
+    [Tooltip("key to move left")]
     [SerializeField] KeyCode left = KeyCode.LeftArrow;
-    [Tooltip("ket to move right")]
+    [Tooltip("key to move right")]
     [SerializeField] KeyCode right = KeyCode.RightArrow;
-    [Tooltip("ket to move up")]
+    [Tooltip("key to move up")]
     [SerializeField] KeyCode up = KeyCode.UpArrow;
-    [Tooltip("ket to move down")]
+    [Tooltip("key to move down")]
     [SerializeField] KeyCode down = KeyCode.DownArrow;
 
     // the text number of the character over the players head 

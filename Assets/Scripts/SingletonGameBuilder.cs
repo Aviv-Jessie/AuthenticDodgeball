@@ -25,7 +25,7 @@ public class SingletonGameBuilder
         teamRight.numCharacters = 1;
         teamRight.teamType = TeamType.ai;
         area = "groundBeige_white";
-        textTutorial = "dfsdfds";
+        textTutorial = "Tutorial";
         buttonText = "main menu";
         nextScene = "MainMenu";
     }
