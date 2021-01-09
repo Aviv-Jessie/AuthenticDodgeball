@@ -5,6 +5,7 @@ using TouchScript.Gestures;
 
 /*
  *  this class is controller to the manual player, (not the auto player- the computer).
+ *  with the option of "click" 
  */
 
 public class ControllerManual : MonoBehaviour
@@ -41,10 +42,9 @@ public class ControllerManual : MonoBehaviour
     {
         if (Input.GetKeyDown(keyCode))
             doAction();
-
-
     }
 
+    // the "update" can be called if you click on the keyboard or mouse.
     private void doAction()
     {
         foreach (CharacterModeSwitcher character in characterModeSwitchers)

@@ -67,10 +67,4 @@ public class CharacterCatcher : MonoBehaviour
             return false;   // do not thrown..
 
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }

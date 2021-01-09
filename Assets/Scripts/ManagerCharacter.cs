@@ -55,6 +55,7 @@ public class ManagerCharacter : MonoBehaviour
         }
     }
 
+    // checks if some character is disqualification or not. 
     public bool isDisqualification(GameObject character){
         if(characterStatus.ContainsKey(character))
             return ( characterStatus[character] == null );
