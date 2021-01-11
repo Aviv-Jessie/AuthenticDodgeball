@@ -6,11 +6,15 @@ Our game on itch website:
 https://aviv-jessie-omri.itch.io/authenthic-dodgeball
 
 
-![alt text](http://www.up2me.co.il/thumbs/78029826.png)
+![alt text](https://github.com/Aviv-Jessie/AuthenticDodgeball/blob/main/doc/Picture1.png)
 
+![alt text](https://github.com/Aviv-Jessie/AuthenticDodgeball/blob/main/doc/Picture2.png)
 
+![alt text](https://github.com/Aviv-Jessie/AuthenticDodgeball/blob/main/doc/Picture3.png)
 
+![alt text](https://github.com/Aviv-Jessie/AuthenticDodgeball/blob/main/doc/Picture4.png)
 
+![alt text](https://github.com/Aviv-Jessie/AuthenticDodgeball/blob/main/doc/Picture5.png)
 
 For development read the Wiki
 
