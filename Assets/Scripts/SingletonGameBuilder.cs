@@ -20,10 +20,10 @@ public class SingletonGameBuilder
         //insert default value
         teamLeft = new TeamConfiguration();
         teamRight = new TeamConfiguration();
-        teamLeft.numCharacters = 1;
+        teamLeft.numCharacters = 3;
         teamLeft.teamType = TeamType.manual;
-        teamRight.numCharacters = 1;
-        teamRight.teamType = TeamType.ai;
+        teamRight.numCharacters = 3;
+        teamRight.teamType = TeamType.manual;
         area = "groundBeige_white";
         textTutorial = "Tutorial";
         buttonText = "main menu";

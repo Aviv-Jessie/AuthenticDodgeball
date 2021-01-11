@@ -445,7 +445,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2051225629}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -80.64001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &87738994
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -910,7 +910,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.199, y: -2.188}
+  m_AnchoredPosition: {x: 0, y: -2.188}
   m_SizeDelta: {x: 6.257552, y: 4.2933025}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &144198864
@@ -1270,20 +1270,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -1614384624013428215, guid: 6e07708db0099f543b06c2e458eba03f,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5507618341651535256, guid: 6e07708db0099f543b06c2e458eba03f,
         type: 3}
       propertyPath: m_Name
       value: ball
-      objectReference: {fileID: 0}
-    - target: {fileID: 5507618341651535258, guid: 6e07708db0099f543b06c2e458eba03f,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5507618341651535259, guid: 6e07708db0099f543b06c2e458eba03f,
         type: 3}
@@ -7477,7 +7467,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2051225629}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 80.64001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1209450384
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13365,6 +13355,8 @@ MonoBehaviour:
     key: 260
   - moverComponet: {fileID: 1880521663}
     key: 261
+  text: {fileID: 135094589}
+  waitTime: 2.5
 --- !u!114 &2033025295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13389,6 +13381,8 @@ MonoBehaviour:
     key: 52
   - moverComponet: {fileID: 1925176986}
     key: 53
+  text: {fileID: 135094589}
+  waitTime: 2.5
 --- !u!114 &2033025296
 MonoBehaviour:
   m_ObjectHideFlags: 0

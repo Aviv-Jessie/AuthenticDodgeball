@@ -58,5 +58,9 @@ public class CharacterModeSwitcher : MonoBehaviour
         this.haveBall = haveBall;
     }
 
+    public bool getHaveBall(){
+        return haveBall;
+    }
+
 
 }

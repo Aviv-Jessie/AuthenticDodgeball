@@ -21,6 +21,16 @@ public class CharacterCatcher : MonoBehaviour
         characterModeSwitcher = GetComponentInParent<CharacterModeSwitcher>();
     }
 
+    private void OnDisable()
+    {
+        //fix some glitche
+        if( characterModeSwitcher.getHaveBall() )
+        {
+            Debug.Log("return to defender");
+            characterModeSwitcher.Defender();
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == ballTag) //other is ball
@@ -35,7 +45,7 @@ public class CharacterCatcher : MonoBehaviour
 
             CharacterAutoMover characterAutoMover = GetComponentInParent<CharacterAutoMover>();
             if(characterAutoMover && characterAutoMover.enabled)
-                characterAutoMover.onCatchBall();
+                characterAutoMover.onCatchBall();           
         }
 
     }
@@ -61,6 +71,7 @@ public class CharacterCatcher : MonoBehaviour
 
             ball = null;
             managerCharacter.setThrower(transform.parent.gameObject);
+             
             return true;    // return true if thrown
         }
         else
