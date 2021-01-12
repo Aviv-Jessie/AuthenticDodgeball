@@ -3,8 +3,11 @@ Welcome to the AuthenticDodgeball readme.
 
 Our game on itch website:
 
-https://aviv-jessie-omri.itch.io/authenthic-dodgeball
+https://aviv-jessie-omri.itch.io/authentic-dodgeball
 
+The games trailer:
+
+https://www.youtube.com/watch?v=qFkzoV8dPvk&feature=youtu.be
 
 You can see our game here:
 
